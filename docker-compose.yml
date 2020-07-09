@@ -1,0 +1,17 @@
+services:
+  postgres:
+    image: circleci/postgres:11.5-alpine-postgis
+
+  redis:
+    image: redis:4.0.14-alpine
+
+  elasticsearch:
+    image: docker.elastic.co/elasticsearch/elasticsearch:6.4.2
+
+volumes:
+  postgres_data:
+    driver: local
+  redis_data:
+    driver: local
+  elasticsearch_data:
+    driver: local
