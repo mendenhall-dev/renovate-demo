@@ -123,7 +123,7 @@
     "jest": "^26.1.0",
     "jest-fetch-mock": "^3.0.3",
     "jest-junit": "^11.0.1",
-    "jquery": "=3.4.1",
+    "jquery": "=3.5.0",
     "js-logger": "=1.6.0",
     "lint-staged": ">=10.2.11",
     "lodash": "^4.17.14",
