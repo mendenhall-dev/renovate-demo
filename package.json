@@ -177,7 +177,7 @@
     "rollbar-sourcemap-webpack-plugin": "^2.11.1",
     "router5": "^8.0.1",
     "router5-plugin-browser": "^8.0.1",
-    "sass-loader": "^8.0.2",
+    "sass-loader": "^9.0.3",
     "scroll-behavior-polyfill": "^2.0.13",
     "source-map-explorer": "^2.4.2",
     "start-server-and-test": "^1.11.0",
