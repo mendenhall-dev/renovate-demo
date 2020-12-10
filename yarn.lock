@@ -1443,20 +1443,27 @@
     debug "^3.1.0"
     lodash.once "^4.1.1"
 
-"@datadog/browser-core@1.12.8", "@datadog/browser-core@^1.12.8":
+"@datadog/browser-core@1.26.2":
+  version "1.26.2"
+  resolved "https://registry.yarnpkg.com/@datadog/browser-core/-/browser-core-1.26.2.tgz#78c5bbf5d971bc64b413dca0d37ef1a45a5328cd"
+  integrity sha512-QZ2j2MSsh9D4mLPgYvrkqkiNJAAFANGJdKYEYkKuZYrUcY3QtR5O7SHldxnRLg3sgTqLQ8LAz3f3nshS25oT/g==
+  dependencies:
+    tslib "^1.10.0"
+
+"@datadog/browser-core@^1.12.8":
   version "1.12.8"
   resolved "https://registry.yarnpkg.com/@datadog/browser-core/-/browser-core-1.12.8.tgz#c1024b555df821eb17a7fd5b2dba44fc20a10aaf"
   integrity sha512-PjuAGgDKjWWUj9JSA4MZdlcWLgo3IJReyXUIDBv22xQ4JcNTyXpoivEEDONmtuCYdvvUGQBZD6URyYpAfhskCQ==
   dependencies:
     tslib "1.10.0"
 
-"@datadog/browser-logs@^1.12.8":
-  version "1.12.8"
-  resolved "https://registry.yarnpkg.com/@datadog/browser-logs/-/browser-logs-1.12.8.tgz#361dbf9e5dbf9fe2591d50b4e1e6312a5be62d77"
-  integrity sha512-dSaXZhY5W5uDStpG8j4oZL4m/0v5J1z07dE9EVCd13kDdzGzt8p2IDPdAw4HtnJVZxHhOJMZ2e4hU2NNxEFUHw==
+"@datadog/browser-logs@^1.26.2":
+  version "1.26.2"
+  resolved "https://registry.yarnpkg.com/@datadog/browser-logs/-/browser-logs-1.26.2.tgz#e242c13029c7be6afbd26f825b52d39714e9ddf1"
+  integrity sha512-Q/XmVIjI2J6R7ugMxWPCS6xuWjhpX4zJB2azHFYWEfd9kdjpRdOkLZTi2FR6o4UNJ9B8wV+cUyfgNyE71Sb9QA==
   dependencies:
-    "@datadog/browser-core" "1.12.8"
-    tslib "1.10.0"
+    "@datadog/browser-core" "1.26.2"
+    tslib "^1.10.0"
 
 "@egoist/vue-to-react@^1.1.0":
   version "1.1.0"
