@@ -1443,12 +1443,19 @@
     debug "^3.1.0"
     lodash.once "^4.1.1"
 
-"@datadog/browser-core@1.12.8", "@datadog/browser-core@^1.12.8":
+"@datadog/browser-core@1.12.8":
   version "1.12.8"
   resolved "https://registry.yarnpkg.com/@datadog/browser-core/-/browser-core-1.12.8.tgz#c1024b555df821eb17a7fd5b2dba44fc20a10aaf"
   integrity sha512-PjuAGgDKjWWUj9JSA4MZdlcWLgo3IJReyXUIDBv22xQ4JcNTyXpoivEEDONmtuCYdvvUGQBZD6URyYpAfhskCQ==
   dependencies:
     tslib "1.10.0"
+
+"@datadog/browser-core@^1.26.2":
+  version "1.26.2"
+  resolved "https://registry.yarnpkg.com/@datadog/browser-core/-/browser-core-1.26.2.tgz#78c5bbf5d971bc64b413dca0d37ef1a45a5328cd"
+  integrity sha512-QZ2j2MSsh9D4mLPgYvrkqkiNJAAFANGJdKYEYkKuZYrUcY3QtR5O7SHldxnRLg3sgTqLQ8LAz3f3nshS25oT/g==
+  dependencies:
+    tslib "^1.10.0"
 
 "@datadog/browser-logs@^1.12.8":
   version "1.12.8"

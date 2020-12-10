@@ -20,7 +20,7 @@
     "@babel/plugin-transform-strict-mode": "^7.10.4",
     "@babel/polyfill": "^7.10.4",
     "@babel/runtime": "^7.10.4",
-    "@datadog/browser-core": "^1.12.8",
+    "@datadog/browser-core": "^1.26.2",
     "@datadog/browser-logs": "^1.12.8",
     "@emotion/core": "^10.0.28",
     "@emotion/styled": "^10.0.27",
