@@ -166,7 +166,7 @@
     "sass-loader": "^8.0.2",
     "scroll-behavior-polyfill": "^2.0.13",
     "source-map-explorer": "^2.4.2",
-    "start-server-and-test": "^1.11.0",
+    "start-server-and-test": "^1.14.0",
     "style-loader": "^1.2.1",
     "stylelint": "^13.6.1",
     "stylelint-config-css-modules": "^2.2.0",
