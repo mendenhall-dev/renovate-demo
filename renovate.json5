@@ -29,6 +29,8 @@
       groupName: 'nodejs',
       matchManagers: ['circleci', 'npm', 'nvm'],
       matchPackageNames: ['cimg/node', 'node'],
+
+      allowedVersions: '^16',
     },
     {
       groupName: 'relay',
