@@ -13,6 +13,12 @@
       postUpdateOptions: ['yarnDedupeHighest'],
       rangeStrategy: 'bump',
     },
+    {
+      matchDatasources: ['docker'],
+
+      matchPackageNames: ['cimg/node'],
+      versioning: 'regex:^(?<major>\\d+)\\.(?<minor>\\d+)\\.(?<patch>\\d+)(-(?<compatibility>.*))?$',
+    },
 
     {
       groupName: 'datadog',
