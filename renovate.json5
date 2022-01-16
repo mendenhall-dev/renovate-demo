@@ -4,4 +4,14 @@
   enabledManagers: ['circleci', 'npm', 'nvm'],
   rangeStrategy: 'bump',
   reviewersFromCodeOwners: true,
+
+  packageRules: [
+    {
+      matchManagers: ['npm'],
+
+      addLabels: ['javascript'],
+      postUpdateOptions: ['yarnDedupeHighest'],
+      rangeStrategy: 'bump',
+    },
+  ],
 }
