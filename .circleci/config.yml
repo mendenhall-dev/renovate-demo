@@ -1,0 +1,142 @@
+version: 2.1
+
+executors:
+  general:
+    docker:
+      - image: cimg/base:2020.01
+    resource_class: small
+
+  backend:
+    working_directory: ~/joinswoop/swoop
+    docker:
+      - image: swoopcircleci/ruby:3.0.2-buster-node-browsers-16.12.0
+      - image: circleci/postgres:12.4-postgis-ram
+      - image: circleci/redis:4.0.14
+    resource_class: small
+
+  nodejs:
+    shell: /bin/bash --login
+    working_directory: ~/joinswoop/swoop
+    docker:
+      - image: cimg/node:16.12.0
+    resource_class: small
+
+  fullstack:
+    shell: /bin/bash --login
+    working_directory: ~/joinswoop/swoop
+    docker:
+      - image: swoopcircleci/ruby:3.0.2-buster-node-browsers-16.12.0
+      - image: circleci/postgres:12.4-postgis-ram
+      - image: circleci/redis:4.0.14
+      - image: elasticsearch:7.10.1
+
+orbs:
+  jq: circleci/jq@2.0.2
+  slack: circleci/slack@3.4.2
+  aws-s3: circleci/aws-s3@2.0.0
+  aws-cli: circleci/aws-cli@2.0
+
+jobs:
+  seeds_rubocop_zeitwerk:
+    executor: backend
+    resource_class: medium
+    steps:
+      - checkout
+
+  webpack_development:
+    executor: nodejs
+    resource_class: medium
+    steps:
+      - checkout
+
+  webpack_production:
+    executor: nodejs
+    resource_class: medium
+    steps:
+      - checkout
+
+  relay:
+    executor: nodejs
+    resource_class: medium
+    steps:
+      - checkout
+
+  graphql-codegen:
+    executor: nodejs
+    steps:
+      - checkout
+
+  typescript:
+    executor: nodejs
+
+  stylelint:
+    executor: nodejs
+    steps:
+      - checkout
+
+  eslint:
+    executor: nodejs
+    steps:
+      - checkout
+
+  jest:
+    executor: nodejs
+    resource_class: 2xlarge
+    steps:
+      - checkout
+
+  storybook:
+    working_directory: ~/joinswoop/swoop
+    shell: /bin/bash --login
+    resource_class: large
+    docker:
+      - image: cimg/node:16.12.0-browsers
+    steps:
+      - checkout
+
+  storybook-percy:
+    working_directory: ~/joinswoop/swoop
+    shell: /bin/bash --login
+    resource_class: large
+    docker:
+      - image: swoopcircleci/ruby:3.0.2-buster-node-browsers-16.12.0
+    steps:
+      - checkout
+
+  rspec:
+    executor: backend
+    steps:
+      - checkout
+
+  rspec_system:
+    executor: fullstack
+    steps:
+      - checkout
+
+workflows:
+  version: 2
+  codeclimate:
+    jobs:
+      - checkout_code_with_node
+      - setup_code_climate_test_reporter
+      - rspec
+      - rspec_system
+      - jest
+
+  frontend:
+    jobs:
+      - graphql-codegen
+      - relay
+      - stylelint
+      - eslint
+      - typescript
+
+  backend:
+    jobs:
+      - seeds_rubocop_zeitwerk
+
+  webpack:
+    jobs:
+      - checkout_code_with_node
+      - webpack_development
+      - webpack_production
