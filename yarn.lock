@@ -2635,9 +2635,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@percy/storybook@npm:^3.3.0":
-  version: 3.3.0
-  resolution: "@percy/storybook@npm:3.3.0"
+"@percy/storybook@npm:^3.3.1":
+  version: 3.3.1
+  resolution: "@percy/storybook@npm:3.3.1"
   dependencies:
     "@percy/react-percy-api-client": ^0.4.6
     babel-runtime: ^6.26.0
@@ -2648,8 +2648,8 @@ __metadata:
     walk: ^2.3.9
     yargs: ^7.0.2
   bin:
-    percy-storybook: ./bin/percy-storybook.js
-  checksum: 6a7b23b5844c1a8b8c325542060bdce586dd3eb2f400c9d5cbfa7d865e2a820689bc54416de2c0500219594f376a4eedb1856e380821ff37f0172a20533e780a
+    percy-storybook: bin/percy-storybook.js
+  checksum: 82832e78d10bf2bbf5b56d6874eb025076bb092df10bd783324079a83367fdde40a00b68481c0bd60c3e8bada5983fb3a2b413cc4a3aa81653c4e46ab6198762
   languageName: node
   linkType: hard
 
@@ -19455,7 +19455,7 @@ __metadata:
     "@fortawesome/pro-solid-svg-icons": ^5.13.1
     "@fortawesome/react-fontawesome": ^0.1.16
     "@percy/cypress": ^2.3.1
-    "@percy/storybook": ^3.3.0
+    "@percy/storybook": ^3.3.1
     "@react-google-maps/api": ^1.9.7
     "@splitsoftware/splitio": ^10.12.0
     "@storybook/addon-actions": ^5.3.19
