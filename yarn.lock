@@ -5299,13 +5299,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react-relay@npm:*, @types/react-relay@npm:^11.0.3":
-  version: 11.0.3
-  resolution: "@types/react-relay@npm:11.0.3"
+"@types/react-relay@npm:*, @types/react-relay@npm:^13.0.0":
+  version: 13.0.0
+  resolution: "@types/react-relay@npm:13.0.0"
   dependencies:
     "@types/react": "*"
     "@types/relay-runtime": "*"
-  checksum: 334691eea36f11dffd20a0a521afcb039671decd1607b70034e6f87827677c613f6e731e4cfd98ac6a40a460a00a40b9bb57c8dc35b2742c905e4616147e5607
+  checksum: 3ffe36084c20dc8b0197cdf3dc616b16ca6bc2661c705319582a8b6a53e1b73920a28fd4c1750d07bf96584907550cbef9b18da47f81572282de9c6569ece97b
   languageName: node
   linkType: hard
 
@@ -5338,10 +5338,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/relay-runtime@npm:*, @types/relay-runtime@npm:^12.0.2":
-  version: 12.0.2
-  resolution: "@types/relay-runtime@npm:12.0.2"
-  checksum: 1a9a5137f845c7510c58882eb2c3bc5d6e2822e970ee1b64ee283206ee48444ddf829303b84ecde9a9ced48d7ddf8114fc74b5455ca263f5942b9cdacf7c3d09
+"@types/relay-runtime@npm:*, @types/relay-runtime@npm:^13.0.0":
+  version: 13.0.0
+  resolution: "@types/relay-runtime@npm:13.0.0"
+  checksum: 6823a7fd020f80af3a0d54b43fb6bf4d3d79ecf34f8503fb9a492fb49163f6b918eeec146330e2092fc2e982b6db38157ba62bfc26ed6459205f73cda5316a5a
   languageName: node
   linkType: hard
 
@@ -7103,14 +7103,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"babel-plugin-relay@npm:^12.0.0":
-  version: 12.0.0
-  resolution: "babel-plugin-relay@npm:12.0.0"
+"babel-plugin-relay@npm:^13.0.1":
+  version: 13.0.1
+  resolution: "babel-plugin-relay@npm:13.0.1"
   dependencies:
     babel-plugin-macros: ^2.0.0
-  peerDependencies:
-    graphql: ^15.0.0
-  checksum: adea54da7743576b49a3f5fd674e6bdde535439035d97270220944cc1a4d32f0095a98c22a787ab622c8952a3bc737ba2db6badf5dea35fc55549a3414f4f28b
+    cosmiconfig: ^5.0.5
+    graphql: 15.3.0
+  checksum: ffb08cd0d8107ee494275ad489440fcdebff168c030407f7495b11809d94b0838072c634a0072accad14990d355045fa4c760641b5c4c5e0cbc20572f5cea41a
   languageName: node
   linkType: hard
 
@@ -11196,7 +11196,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"fbjs@npm:^3.0.0, fbjs@npm:^3.0.1":
+"fbjs@npm:^3.0.0, fbjs@npm:^3.0.1, fbjs@npm:^3.0.2":
   version: 3.0.2
   resolution: "fbjs@npm:3.0.2"
   dependencies:
@@ -12261,6 +12261,13 @@ __metadata:
   peerDependencies:
     graphql: ">=0.11 <=16"
   checksum: bdb77b3e44be53d2d8d0c395066e62e74efe1123d9b5be7cc69b60d28229974e32abc79c5997095d038d169d4135cb2bcb98f0e666aa8cfeb3bb9857b960d803
+  languageName: node
+  linkType: hard
+
+"graphql@npm:15.3.0":
+  version: 15.3.0
+  resolution: "graphql@npm:15.3.0"
+  checksum: df18079e3a1ecb875821a71531b74eb1e6099ec1fb8d6e79faff4b43561cb23acbb80c9e05845292e08b6321d507e55dc7d5a60d72cdd093720a6f0f00983d1e
   languageName: node
   linkType: hard
 
@@ -19211,18 +19218,18 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-relay@npm:^12.0.0":
-  version: 12.0.0
-  resolution: "react-relay@npm:12.0.0"
+"react-relay@npm:^13.0.1":
+  version: 13.0.1
+  resolution: "react-relay@npm:13.0.1"
   dependencies:
     "@babel/runtime": ^7.0.0
-    fbjs: ^3.0.0
+    fbjs: ^3.0.2
     invariant: ^2.2.4
     nullthrows: ^1.1.1
-    relay-runtime: 12.0.0
+    relay-runtime: 13.0.1
   peerDependencies:
     react: ^16.9.0 || ^17
-  checksum: 3fde82d4b11deceba92bd9eb7649377ae4dd1fa736a4ddf97a7ba887851c4ffbecdf8b40a2a18d7af1c8c9bc73a6404aebd90482c345466fe763770cc211bf27
+  checksum: 5c30320ffcd3ed5fd97793bf06c5d1d75b625b34d9986f0d0abfd5c46373c6bb7abce136b6a5c00fddb290e9cc6a8f6e137c5a33f56cc86264cd0653dd7285b4
   languageName: node
   linkType: hard
 
@@ -19697,7 +19704,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"relay-compiler@npm:12.0.0, relay-compiler@npm:^12.0.0":
+"relay-compiler@npm:12.0.0":
   version: 12.0.0
   resolution: "relay-compiler@npm:12.0.0"
   dependencies:
@@ -19726,6 +19733,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"relay-compiler@npm:^13.0.1":
+  version: 13.0.1
+  resolution: "relay-compiler@npm:13.0.1"
+  bin:
+    relay-compiler: cli.js
+  checksum: d5f6f48877f3e719f8fdba0771141c24d581141ecadd39383732746db4b168b6fb25bcadca5fc09c20b5e25d209d51ba5f836a14ae7982999a974d501b072ec1
+  languageName: node
+  linkType: hard
+
 "relay-config@npm:^12.0.1":
   version: 12.0.1
   resolution: "relay-config@npm:12.0.1"
@@ -19748,7 +19764,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"relay-runtime@npm:12.0.0, relay-runtime@npm:^12.0.0":
+"relay-runtime@npm:12.0.0":
   version: 12.0.0
   resolution: "relay-runtime@npm:12.0.0"
   dependencies:
@@ -19759,17 +19775,26 @@ __metadata:
   languageName: node
   linkType: hard
 
-"relay-test-utils@npm:^12.0.0":
-  version: 12.0.0
-  resolution: "relay-test-utils@npm:12.0.0"
+"relay-runtime@npm:13.0.1, relay-runtime@npm:^13.0.1":
+  version: 13.0.1
+  resolution: "relay-runtime@npm:13.0.1"
   dependencies:
     "@babel/runtime": ^7.0.0
-    fbjs: ^3.0.0
+    fbjs: ^3.0.2
     invariant: ^2.2.4
-    relay-runtime: 12.0.0
-  peerDependencies:
-    graphql: ^15.0.0
-  checksum: a7ba01c62fdbbd611ca0c87dc85d84abffd9999b3058c57b541b79c01c92a15b4fae5d9286fd22fce5d0fca9e9c875a0725b6663e7084641d1e877dd602df4ea
+  checksum: cc1a72e08f333db790efe38575cf188716186cfb85adc66171aa86a7392ef1cbbe4fc1488f64583a6c10359f13b63a4dce1bfe0e8aec58e2b45000036abe8475
+  languageName: node
+  linkType: hard
+
+"relay-test-utils@npm:^13.0.1":
+  version: 13.0.1
+  resolution: "relay-test-utils@npm:13.0.1"
+  dependencies:
+    "@babel/runtime": ^7.0.0
+    fbjs: ^3.0.2
+    invariant: ^2.2.4
+    relay-runtime: 13.0.1
+  checksum: 3026f67a9a02b6d0511b338fcc423e34b37b45c99b58966808968cff74ed6e8c7da959450f76a4f40753eb4cb4ccdd28f0bc195b3c3f3fc1859d00503e5d9f0c
   languageName: node
   linkType: hard
 
@@ -19950,8 +19975,8 @@ __metadata:
     "@types/jquery": ^3.5.13
     "@types/lodash": ^4.14.178
     "@types/react": ^17.0.38
-    "@types/react-relay": ^11.0.3
-    "@types/relay-runtime": ^12.0.2
+    "@types/react-relay": ^13.0.0
+    "@types/relay-runtime": ^13.0.0
     "@types/relay-test-utils": ^6.0.5
     "@typescript-eslint/eslint-plugin": ^5.9.1
     "@typescript-eslint/parser": ^5.9.1
@@ -19962,7 +19987,7 @@ __metadata:
     babel-loader: ^8.2.3
     babel-plugin-minify-replace: ^0.5.0
     babel-plugin-module-resolver: ^4.1.0
-    babel-plugin-relay: ^12.0.0
+    babel-plugin-relay: ^13.0.1
     babel-plugin-transform-dynamic-import: ^2.1.0
     babel-preset-react-app: ^9.1.2
     bootstrap-sass: ^3.4.1
@@ -20043,7 +20068,7 @@ __metadata:
     react-hook-form: 7.23.0
     react-onclickoutside: ^6.12.1
     react-refresh: ^0.11.0
-    react-relay: ^12.0.0
+    react-relay: ^13.0.1
     react-router5: ^8.0.1
     react-stripe-elements: ^6.1.2
     react-text-mask: ^5.4.3
@@ -20051,12 +20076,12 @@ __metadata:
     react-toggle-button: ^2.2.0
     react-use: ^17.3.2
     reconnecting-websocket: ^4.4.0
-    relay-compiler: ^12.0.0
+    relay-compiler: ^13.0.1
     relay-compiler-language-typescript: ^15.0.0
     relay-config: ^12.0.1
     relay-hooks: ^6.0.0
-    relay-runtime: ^12.0.0
-    relay-test-utils: ^12.0.0
+    relay-runtime: ^13.0.1
+    relay-test-utils: ^13.0.1
     resolve-url-loader: ^4.0.0
     rollbar-sourcemap-webpack-plugin: ^3.3.0
     router5: ^8.0.1
