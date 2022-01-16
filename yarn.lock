@@ -2609,15 +2609,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@percy/cypress@npm:^2.3.1":
-  version: 2.3.1
-  resolution: "@percy/cypress@npm:2.3.1"
+"@percy/cypress@npm:^2.3.4":
+  version: 2.3.4
+  resolution: "@percy/cypress@npm:2.3.4"
   dependencies:
     "@percy/agent": ~0
-    axios: ^0.19.0
+    axios: ^0.21.0
   peerDependencies:
-    cypress: ^3 || ^4
-  checksum: 1091d04230c000b1cf8b210561e1f40a03426e43f643c4b19e17d7a8b28afa709e075254efd349e145b782bc1fafb6e9eca2946ef367b407953554088770dfed
+    cypress: ^3 || ^4 || ^5 || ^6
+  checksum: 9f9cc948ad17e4e62e79085d3c7fdc15d24d911fe30d8c0cdff7d63ae92df9d536edba7fd9f9cd12febff85352d17cff76f46e24c89ba7c0329fcdcba557f7b0
   languageName: node
   linkType: hard
 
@@ -5187,6 +5187,15 @@ __metadata:
   dependencies:
     follow-redirects: 1.5.10
   checksum: dcace11a0a25fdf9b3b97fc9d011d23dd9c67cc13d91778080482ddddbbfe731f7410a090b11aa0bbbdf83686c5911ccb4289fd3683b7488c1b0c4d3c882380c
+  languageName: node
+  linkType: hard
+
+"axios@npm:^0.21.0":
+  version: 0.21.4
+  resolution: "axios@npm:0.21.4"
+  dependencies:
+    follow-redirects: ^1.14.0
+  checksum: 44245f24ac971e7458f3120c92f9d66d1fc695e8b97019139de5b0cc65d9b8104647db01e5f46917728edfc0cfd88eb30fc4c55e6053eef4ace76768ce95ff3c
   languageName: node
   linkType: hard
 
@@ -10244,6 +10253,16 @@ __metadata:
   dependencies:
     debug: ^3.0.0
   checksum: 485f5a7ea54fbf3d3ed6775f2eb29bf7e7763f0bd01c56a8494fe44050a25c5c3fc9c047dc31d8aa3690a49c805e751a5f50cec40caf2e2cf190baeb27a62eb2
+  languageName: node
+  linkType: hard
+
+"follow-redirects@npm:^1.14.0":
+  version: 1.14.7
+  resolution: "follow-redirects@npm:1.14.7"
+  peerDependenciesMeta:
+    debug:
+      optional: true
+  checksum: f6d03e5e30877431065bca0d1b2e3db93949eb799d368a5c07ea8a4b71205f0349a3f8f0191bf13a07c93885522834dca1dc8e527dc99a772c6911fba24edc5f
   languageName: node
   linkType: hard
 
@@ -19454,7 +19473,7 @@ __metadata:
     "@fortawesome/pro-regular-svg-icons": ^5.13.1
     "@fortawesome/pro-solid-svg-icons": ^5.13.1
     "@fortawesome/react-fontawesome": ^0.1.16
-    "@percy/cypress": ^2.3.1
+    "@percy/cypress": ^2.3.4
     "@percy/storybook": ^3.3.1
     "@react-google-maps/api": ^1.9.7
     "@splitsoftware/splitio": ^10.12.0
