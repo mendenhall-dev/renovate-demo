@@ -1593,7 +1593,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/runtime-corejs3@npm:^7.10.2, @babel/runtime-corejs3@npm:^7.8.7":
+"@babel/runtime-corejs3@npm:^7.10.2":
   version: 7.10.2
   resolution: "@babel/runtime-corejs3@npm:7.10.2"
   dependencies:
@@ -1612,7 +1612,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/runtime@npm:^7.0.0, @babel/runtime@npm:^7.1.2, @babel/runtime@npm:^7.10.2, @babel/runtime@npm:^7.10.3, @babel/runtime@npm:^7.16.7, @babel/runtime@npm:^7.3.1, @babel/runtime@npm:^7.3.4, @babel/runtime@npm:^7.4.4, @babel/runtime@npm:^7.5.0, @babel/runtime@npm:^7.5.4, @babel/runtime@npm:^7.5.5, @babel/runtime@npm:^7.6.3, @babel/runtime@npm:^7.7.2, @babel/runtime@npm:^7.7.4, @babel/runtime@npm:^7.7.6, @babel/runtime@npm:^7.8.4, @babel/runtime@npm:^7.8.7, @babel/runtime@npm:^7.9.2":
+"@babel/runtime@npm:^7.0.0, @babel/runtime@npm:^7.1.2, @babel/runtime@npm:^7.10.2, @babel/runtime@npm:^7.10.3, @babel/runtime@npm:^7.13.10, @babel/runtime@npm:^7.16.7, @babel/runtime@npm:^7.3.1, @babel/runtime@npm:^7.3.4, @babel/runtime@npm:^7.4.4, @babel/runtime@npm:^7.5.0, @babel/runtime@npm:^7.5.4, @babel/runtime@npm:^7.5.5, @babel/runtime@npm:^7.6.3, @babel/runtime@npm:^7.7.2, @babel/runtime@npm:^7.7.4, @babel/runtime@npm:^7.7.6, @babel/runtime@npm:^7.8.4, @babel/runtime@npm:^7.8.7, @babel/runtime@npm:^7.9.2":
   version: 7.16.7
   resolution: "@babel/runtime@npm:7.16.7"
   dependencies:
@@ -2754,29 +2754,24 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@splitsoftware/splitio@npm:^10.12.0":
-  version: 10.12.0
-  resolution: "@splitsoftware/splitio@npm:10.12.0"
+"@splitsoftware/splitio@npm:^10.17.1":
+  version: 10.17.1
+  resolution: "@splitsoftware/splitio@npm:10.17.1"
   dependencies:
-    "@babel/runtime-corejs3": ^7.8.7
+    "@babel/runtime": ^7.13.10
     "@types/google.analytics": 0.0.40
-    "@types/node": ^13.9.1
-    axios: 0.19.2
-    core-js: 3.6.5
     events: 3.1.0
     eventsource: ^1.0.7
-    ioredis: ^4.14.1
+    ioredis: ^4.28.0
     ip: 1.1.5
     js-yaml: 3.13.1
-    utfx: 1.0.1
+    node-fetch: ^2.6.1
+    object-assign: ^4.1.1
+    unfetch: ^4.2.0
   dependenciesMeta:
-    events:
-      optional: true
     eventsource:
       optional: true
-    ioredis:
-      optional: true
-  checksum: 85d471db5badb91cc9b0505deaedeead97db7e6938e53644786e9191e469d6425b93fd56cbe08f38b6b1e1228ef84155dc00ff667d5035329041451cd14bafe4
+  checksum: 6befc7215d91650e1ff33481857bf8ee0614d92ff0a89f754595d463ad0709a9a2f346971bbe9acd0d877d80f16a42576774e346b3763728393db47c7280e973
   languageName: node
   linkType: hard
 
@@ -3763,7 +3758,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:*, @types/node@npm:^13.9.1":
+"@types/node@npm:*":
   version: 13.9.3
   resolution: "@types/node@npm:13.9.3"
   checksum: 365b9f98f64dc23b51e943e5b3d67fae013b14af8a72a8f7ef27c3b3362363bcd99c84979a1bdf449534be0a05a5a0eb488bde92dcf221cb7417f326aa05af7b
@@ -5181,7 +5176,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"axios@npm:0.19.2, axios@npm:^0.19.0":
+"axios@npm:^0.19.0":
   version: 0.19.2
   resolution: "axios@npm:0.19.2"
   dependencies:
@@ -7359,7 +7354,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"core-js@npm:3, core-js@npm:3.6.5, core-js@npm:^3.0.1, core-js@npm:^3.0.4":
+"core-js@npm:3, core-js@npm:^3.0.1, core-js@npm:^3.0.4":
   version: 3.6.5
   resolution: "core-js@npm:3.6.5"
   checksum: b7fcf92f888bfe40f3f005e3f729e66aa49a3a9a797e8fb4d09d429c6abcd505781b2c03836858f0dc0159249d4b7a035fc763052c9c34adbc93b6f8a6a86305
@@ -11938,20 +11933,22 @@ __metadata:
   languageName: node
   linkType: hard
 
-"ioredis@npm:^4.14.1":
-  version: 4.14.1
-  resolution: "ioredis@npm:4.14.1"
+"ioredis@npm:^4.28.0":
+  version: 4.28.3
+  resolution: "ioredis@npm:4.28.3"
   dependencies:
     cluster-key-slot: ^1.1.0
-    debug: ^4.1.1
+    debug: ^4.3.1
     denque: ^1.1.0
     lodash.defaults: ^4.2.0
     lodash.flatten: ^4.4.0
-    redis-commands: 1.5.0
+    lodash.isarguments: ^3.1.0
+    p-map: ^2.1.0
+    redis-commands: 1.7.0
     redis-errors: ^1.2.0
     redis-parser: ^3.0.0
-    standard-as-callback: ^2.0.1
-  checksum: 820205ed5d98f4308687a6d0e3931e54086c8ba10b38796432ad8e1b0921925866d5297eaf8b5873c2c48117c3abe3f50aaa09d69813833cf7782ceb233e1862
+    standard-as-callback: ^2.1.0
+  checksum: f054e6db3a4d81200d4009a5efb6e6900bb1dfc590e23ea1a02f35d8da4aa0bb6939d4d8e7ec9af1f28f23cabf60f83d8a6ea66beef035feca4406e646cae8ae
   languageName: node
   linkType: hard
 
@@ -14100,6 +14097,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"lodash.isarguments@npm:^3.1.0":
+  version: 3.1.0
+  resolution: "lodash.isarguments@npm:3.1.0"
+  checksum: ae1526f3eb5c61c77944b101b1f655f846ecbedcb9e6b073526eba6890dc0f13f09f72e11ffbf6540b602caee319af9ac363d6cdd6be41f4ee453436f04f13b5
+  languageName: node
+  linkType: hard
+
 "lodash.isfunction@npm:^3.0.9":
   version: 3.0.9
   resolution: "lodash.isfunction@npm:3.0.9"
@@ -15264,7 +15268,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"node-fetch@npm:2.6.0, node-fetch@npm:^2.6.0":
+"node-fetch@npm:2.6.0":
   version: 2.6.0
   resolution: "node-fetch@npm:2.6.0"
   checksum: 2b741e9315c1c07df4a291d0b304892fa7e8d623fe789fedd53f9bcb8d09102b07591b4b93e552a65dfc457eee9d5d879d0440aefdb64f2d78e7cb78cbad28e9
@@ -15278,6 +15282,20 @@ __metadata:
     encoding: ^0.1.11
     is-stream: ^1.0.1
   checksum: 3bb0528c05d541316ebe52770d71ee25a6dce334df4231fd55df41a644143e07f068637488c18a5b0c43f05041dbd3346752f9e19b50df50569a802484544d5b
+  languageName: node
+  linkType: hard
+
+"node-fetch@npm:^2.6.0, node-fetch@npm:^2.6.1":
+  version: 2.6.7
+  resolution: "node-fetch@npm:2.6.7"
+  dependencies:
+    whatwg-url: ^5.0.0
+  peerDependencies:
+    encoding: ^0.1.0
+  peerDependenciesMeta:
+    encoding:
+      optional: true
+  checksum: 8d816ffd1ee22cab8301c7756ef04f3437f18dace86a1dae22cf81db8ef29c0bf6655f3215cb0cdb22b420b6fe141e64b26905e7f33f9377a7fa59135ea3e10b
   languageName: node
   linkType: hard
 
@@ -16065,10 +16083,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"p-map@npm:^2.0.0":
-  version: 2.0.0
-  resolution: "p-map@npm:2.0.0"
-  checksum: 2cd16168e2b6dc54cedbdb414809b486fbba05157eeaa657eb78f8f3987a3a3ee39c256ff9f612d9d295fabee5f0d7cfcbd9b8fe500e470ef598bc22e1d6f0fd
+"p-map@npm:^2.0.0, p-map@npm:^2.1.0":
+  version: 2.1.0
+  resolution: "p-map@npm:2.1.0"
+  checksum: 9e3ad3c9f6d75a5b5661bcad78c91f3a63849189737cd75e4f1225bf9ac205194e5c44aac2ef6f09562b1facdb9bd1425584d7ac375bfaa17b3f1a142dab936d
   languageName: node
   linkType: hard
 
@@ -19034,10 +19052,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"redis-commands@npm:1.5.0":
-  version: 1.5.0
-  resolution: "redis-commands@npm:1.5.0"
-  checksum: a0718ab8bf927894248b01fe7e58152bf063a30a2c808c356f7387bbd2f281f20d3a9ffe59ff8683aac82dec657e57f1ea230c2699873a14f4da47a74dd1e3fb
+"redis-commands@npm:1.7.0":
+  version: 1.7.0
+  resolution: "redis-commands@npm:1.7.0"
+  checksum: d1ff7fbcb5e54768c77f731f1d49679d2a62c3899522c28addb4e2e5813aea8bcac3f22519d71d330224c3f2937f935dfc3d8dc65e90db0f5fe22dc2c1515aa7
   languageName: node
   linkType: hard
 
@@ -19457,7 +19475,7 @@ __metadata:
     "@percy/cypress": ^2.3.1
     "@percy/storybook": ^3.3.0
     "@react-google-maps/api": ^1.9.7
-    "@splitsoftware/splitio": ^10.12.0
+    "@splitsoftware/splitio": ^10.17.1
     "@storybook/addon-actions": ^5.3.19
     "@storybook/addon-docs": ^5.3.19
     "@storybook/addon-knobs": ^5.3.19
@@ -21057,10 +21075,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"standard-as-callback@npm:^2.0.1":
-  version: 2.0.1
-  resolution: "standard-as-callback@npm:2.0.1"
-  checksum: b377fa9a50f0b98c129a56d0f1d37b693d5c3b8f368bf88ec0a9ff1d33ae7ff32ee3b8a8159e43a5f6855f1c7efeb35fce3f67e84d98271dd36bd821c28e4de9
+"standard-as-callback@npm:^2.1.0":
+  version: 2.1.0
+  resolution: "standard-as-callback@npm:2.1.0"
+  checksum: 88bec83ee220687c72d94fd86a98d5272c91d37ec64b66d830dbc0d79b62bfa6e47f53b71646011835fc9ce7fae62739545d13124262b53be4fbb3e2ebad551c
   languageName: node
   linkType: hard
 
@@ -22256,6 +22274,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"tr46@npm:~0.0.3":
+  version: 0.0.3
+  resolution: "tr46@npm:0.0.3"
+  checksum: 726321c5eaf41b5002e17ffbd1fb7245999a073e8979085dacd47c4b4e8068ff5777142fc6726d6ca1fd2ff16921b48788b87225cbc57c72636f6efa8efbffe3
+  languageName: node
+  linkType: hard
+
 "tree-kill@npm:^1.1.0":
   version: 1.2.2
   resolution: "tree-kill@npm:1.2.2"
@@ -22555,10 +22580,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"unfetch@npm:^4.1.0":
-  version: 4.1.0
-  resolution: "unfetch@npm:4.1.0"
-  checksum: 8a0fee1e0f6ad8b3a2966fa199d07716affc3682d8e1c2c0cc138e5e5d2a2e0627d8c3321a4529a79e8a58332955bf80ac6c018f1dcc6de652026a7c3257d726
+"unfetch@npm:^4.1.0, unfetch@npm:^4.2.0":
+  version: 4.2.0
+  resolution: "unfetch@npm:4.2.0"
+  checksum: 6a4b2557e1d921eaa80c4425ce27a404945ec26491ed06e62598f333996a91a44c7908cb26dc7c2746d735762b13276cf4aa41829b4c8f438dde63add3045d7a
   languageName: node
   linkType: hard
 
@@ -22950,13 +22975,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"utfx@npm:1.0.1":
-  version: 1.0.1
-  resolution: "utfx@npm:1.0.1"
-  checksum: 9eb2ad2774b8456a07495d785473f69b500b4a5ba28a3d688ef071e87a78eb033d1ed2a46486dd1808cd23522fe55cbf85ecc57574022a5e4d6325b1f3778a72
-  languageName: node
-  linkType: hard
-
 "util-deprecate@npm:^1.0.1, util-deprecate@npm:^1.0.2, util-deprecate@npm:~1.0.1":
   version: 1.0.2
   resolution: "util-deprecate@npm:1.0.2"
@@ -23261,6 +23279,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"webidl-conversions@npm:^3.0.0":
+  version: 3.0.1
+  resolution: "webidl-conversions@npm:3.0.1"
+  checksum: c92a0a6ab95314bde9c32e1d0a6dfac83b578f8fa5f21e675bc2706ed6981bc26b7eb7e6a1fab158e5ce4adf9caa4a0aee49a52505d4d13c7be545f15021b17c
+  languageName: node
+  linkType: hard
+
 "webidl-conversions@npm:^4.0.2":
   version: 4.0.2
   resolution: "webidl-conversions@npm:4.0.2"
@@ -23476,6 +23501,16 @@ __metadata:
   version: 2.3.0
   resolution: "whatwg-mimetype@npm:2.3.0"
   checksum: 23eb885940bcbcca4ff841c40a78e9cbb893ec42743993a42bf7aed16085b048b44b06f3402018931687153550f9a32d259dfa524e4f03577ab898b6965e5383
+  languageName: node
+  linkType: hard
+
+"whatwg-url@npm:^5.0.0":
+  version: 5.0.0
+  resolution: "whatwg-url@npm:5.0.0"
+  dependencies:
+    tr46: ~0.0.3
+    webidl-conversions: ^3.0.0
+  checksum: b8daed4ad3356cc4899048a15b2c143a9aed0dfae1f611ebd55073310c7b910f522ad75d727346ad64203d7e6c79ef25eafd465f4d12775ca44b90fa82ed9e2c
   languageName: node
   linkType: hard
 
