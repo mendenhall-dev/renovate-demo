@@ -13,5 +13,31 @@
       postUpdateOptions: ['yarnDedupeHighest'],
       rangeStrategy: 'bump',
     },
+
+    {
+      groupName: 'datadog',
+      matchManagers: ['npm'],
+      matchPackagePrefixes: ['@datadog'],
+    },
+    {
+      groupName: 'relay',
+      matchManagers: ['npm'],
+      matchPackagePrefixes: [
+        '@types/react-relay',
+        '@types/relay',
+        'babel-plugin-relay',
+        'react-relay',
+        'relay',
+      ],
+      matchSourceUrlPrefixes: [
+        'https://github.com/DefinitelyTyped/DefinitelyTyped',
+        'https://github.com/facebook/relay',
+      ],
+    },
+    {
+      groupName: 'stylelint',
+      matchManagers: ['npm'],
+      matchSourceUrlPrefixes: ['https://github.com/stylelint/'],
+    },
   ],
 }
