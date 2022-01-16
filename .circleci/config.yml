@@ -9,7 +9,7 @@ executors:
   backend:
     working_directory: ~/joinswoop/swoop
     docker:
-      - image: swoopcircleci/ruby:3.0.2-buster-node-browsers-16.12.0
+      - image: swoopcircleci/ruby:3.0.2-buster-node-browsers-13.14.0
       - image: circleci/postgres:12.4-postgis-ram
       - image: circleci/redis:4.0.14
     resource_class: small
@@ -18,14 +18,14 @@ executors:
     shell: /bin/bash --login
     working_directory: ~/joinswoop/swoop
     docker:
-      - image: cimg/node:16.12.0
+      - image: cimg/node:13.14.0
     resource_class: small
 
   fullstack:
     shell: /bin/bash --login
     working_directory: ~/joinswoop/swoop
     docker:
-      - image: swoopcircleci/ruby:3.0.2-buster-node-browsers-16.12.0
+      - image: swoopcircleci/ruby:3.0.2-buster-node-browsers-13.14.0
       - image: circleci/postgres:12.4-postgis-ram
       - image: circleci/redis:4.0.14
       - image: elasticsearch:7.10.1
@@ -90,7 +90,7 @@ jobs:
     shell: /bin/bash --login
     resource_class: large
     docker:
-      - image: cimg/node:16.12.0-browsers
+      - image: cimg/node:13.14.0-browsers
     steps:
       - checkout
 
@@ -99,7 +99,7 @@ jobs:
     shell: /bin/bash --login
     resource_class: large
     docker:
-      - image: swoopcircleci/ruby:3.0.2-buster-node-browsers-16.12.0
+      - image: swoopcircleci/ruby:3.0.2-buster-node-browsers-13.14.0
     steps:
       - checkout
 
