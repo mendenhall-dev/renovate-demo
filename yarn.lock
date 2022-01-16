@@ -2244,33 +2244,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@fortawesome/pro-light-svg-icons@npm:^5.15.4":
-  version: 5.15.4
-  resolution: "@fortawesome/pro-light-svg-icons@npm:5.15.4::__archiveUrl=https%3A%2F%2Fnpm.fontawesome.com%2F%40fortawesome%2Fpro-light-svg-icons%2F-%2F5.15.4%2Fpro-light-svg-icons-5.15.4.tgz"
-  dependencies:
-    "@fortawesome/fontawesome-common-types": ^0.2.36
-  checksum: 1025470fd5df1e857ff12671c66b969ae5b8d3d789684eb5477d5da236919b368ca601c3792d14bbda554e1c814cf831033f3b29040576e8ca4d423a41b84bfd
-  languageName: node
-  linkType: hard
-
-"@fortawesome/pro-regular-svg-icons@npm:^5.15.4":
-  version: 5.15.4
-  resolution: "@fortawesome/pro-regular-svg-icons@npm:5.15.4::__archiveUrl=https%3A%2F%2Fnpm.fontawesome.com%2F%40fortawesome%2Fpro-regular-svg-icons%2F-%2F5.15.4%2Fpro-regular-svg-icons-5.15.4.tgz"
-  dependencies:
-    "@fortawesome/fontawesome-common-types": ^0.2.36
-  checksum: 599352bc81aad5fbb2b7a39d36361841cbc5d0d02cb341b046db53c8a28e22edb6fd6ff679409546b3e62b8834e7dee619a450f7fe6eaeb4234adacd50de9b7d
-  languageName: node
-  linkType: hard
-
-"@fortawesome/pro-solid-svg-icons@npm:^5.15.4":
-  version: 5.15.4
-  resolution: "@fortawesome/pro-solid-svg-icons@npm:5.15.4::__archiveUrl=https%3A%2F%2Fnpm.fontawesome.com%2F%40fortawesome%2Fpro-solid-svg-icons%2F-%2F5.15.4%2Fpro-solid-svg-icons-5.15.4.tgz"
-  dependencies:
-    "@fortawesome/fontawesome-common-types": ^0.2.36
-  checksum: 0ca6773d5211861afc932736f903b3d72ed842ff5a89d4d1dec04ddb0ff2a35b5d61f3ae4dc003648f96ccb74a97a400c03c7047c9b0f826d192cbdae1873dbf
-  languageName: node
-  linkType: hard
-
 "@fortawesome/react-fontawesome@npm:^0.1.16":
   version: 0.1.16
   resolution: "@fortawesome/react-fontawesome@npm:0.1.16::__archiveUrl=https%3A%2F%2Fnpm.fontawesome.com%2F%40fortawesome%2Freact-fontawesome%2F-%2F0.1.16%2Freact-fontawesome-0.1.16.tgz"
@@ -19945,9 +19918,6 @@ __metadata:
     "@emotion/react": ^11.7.1
     "@emotion/styled": ^11.6.0
     "@fortawesome/fontawesome-svg-core": ^1.2.36
-    "@fortawesome/pro-light-svg-icons": ^5.15.4
-    "@fortawesome/pro-regular-svg-icons": ^5.15.4
-    "@fortawesome/pro-solid-svg-icons": ^5.15.4
     "@fortawesome/react-fontawesome": ^0.1.16
     "@graphql-codegen/cli": 2.3.1
     "@graphql-codegen/typescript": ^2.4.2
