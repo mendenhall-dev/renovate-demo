@@ -1,6 +1,7 @@
 {
   extends: ['config:base'],
 
+  enabledManagers: ['circleci', 'npm', 'nvm'],
   rangeStrategy: 'bump',
   reviewersFromCodeOwners: true,
 }
