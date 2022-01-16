@@ -3521,10 +3521,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/actioncable@npm:^5.2.3":
-  version: 5.2.3
-  resolution: "@types/actioncable@npm:5.2.3"
-  checksum: c5a7d9b21e5076941fee2a712e70668abef061263f4ce41e669c926e5efda975565e7a6805e4e1789ab5465b82410e755b363205a687724416890cd1721b36d5
+"@types/actioncable@npm:^5.2.7":
+  version: 5.2.7
+  resolution: "@types/actioncable@npm:5.2.7"
+  checksum: 8dc8442a26b803f09ee3b6ffc9cc41bf1db29a7622e2f644c8692d44a263e96df70323d8a67e37e9cea0914b3f33553e4d0964366ab5f9aeec68d4f86fa85851
   languageName: node
   linkType: hard
 
@@ -4439,10 +4439,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"actioncable@npm:^5.2.4-3":
-  version: 5.2.4-3
-  resolution: "actioncable@npm:5.2.4-3"
-  checksum: b4ab6672698c047d699d2dbaccb0574194306e16b4ced7c05cb8e1f34c224fe98138942b38bdf1ced66d54ee3a64d4080d5e0e50d94fbbb369c60c7efcb4deef
+"actioncable@npm:^5.2.6":
+  version: 5.2.6
+  resolution: "actioncable@npm:5.2.6"
+  checksum: f03531e0c0d3217a0bbff9124fdd5d8ca173f26a401889c99e5f2b74f5d2f971930c0ef724e6e2d6b37052aa472ff5005a0c437ca005b88ba8a4f4b88324ece8
   languageName: node
   linkType: hard
 
@@ -19438,7 +19438,7 @@ __metadata:
     "@testing-library/jest-dom": ^5.11.0
     "@testing-library/react": ^10.4.4
     "@testing-library/react-hooks": ^3.3.0
-    "@types/actioncable": ^5.2.3
+    "@types/actioncable": ^5.2.7
     "@types/googlemaps": ^3.39.8
     "@types/jquery": ^3.5.0
     "@types/lodash": ^4.14.157
@@ -19448,7 +19448,7 @@ __metadata:
     "@types/relay-test-utils": ^6.0.2
     "@typescript-eslint/eslint-plugin": ^2.34.0
     "@typescript-eslint/parser": ^2.34.0
-    actioncable: ^5.2.4-3
+    actioncable: ^5.2.6
     assets-webpack-plugin: 7.1.1
     awesome-phonenumber: ^2.35.0
     babel-eslint: ^10.1.0
