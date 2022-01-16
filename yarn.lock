@@ -18703,7 +18703,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-timer-mixin@npm:^0.13.3":
+"react-timer-mixin@npm:^0.13.4":
   version: 0.13.4
   resolution: "react-timer-mixin@npm:0.13.4"
   checksum: ff82e1f90fab1ab4569017572b29fd0fdf0ebdfbf7a9580927a7f6737913046af39005bc82a0d8c6628cd999aecb66f411d331fd4dee70c4dba5a995b9d2032b
@@ -19544,7 +19544,7 @@ __metadata:
     react-stripe-elements: ^6.1.2
     react-test-renderer: ^16.13.1
     react-text-mask: ^5.4.2
-    react-timer-mixin: ^0.13.3
+    react-timer-mixin: ^0.13.4
     react-toggle-button: ^2.2.0
     recompose: ^0.30.0
     reconnecting-websocket: ^4.4.0
