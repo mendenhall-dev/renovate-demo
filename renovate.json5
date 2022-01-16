@@ -3,6 +3,7 @@
 
   enabledManagers: ['circleci', 'npm', 'nvm'],
   rangeStrategy: 'bump',
+  rebaseWhen: 'behind-base-branch',
   reviewersFromCodeOwners: true,
 
   packageRules: [
