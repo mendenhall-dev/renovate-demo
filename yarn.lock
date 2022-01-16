@@ -5624,7 +5624,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"babel-plugin-transform-dynamic-import@npm:^2.0.0":
+"babel-plugin-transform-dynamic-import@npm:^2.1.0":
   version: 2.1.0
   resolution: "babel-plugin-transform-dynamic-import@npm:2.1.0"
   dependencies:
@@ -19973,7 +19973,7 @@ __metadata:
     babel-plugin-minify-replace: ^0.5.0
     babel-plugin-module-resolver: ^4.0.0
     babel-plugin-relay: ^9.1.0
-    babel-plugin-transform-dynamic-import: ^2.0.0
+    babel-plugin-transform-dynamic-import: ^2.1.0
     babel-preset-react-app: ^9.1.2
     bootstrap-sass: ^3.4.1
     case-sensitive-paths-webpack-plugin: ^2.3.0
