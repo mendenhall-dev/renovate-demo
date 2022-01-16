@@ -2,5 +2,5 @@
   extends: ['config:base'],
 
   rangeStrategy: 'bump',
-  reviewers: ['drewmendenhall'],
+  reviewersFromCodeOwners: true,
 }
