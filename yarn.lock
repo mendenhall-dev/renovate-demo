@@ -5118,7 +5118,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/jquery@npm:^3.5.11":
+"@types/jquery@npm:^3.5.13":
   version: 3.5.13
   resolution: "@types/jquery@npm:3.5.13"
   dependencies:
@@ -19947,7 +19947,7 @@ __metadata:
     "@testing-library/user-event": ^13.5.0
     "@types/googlemaps": ^3.43.3
     "@types/jest": ^27.4.0
-    "@types/jquery": ^3.5.11
+    "@types/jquery": ^3.5.13
     "@types/lodash": ^4.14.178
     "@types/react": ^17.0.38
     "@types/react-relay": ^11.0.3
