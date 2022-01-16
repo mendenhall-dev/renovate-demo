@@ -18680,7 +18680,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-text-mask@npm:^5.4.2":
+"react-text-mask@npm:^5.4.3":
   version: 5.4.3
   resolution: "react-text-mask@npm:5.4.3"
   dependencies:
@@ -19543,7 +19543,7 @@ __metadata:
     react-router5: ^8.0.1
     react-stripe-elements: ^6.1.2
     react-test-renderer: ^16.13.1
-    react-text-mask: ^5.4.2
+    react-text-mask: ^5.4.3
     react-timer-mixin: ^0.13.3
     react-toggle-button: ^2.2.0
     recompose: ^0.30.0
