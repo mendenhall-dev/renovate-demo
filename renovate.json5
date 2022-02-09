@@ -16,6 +16,10 @@
       matchPackagePatterns: ['node'],
       enabled: true,
     },
+    {
+      matchDatasources: ['orb'],
+      enabled: false,
+    },
 
     {
       matchManagers: ['npm'],
