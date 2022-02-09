@@ -14,24 +14,11 @@
       postUpdateOptions: ['yarnDedupeHighest'],
       rangeStrategy: 'bump',
     },
-    {
-      matchDatasources: ['docker'],
-
-      matchPackageNames: ['cimg/node'],
-      versioning: 'regex:^(?<major>\\d+)\\.(?<minor>\\d+)\\.(?<patch>\\d+)(-(?<compatibility>.*))?$',
-    },
 
     {
       groupName: 'datadog',
       matchManagers: ['npm'],
       matchPackagePrefixes: ['@datadog'],
-    },
-    {
-      groupName: 'nodejs',
-      matchManagers: ['circleci', 'npm', 'nvm'],
-      matchPackageNames: ['cimg/node', 'node'],
-
-      allowedVersions: '^16',
     },
     {
       groupName: 'relay',
