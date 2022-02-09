@@ -8,6 +8,16 @@
 
   packageRules: [
     {
+      matchDatasources: ['docker'],
+      enabled: false,
+    },
+    {
+      matchDatasources: ['docker'],
+      matchPackagePatterns: ['node'],
+      enabled: true,
+    },
+
+    {
       matchManagers: ['npm'],
 
       addLabels: ['javascript'],
