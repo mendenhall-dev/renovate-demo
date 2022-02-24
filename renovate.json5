@@ -39,6 +39,12 @@
       postUpdateOptions: ['yarnDedupeHighest'],
       rangeStrategy: 'bump',
     },
+    {
+      matchManagers: ['npm'],
+      matchUpdateTypes: ['minor', 'patch'],
+
+      automerge: true,
+    },
 
     {
       groupName: 'datadog',
