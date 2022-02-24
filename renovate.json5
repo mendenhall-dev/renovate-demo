@@ -6,6 +6,17 @@
   rebaseWhen: 'behind-base-branch',
   reviewersFromCodeOwners: true,
 
+  hostRules: [
+    {
+      hostType: 'npm',
+      matchHost: 'https://npm.fontawesome.com/',
+
+      encrypted: {
+        token: 'wcFMA/xDdHCJBTolAQ/+K1dEGqfZ5c+vaj3NgLOZGjM+FRdJklsCoEX4XCxJyxBVlK0wc6Is54oEzfbWSVFE+NxAIN5Nv5BepRK2hktlFBCPIulyi+a00/lY5OObC+GLlzghv2PMsCvU7k8mM8k90o1V+9PargpE4im8XwWwkfit7B7sjsCuwlGZQeI3AcXRiGNKQWGW5uMC8QfXp3ttnG86XLKmqmGCD7Elozv18XoNMpoBSU5olY8XlWJ+YIYvwwOt/RD+U+2SwdT3JRFJK/OUVdFh79v5zA6Zirh/iJh9fuBB+cQ2U+cC3bYIcLrkOiEXFXs1tyUDQ27O85KES0XcnbX8XUcusr9jjiD6/RQqNQ5YZmPHp1b24Iw/BtkjnrzWl8tpwccSTSkjFl8N0TVAZR6K2q82X8S0WDXMdrZCDuX78W/hRlgCi5ncyvPQfr2z5ja2bZvFr9bFARaU2S5r4F2DO6JiGawHXf4V8ib2x2if82vTvyYNI0XqTRO20JLHXXv6JtL2MCyTzLjvvc/73c1Bdbnh93VBQnc4y9X6wGdLj1wcSu8YKZ5Dv8ERq/9INGOa/qv2goah9a1ARmqjZIsMAMFuxfFCAdGsVGuxmK5uK89c0D7OzqW3Chm8V5y5BsYPfwACow53G7tONhZk+neh6oQwQ8HB/1wb3pH23dz5S6gEiu0+o18hajrSbQFSVZYsX80c7ou9JbGNPwL8LDMJe1cRh82inVJ7MRpRHW1usXVDljZ0dAU9Zr85YixPux8G4FjuoVsNOZ8U9bD4PSS+sPHwlHOYtJCwspLz/vedXR+7P2iNPm+s02RfFti58ioyhA/IxHNxQek',
+      },
+    },
+  ],
+
   packageRules: [
     {
       matchDatasources: ['docker'],
