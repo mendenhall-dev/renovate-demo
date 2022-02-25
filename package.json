@@ -96,7 +96,7 @@
     "eslint-plugin-react-hooks": "^4.3.0",
     "eslint-plugin-security": "^1.4.0",
     "eslint-stats": "^1.0.1",
-    "express": "=4.17.2",
+    "express": "=4.17.3",
     "file-loader": "^6.2.0",
     "fixed-data-table": "^0.6.5",
     "flux": "^4.0.3",
