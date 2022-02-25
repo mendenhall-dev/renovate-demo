@@ -10229,7 +10229,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-jest@npm:^25.3.4":
+"eslint-plugin-jest@npm:^25.7.0":
   version: 25.7.0
   resolution: "eslint-plugin-jest@npm:25.7.0"
   dependencies:
@@ -19743,7 +19743,7 @@ __metadata:
     eslint-import-resolver-webpack: ^0.13.2
     eslint-plugin-babel: ^5.3.1
     eslint-plugin-import: ^2.25.4
-    eslint-plugin-jest: ^25.3.4
+    eslint-plugin-jest: ^25.7.0
     eslint-plugin-jsx-a11y: ^6.5.1
     eslint-plugin-prettier: 4.0.0
     eslint-plugin-react: ^7.28.0
