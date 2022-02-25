@@ -3169,9 +3169,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@splitsoftware/splitio@npm:^10.17.1":
-  version: 10.17.1
-  resolution: "@splitsoftware/splitio@npm:10.17.1"
+"@splitsoftware/splitio@npm:^10.17.2":
+  version: 10.17.2
+  resolution: "@splitsoftware/splitio@npm:10.17.2"
   dependencies:
     "@babel/runtime": ^7.13.10
     "@types/google.analytics": 0.0.40
@@ -3180,13 +3180,13 @@ __metadata:
     ioredis: ^4.28.0
     ip: 1.1.5
     js-yaml: 3.13.1
-    node-fetch: ^2.6.1
+    node-fetch: ^2.6.7
     object-assign: ^4.1.1
     unfetch: ^4.2.0
   dependenciesMeta:
     eventsource:
       optional: true
-  checksum: 6befc7215d91650e1ff33481857bf8ee0614d92ff0a89f754595d463ad0709a9a2f346971bbe9acd0d877d80f16a42576774e346b3763728393db47c7280e973
+  checksum: 37636f2028b7b5e1c9deb47e54a0bae42d0f9c5e9fcf2e8335b008c9fafe93abfebc22b5af87c1b97aca45329f2ed7f18cd264fb989ea794b5de067a966febbc
   languageName: node
   linkType: hard
 
@@ -16112,7 +16112,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"node-fetch@npm:^2.6.1, node-fetch@npm:^2.6.5":
+"node-fetch@npm:^2.6.1, node-fetch@npm:^2.6.5, node-fetch@npm:^2.6.7":
   version: 2.6.7
   resolution: "node-fetch@npm:2.6.7"
   dependencies:
@@ -19683,7 +19683,7 @@ __metadata:
     "@pmmmwh/react-refresh-webpack-plugin": ^0.5.4
     "@rails/actioncable": ^6.1.4
     "@react-google-maps/api": ^2.7.0
-    "@splitsoftware/splitio": ^10.17.1
+    "@splitsoftware/splitio": ^10.17.2
     "@storybook/addon-a11y": ^6.4.12
     "@storybook/addon-actions": ^6.4.12
     "@storybook/addon-essentials": ^6.4.12
