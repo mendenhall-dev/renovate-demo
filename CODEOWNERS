@@ -1,3 +1,5 @@
 * @drewmendenhall
-package.json @drewmendenhall @renovate-approve
-yarn.lock @drewmendenhall @renovate-approve
+
+.yarn
+package.json
+yarn.lock
