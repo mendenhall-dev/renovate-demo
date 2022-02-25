@@ -185,7 +185,7 @@
     "webpack-merge": "^5.8.0",
     "webpack-s3-plugin": "^1.2.0-rc.0",
     "worker-loader": "^3.0.8",
-    "worker-timers": "^7.0.44"
+    "worker-timers": "^7.0.45"
   },
   "packageManager": "yarn@3.1.1"
 }
