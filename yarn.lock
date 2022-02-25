@@ -3088,10 +3088,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@rails/actioncable@npm:^6.1.4":
-  version: 6.1.4
-  resolution: "@rails/actioncable@npm:6.1.4"
-  checksum: 9682388672179979033d8594e3c440ab5c208b5c1c082dd8bdb72dbef7b578fdd848a8aae47f3099af2680d4f0921cd11af194fca79a09441e81b6189dea8591
+"@rails/actioncable@npm:^7.0.1":
+  version: 7.0.2
+  resolution: "@rails/actioncable@npm:7.0.2"
+  checksum: 0064aa1b43c4099c62b0ec57534f756b22283a751571449e9b2285cef6593cefdd8f3edd692dc7840047ceba8f39e269f5a3e4a083f761ff87f686a6c366c7e8
   languageName: node
   linkType: hard
 
@@ -19681,7 +19681,7 @@ __metadata:
     "@percy/cli": ^1.0.0-beta.73
     "@percy/storybook": ^4.1.0
     "@pmmmwh/react-refresh-webpack-plugin": ^0.5.4
-    "@rails/actioncable": ^6.1.4
+    "@rails/actioncable": ^7.0.1
     "@react-google-maps/api": ^2.7.0
     "@splitsoftware/splitio": ^10.17.1
     "@storybook/addon-a11y": ^6.4.12
