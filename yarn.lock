@@ -3169,9 +3169,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@splitsoftware/splitio@npm:^10.17.2":
-  version: 10.17.2
-  resolution: "@splitsoftware/splitio@npm:10.17.2"
+"@splitsoftware/splitio@npm:^10.17.3":
+  version: 10.17.3
+  resolution: "@splitsoftware/splitio@npm:10.17.3"
   dependencies:
     "@babel/runtime": ^7.13.10
     "@types/google.analytics": 0.0.40
@@ -3186,7 +3186,7 @@ __metadata:
   dependenciesMeta:
     eventsource:
       optional: true
-  checksum: 37636f2028b7b5e1c9deb47e54a0bae42d0f9c5e9fcf2e8335b008c9fafe93abfebc22b5af87c1b97aca45329f2ed7f18cd264fb989ea794b5de067a966febbc
+  checksum: 8737df37ad0362d7242d63395b12be691b6eafec63e54411e74535e6cb96bf7ea30f9a52aa616a730731335681660e090d1fcc4c8d65bb38e31c99c62d8d2133
   languageName: node
   linkType: hard
 
@@ -19714,7 +19714,7 @@ __metadata:
     "@pmmmwh/react-refresh-webpack-plugin": ^0.5.4
     "@rails/actioncable": ^6.1.4
     "@react-google-maps/api": ^2.7.0
-    "@splitsoftware/splitio": ^10.17.2
+    "@splitsoftware/splitio": ^10.17.3
     "@storybook/addon-a11y": ^6.4.19
     "@storybook/addon-actions": ^6.4.19
     "@storybook/addon-essentials": ^6.4.19
