@@ -44,6 +44,7 @@
       matchUpdateTypes: ['minor', 'patch'],
 
       automerge: true,
+      ignoreTests: true,
       platformAutomerge: true,
     },
 
