@@ -7159,10 +7159,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"bootstrap-sass@npm:^3.4.1":
-  version: 3.4.1
-  resolution: "bootstrap-sass@npm:3.4.1"
-  checksum: e759a5e8e0201f969b0ce7d1ab1a94c0e61df8cfe98290b81adaee40e746e86ee0128a472db3715e3a6963dd7fff07efd1723dc6a64e0c4da0b5468f1e5f7750
+"bootstrap-sass@npm:^3.4.2":
+  version: 3.4.2
+  resolution: "bootstrap-sass@npm:3.4.2"
+  checksum: 52c9769344e0a82eb5502cbff2d60eb115e203709af087eb36428df406045396dc8746b927fdd815e8bc855fe4a538b7732cbb51a680117176cf435069239c00
   languageName: node
   linkType: hard
 
@@ -19751,7 +19751,7 @@ __metadata:
     babel-plugin-relay: ^13.1.1
     babel-plugin-transform-dynamic-import: ^2.1.0
     babel-preset-react-app: ^10.0.1
-    bootstrap-sass: ^3.4.1
+    bootstrap-sass: ^3.4.2
     case-sensitive-paths-webpack-plugin: ^2.4.0
     classnames: ^2.3.1
     coffee-loader: ^3.0.0
