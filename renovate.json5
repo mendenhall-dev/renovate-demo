@@ -38,6 +38,7 @@
       addLabels: ['javascript'],
       postUpdateOptions: ['yarnDedupeHighest'],
       rangeStrategy: 'bump',
+      stabilityDays: 3,
     },
     {
       matchManagers: ['npm'],
