@@ -19021,16 +19021,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-dropzone@npm:^11.7.1":
-  version: 11.7.1
-  resolution: "react-dropzone@npm:11.7.1"
+"react-dropzone@npm:^12.0.4":
+  version: 12.0.4
+  resolution: "react-dropzone@npm:12.0.4"
   dependencies:
     attr-accept: ^2.2.2
     file-selector: ^0.4.0
     prop-types: ^15.8.1
   peerDependencies:
     react: ">= 16.8"
-  checksum: 7549bb67da5222dfbb7b79d9df84a4f2bd417e53396df8b0772a95fd7621ec967b87a17ff7f1e54eb5597d73c51c2a0d16328c792b11e751c73e18e2f7160207
+  checksum: cc8c2036c72cbe02ddea1e141de45aeee7b399321b5791174d04fb8c1f52eb2ee3ae2d3fb1240fc23008a435c4ceb437e85831f0388a6b34be2bc39417701096
   languageName: node
   linkType: hard
 
@@ -20009,7 +20009,7 @@ __metadata:
     react-datetime: ^3.1.1
     react-dom: ^17.0.2
     react-dom-factories: ^1.0.2
-    react-dropzone: ^11.7.1
+    react-dropzone: ^12.0.4
     react-hook-form: 7.27.1
     react-onclickoutside: ^6.12.1
     react-refresh: ^0.11.0
