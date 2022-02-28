@@ -20036,7 +20036,7 @@ __metadata:
     source-map-explorer: ^2.5.2
     style-loader: ^3.3.1
     stylelint: ^14.5.3
-    stylelint-config-css-modules: ^2.3.0
+    stylelint-config-css-modules: ^3.0.0
     stylelint-config-prettier: ^9.0.3
     stylelint-config-recommended: ^6.0.0
     stylelint-config-styled-components: ^0.1.1
@@ -21827,12 +21827,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"stylelint-config-css-modules@npm:^2.3.0":
-  version: 2.3.0
-  resolution: "stylelint-config-css-modules@npm:2.3.0"
+"stylelint-config-css-modules@npm:^3.0.0":
+  version: 3.0.0
+  resolution: "stylelint-config-css-modules@npm:3.0.0"
   peerDependencies:
-    stylelint: 11.x - 14.x
-  checksum: 59582434c4950cb571567b162e7157c6ca8ddad6e7571dbc981bad5179965865395ba03d1003bdbb74bfb11ac24236cfad472fd17b22fa0f51e4a0d22df2a68c
+    stylelint: 14.x
+  checksum: 087e77b399085a6f02ac254186a04f91a11aaa402c50c13c381e4cb0a33895865efe6429ea75d1fbfed43af5bef60725c722a940ded3f778c186da6d3296cc81
   languageName: node
   linkType: hard
 
