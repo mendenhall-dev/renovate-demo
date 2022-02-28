@@ -8,5 +8,11 @@ jobs:
 
     steps:
       - uses: actions/checkout@v2
+
+      - name: Add Authentication for Private Packages
+        run: |
+          yarn config set npmScopes.fortawesome.npmAuthToken ${{ secrets.FONTAWESOME_NPM_AUTH_TOKEN }}
+          yarn config set npmScopes.fortawesome.npmRegistryServer "https://npm.fontawesome.com"
+
       - name: Validate yarn Packages
         run: yarn install --immutable --immutable-cache --check-cache
