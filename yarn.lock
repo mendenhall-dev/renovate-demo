@@ -6662,7 +6662,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"attr-accept@npm:^2.2.1":
+"attr-accept@npm:^2.2.2":
   version: 2.2.2
   resolution: "attr-accept@npm:2.2.2"
   checksum: 496f7249354ab53e522510c1dc8f67a1887382187adde4dc205507d2f014836a247073b05e9d9ea51e2e9c7f71b0d2aa21730af80efa9af2d68303e5f0565c4d
@@ -11177,12 +11177,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"file-selector@npm:^0.2.2":
-  version: 0.2.4
-  resolution: "file-selector@npm:0.2.4"
+"file-selector@npm:^0.4.0":
+  version: 0.4.0
+  resolution: "file-selector@npm:0.4.0"
   dependencies:
     tslib: ^2.0.3
-  checksum: 83341e7416352c7de0caf433b33c8d007d3c298c17d6ba0e70168af82bb045d905ddd6f4bc3ca764a2035c6f18eae7f52223dc6a784056f61b8391c351f88323
+  checksum: 1c9986e94bd033442cb4299d10d73d98fbc0b5f1af5b47d7a27b39f1e6bbd8d677f66c2628167da387166c652ad3c2429875042b453ba62f14945d903adf88d5
   languageName: node
   linkType: hard
 
@@ -19006,16 +19006,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-dropzone@npm:^11.5.1":
-  version: 11.5.1
-  resolution: "react-dropzone@npm:11.5.1"
+"react-dropzone@npm:^11.7.1":
+  version: 11.7.1
+  resolution: "react-dropzone@npm:11.7.1"
   dependencies:
-    attr-accept: ^2.2.1
-    file-selector: ^0.2.2
-    prop-types: ^15.7.2
+    attr-accept: ^2.2.2
+    file-selector: ^0.4.0
+    prop-types: ^15.8.1
   peerDependencies:
     react: ">= 16.8"
-  checksum: 54d801ca5b952d9e00913c516bcb3b961d34058116d0444ac3ce911e98e777fbd936fb60e81c0739664f68bf1dd1bdc6a1477d0b50b46ffe986140671562110d
+  checksum: 7549bb67da5222dfbb7b79d9df84a4f2bd417e53396df8b0772a95fd7621ec967b87a17ff7f1e54eb5597d73c51c2a0d16328c792b11e751c73e18e2f7160207
   languageName: node
   linkType: hard
 
@@ -20013,7 +20013,7 @@ __metadata:
     react-datetime: ^3.1.1
     react-dom: ^17.0.2
     react-dom-factories: ^1.0.2
-    react-dropzone: ^11.5.1
+    react-dropzone: ^11.7.1
     react-hook-form: 7.27.1
     react-onclickoutside: ^6.12.1
     react-refresh: ^0.11.0
@@ -20035,7 +20035,7 @@ __metadata:
     rollbar-sourcemap-webpack-plugin: ^3.3.0
     router5: ^8.0.1
     router5-plugin-browser: ^8.0.1
-    sass-loader: ^12.4.0
+    sass-loader: ^12.6.0
     scroll-behavior-polyfill: ^2.0.13
     source-map-explorer: ^2.5.2
     style-loader: ^3.3.1
@@ -20567,9 +20567,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"sass-loader@npm:^12.4.0":
-  version: 12.4.0
-  resolution: "sass-loader@npm:12.4.0"
+"sass-loader@npm:^12.6.0":
+  version: 12.6.0
+  resolution: "sass-loader@npm:12.6.0"
   dependencies:
     klona: ^2.0.4
     neo-async: ^2.6.2
@@ -20577,6 +20577,7 @@ __metadata:
     fibers: ">= 3.1.0"
     node-sass: ^4.0.0 || ^5.0.0 || ^6.0.0 || ^7.0.0
     sass: ^1.3.0
+    sass-embedded: "*"
     webpack: ^5.0.0
   peerDependenciesMeta:
     fibers:
@@ -20585,7 +20586,9 @@ __metadata:
       optional: true
     sass:
       optional: true
-  checksum: 0f7ca3633e7f61c412b0628766a9b57cb15f68def45e4303e68eb2f3a0722aec231956fbfd118489d93c997ab605470e89de8e3f7d6776830cc6366d9657d618
+    sass-embedded:
+      optional: true
+  checksum: 5d73a428588150f704016aa27397941bb9246cecd2ee083b573e95d969fc080ac6a16f2fe1cc64aca08f6e70da6f3c586ee68f0efc9f527fecc360e5f1c299ec
   languageName: node
   linkType: hard
 
