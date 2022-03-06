@@ -36,6 +36,7 @@
       matchManagers: ['npm'],
 
       addLabels: ['javascript'],
+      internalChecksFilter: 'strict',
       postUpdateOptions: ['yarnDedupeHighest'],
       rangeStrategy: 'bump',
       stabilityDays: 3,
