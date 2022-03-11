@@ -5,7 +5,7 @@
     "node": "16.14.0"
   },
   "devDependencies": {
-    "@auth0/auth0-spa-js": "^1.20.0",
+    "@auth0/auth0-spa-js": "^1.20.1",
     "@babel/core": "^7.17.5",
     "@babel/helper-define-map": "^7.16.7",
     "@babel/plugin-transform-regenerator": "^7.16.7",

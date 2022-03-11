@@ -14,9 +14,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@auth0/auth0-spa-js@npm:^1.20.0":
-  version: 1.20.0
-  resolution: "@auth0/auth0-spa-js@npm:1.20.0"
+"@auth0/auth0-spa-js@npm:^1.20.1":
+  version: 1.20.1
+  resolution: "@auth0/auth0-spa-js@npm:1.20.1"
   dependencies:
     abortcontroller-polyfill: ^1.7.3
     browser-tabs-lock: ^1.2.15
@@ -25,7 +25,7 @@ __metadata:
     fast-text-encoding: ^1.0.3
     promise-polyfill: ^8.2.1
     unfetch: ^4.2.0
-  checksum: 7ed7cb65eca4a43745e886dc715b56c604c1aac1dbfe25e7cf7a80ea7923ebc03f8b22ebaf4fa2ffae4be627a9fbf5142daa498fc8c717530c5630c81844e2fb
+  checksum: 284713ea43f07927ad075a2d71a26911660c7a2d7fe19899e3b40f2a73fe9a3e032c706f1dbd60be55bce5b3ced2e7d506bff582777f225422500e76174d3290
   languageName: node
   linkType: hard
 
@@ -19863,7 +19863,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "renovate-demo@workspace:."
   dependencies:
-    "@auth0/auth0-spa-js": ^1.20.0
+    "@auth0/auth0-spa-js": ^1.20.1
     "@babel/core": ^7.17.5
     "@babel/helper-define-map": ^7.16.7
     "@babel/plugin-transform-regenerator": ^7.16.7
