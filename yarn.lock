@@ -2240,7 +2240,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@graphql-codegen/typescript@npm:^2.4.6":
+"@graphql-codegen/typescript@npm:^2.4.7":
   version: 2.4.7
   resolution: "@graphql-codegen/typescript@npm:2.4.7"
   dependencies:
@@ -19874,7 +19874,7 @@ __metadata:
     "@fortawesome/fontawesome-svg-core": ^1.2.36
     "@fortawesome/react-fontawesome": ^0.1.16
     "@graphql-codegen/cli": 2.6.2
-    "@graphql-codegen/typescript": ^2.4.6
+    "@graphql-codegen/typescript": ^2.4.7
     "@hookform/devtools": ^4.0.2
     "@hookform/resolvers": ^2.8.8
     "@percy/cli": ^1.0.0-beta.76
