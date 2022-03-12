@@ -1725,14 +1725,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@datadog/browser-core@npm:4.6.1, @datadog/browser-core@npm:^4.6.0":
+"@datadog/browser-core@npm:4.6.1, @datadog/browser-core@npm:^4.6.1":
   version: 4.6.1
   resolution: "@datadog/browser-core@npm:4.6.1"
   checksum: fc70e253e34104dc572ee31665186d040886d42befffa3c5f5a4e23965380f5d267351569607eccd130d95ea02e03c80b380acf7889e123d8500e64e43ffacad
   languageName: node
   linkType: hard
 
-"@datadog/browser-logs@npm:^4.6.0":
+"@datadog/browser-logs@npm:^4.6.1":
   version: 4.6.1
   resolution: "@datadog/browser-logs@npm:4.6.1"
   dependencies:
@@ -1750,7 +1750,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@datadog/browser-rum@npm:^4.6.0":
+"@datadog/browser-rum@npm:^4.6.1":
   version: 4.6.1
   resolution: "@datadog/browser-rum@npm:4.6.1"
   dependencies:
@@ -19864,9 +19864,9 @@ __metadata:
     "@babel/plugin-transform-regenerator": ^7.16.7
     "@babel/plugin-transform-strict-mode": ^7.16.7
     "@babel/runtime": ^7.17.2
-    "@datadog/browser-core": ^4.6.0
-    "@datadog/browser-logs": ^4.6.0
-    "@datadog/browser-rum": ^4.6.0
+    "@datadog/browser-core": ^4.6.1
+    "@datadog/browser-logs": ^4.6.1
+    "@datadog/browser-rum": ^4.6.1
     "@emotion/babel-plugin": ^11.7.2
     "@emotion/css": ^11.7.1
     "@emotion/react": ^11.8.1
