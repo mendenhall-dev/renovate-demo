@@ -6,11 +6,11 @@
   },
   "devDependencies": {
     "@auth0/auth0-spa-js": "^1.20.1",
-    "@babel/core": "^7.17.5",
+    "@babel/core": "^7.17.7",
     "@babel/helper-define-map": "^7.16.7",
     "@babel/plugin-transform-regenerator": "^7.16.7",
     "@babel/plugin-transform-strict-mode": "^7.16.7",
-    "@babel/runtime": "^7.17.2",
+    "@babel/runtime": "^7.17.7",
     "@datadog/browser-core": "^4.6.1",
     "@datadog/browser-logs": "^4.6.1",
     "@datadog/browser-rum": "^4.6.1",
