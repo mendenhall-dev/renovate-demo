@@ -18405,7 +18405,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"postcss@npm:^8.2.14, postcss@npm:^8.2.15, postcss@npm:^8.3.5, postcss@npm:^8.4.11, postcss@npm:^8.4.6, postcss@npm:^8.4.7":
+"postcss@npm:^8.2.14, postcss@npm:^8.2.15, postcss@npm:^8.3.5, postcss@npm:^8.4.12, postcss@npm:^8.4.6, postcss@npm:^8.4.7":
   version: 8.4.12
   resolution: "postcss@npm:8.4.12"
   dependencies:
@@ -19977,7 +19977,7 @@ __metadata:
     node-object-hash: ^2.3.10
     node-sass: ^7.0.1
     polished: ^4.1.4
-    postcss: ^8.4.11
+    postcss: ^8.4.12
     postcss-import: ^14.0.2
     postcss-loader: ^6.2.1
     postcss-preset-env: ^7.4.2
