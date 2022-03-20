@@ -113,7 +113,7 @@
     "jest-junit": "^13.0.0",
     "jquery": "^3.6.0",
     "js-logger": "=1.6.1",
-    "lint-staged": ">=12.3.6",
+    "lint-staged": ">=12.3.7",
     "lodash": "^4.17.21",
     "microevent-github": "=1.0.0",
     "mini-css-extract-plugin": "^2.6.0",
