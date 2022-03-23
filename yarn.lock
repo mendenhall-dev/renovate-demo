@@ -19094,12 +19094,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-hook-form@npm:7.28.0":
-  version: 7.28.0
-  resolution: "react-hook-form@npm:7.28.0"
+"react-hook-form@npm:7.28.1":
+  version: 7.28.1
+  resolution: "react-hook-form@npm:7.28.1"
   peerDependencies:
     react: ^16.8.0 || ^17
-  checksum: e70637236113b26bae121cccd6f1ad9df3bd808e5e83311175f69c1b55524ea5240d6914c1c355f6df2e38b27c2103f2b8b17d911409bcfce26cf6fb4107caee
+  checksum: 176e653f3c5c1882125b6d51d3b2258c7120202227b91edbf74708eb3f0d455b3c827f1b6c236cdf208de82871b14e86d9aeacbd44c418bcf591b2346721156f
   languageName: node
   linkType: hard
 
@@ -20023,7 +20023,7 @@ __metadata:
     react-dom: ^17.0.2
     react-dom-factories: ^1.0.2
     react-dropzone: ^12.0.4
-    react-hook-form: 7.28.0
+    react-hook-form: 7.28.1
     react-onclickoutside: ^6.12.1
     react-refresh: ^0.11.0
     react-relay: ^13.2.0
