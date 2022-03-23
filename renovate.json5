@@ -2,7 +2,6 @@
   extends: ['config:base'],
 
   enabledManagers: ['circleci', 'npm', 'nvm'],
-  npmrc: '@fortawesome:registry=https://npm.fontawesome.com/',
   rangeStrategy: 'bump',
   reviewersFromCodeOwners: true,
 
@@ -10,6 +9,7 @@
     {
       hostType: 'npm',
       matchHost: 'https://npm.fontawesome.com/',
+      registryUrls: ['https://npm.fontawesome.com/'],
 
       encrypted: {
         token: 'wcFMA/xDdHCJBTolAQ//WZw/94osRDK4Q5EYp5gvdnnNFk6Wsrv0DkFoMnz1ZW2sVjpJFt/5n9JYb+QCdDR9SP9vtFNu6JwjEFOxMAMn8ICnkdprFo1/L+jImogGwIsTQwS5c75dhlrWEEONiLPNqqPcv6sdF8i1jsmYYTUxPWlZ43Y2diG8jxYw7b1eA4h3JfSBVBWDZfcxQ3RmxLjB4efxgjfTFeCWB2168djWYv/Xmvy0x7Nfoquy6IiKr2K7IPv/c3GAIWJhwzGoeMZ6kHwhONd3id7K22vfyZAHucAP0pQciQsBAfMxH9mRU31PxjM2eF1As4d8OGvqxmW5PY+5WywBFx3Lzub4TEPbTUGTM9tGA2uQKyl1RJ+lyLdGDFzN7jKnHEyQjCVfyKCY3EDGriwbr/qPI+GDSaC3n7VKLNidIT5whb9bJW7o916F9Zor3dVeDfDPwMOK9iuefTQ5K6uDk6Sbg1DQ9b7g4pRiRdM7KlaVIEXWTMTgLp1rB7WYguG0+rN+K+phIPR3j3H4VmQYnjmd1vESD53hOhhldQ5jk17hO9qKI2Ohz2WfRUlVUZMIH3ei/eaPJ/tAYjbXPmtAnM/3KMfvUSHqVuxq6XDGO89VbGfiEDZ47yMObdtFUgSV47cnWz1yyjI+NXMUMzquIG1tc15JUg9XdyIBo2imUvIPRyNs0TDRYSjSeQEnN4v5h7iKTzm2YVoeCEDbaxYw6ph/SAteU7E/QgFcaNst9VTUgn0iVLyKDjG7eBDvceRNF1K9zYiyDdtzcoRj/36Re0pPDA5YGATaOUMe00KvCCjONW2LdreVYpMDcvYQaZofqAv8o0+erupFzz5YjMF+3IxdNHs',
