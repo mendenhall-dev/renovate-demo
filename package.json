@@ -61,7 +61,7 @@
     "awesome-phonenumber": "^2.70.0",
     "babel-core": "^7.0.0-bridge.0",
     "babel-jest": "^26.6.3",
-    "babel-loader": "^8.2.3",
+    "babel-loader": "^8.2.4",
     "babel-plugin-minify-replace": "^0.5.0",
     "babel-plugin-module-resolver": "^4.1.0",
     "babel-plugin-relay": "^13.2.0",
