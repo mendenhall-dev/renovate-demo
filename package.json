@@ -43,7 +43,7 @@
     "@stripe/stripe-js": "^1.25.0",
     "@stylelint/postcss-css-in-js": "^0.37.2",
     "@testing-library/dom": "^7.31.2",
-    "@testing-library/jest-dom": "^5.16.2",
+    "@testing-library/jest-dom": "^5.16.3",
     "@testing-library/react": "^11.2.7",
     "@testing-library/react-hooks": "^7.0.2",
     "@testing-library/user-event": "^13.5.0",
