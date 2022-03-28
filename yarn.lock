@@ -2586,9 +2586,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@hookform/devtools@npm:^4.0.2":
-  version: 4.0.2
-  resolution: "@hookform/devtools@npm:4.0.2"
+"@hookform/devtools@npm:^4.1.0":
+  version: 4.1.0
+  resolution: "@hookform/devtools@npm:4.1.0"
   dependencies:
     "@emotion/react": ^11.1.5
     "@emotion/styled": ^11.3.0
@@ -2600,7 +2600,7 @@ __metadata:
     react: ">=17.0.2"
     react-dom: ">=17.0.2"
     react-hook-form: ^7.13.0
-  checksum: 20596b2feb45ee63367b887799688bd9d95231b864908ae56e313c73dee374acd485163b72dfdb715b568618bac77bb256c146f02aa0539a119e57aea896a762
+  checksum: ab1c23bc104747b4d0ebaf78ad32b31462e6bac98d2aec2f5a66c5e7b987092313954f739563cf7ac7856b2a4a634e912d75844b1c90f3725c71c9d219ba6e79
   languageName: node
   linkType: hard
 
@@ -19916,7 +19916,7 @@ __metadata:
     "@fortawesome/react-fontawesome": ^0.1.18
     "@graphql-codegen/cli": 2.6.2
     "@graphql-codegen/typescript": ^2.4.8
-    "@hookform/devtools": ^4.0.2
+    "@hookform/devtools": ^4.1.0
     "@hookform/resolvers": ^2.8.8
     "@percy/cli": ^1.0.0-beta.76
     "@percy/storybook": ^4.1.0
