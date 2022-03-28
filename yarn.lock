@@ -5230,7 +5230,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react@npm:*, @types/react@npm:>=16.9.0, @types/react@npm:^17.0.42":
+"@types/react@npm:*, @types/react@npm:>=16.9.0, @types/react@npm:^17.0.43":
   version: 17.0.43
   resolution: "@types/react@npm:17.0.43"
   dependencies:
@@ -19932,7 +19932,7 @@ __metadata:
     "@types/jest": ^27.4.1
     "@types/jquery": ^3.5.14
     "@types/lodash": ^4.14.180
-    "@types/react": ^17.0.42
+    "@types/react": ^17.0.43
     "@types/react-relay": ^13.0.1
     "@types/relay-runtime": ^13.0.2
     "@types/relay-test-utils": ^6.0.5
