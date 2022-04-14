@@ -10468,7 +10468,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint@npm:^8.11.0":
+"eslint@npm:^8.13.0":
   version: 8.13.0
   resolution: "eslint@npm:8.13.0"
   dependencies:
@@ -19574,7 +19574,7 @@ __metadata:
     dotenv: ^16.0.0
     dotenv-webpack: ^7.1.0
     downshift: ^6.1.7
-    eslint: ^8.11.0
+    eslint: ^8.13.0
     eslint-config-airbnb: ^19.0.4
     eslint-config-airbnb-base: ^15.0.0
     eslint-config-prettier: 8.5.0
