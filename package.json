@@ -21,7 +21,7 @@
     "@fortawesome/pro-light-svg-icons": "^5.15.4",
     "@fortawesome/pro-regular-svg-icons": "^5.15.4",
     "@fortawesome/pro-solid-svg-icons": "^5.15.4",
-    "@fortawesome/react-fontawesome": "^0.1.17",
+    "@fortawesome/react-fontawesome": "^0.1.18",
     "@graphql-codegen/cli": "2.6.2",
     "@graphql-codegen/typescript": "^2.4.8",
     "@hookform/devtools": "^4.1.0",
