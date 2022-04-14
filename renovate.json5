@@ -6,6 +6,11 @@
   rangeStrategy: 'bump',
   reviewersFromCodeOwners: true,
 
+  force: {
+    constraints: {
+      node: '< 17.0.0',
+    },
+  },
   hostRules: [
     {
       hostType: 'npm',
@@ -16,7 +21,6 @@
       },
     },
   ],
-
   packageRules: [
     {
       matchDatasources: ['docker'],
