@@ -2,6 +2,7 @@
   extends: ['config:base'],
 
   enabledManagers: ['circleci', 'npm', 'nvm'],
+  npmrc: '@fortawesome:registry=https://npm.fontawesome.com/',
   rangeStrategy: 'bump',
   reviewersFromCodeOwners: true,
 
