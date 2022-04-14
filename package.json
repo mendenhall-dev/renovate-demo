@@ -121,7 +121,7 @@
     "moment": "^2.29.2",
     "moment-locales-webpack-plugin": "^1.2.0",
     "moment-timezone": "^0.5.34",
-    "polished": "^4.1.4",
+    "polished": "^4.2.2",
     "postcss": "^8.4.12",
     "postcss-import": "^14.1.0",
     "postcss-loader": "^6.2.1",
