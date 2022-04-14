@@ -19654,7 +19654,7 @@ __metadata:
     scroll-behavior-polyfill: ^2.0.13
     style-loader: ^3.3.1
     stylelint: ^14.5.3
-    stylelint-config-css-modules: ^2.3.0
+    stylelint-config-css-modules: ^4.1.0
     stylelint-config-prettier: ^9.0.3
     stylelint-config-recommended: ^7.0.0
     stylelint-config-styled-components: ^0.1.1
@@ -21318,12 +21318,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"stylelint-config-css-modules@npm:^2.3.0":
-  version: 2.3.0
-  resolution: "stylelint-config-css-modules@npm:2.3.0"
+"stylelint-config-css-modules@npm:^4.1.0":
+  version: 4.1.0
+  resolution: "stylelint-config-css-modules@npm:4.1.0"
+  dependencies:
+    stylelint-scss: ^4.2.0
   peerDependencies:
-    stylelint: 11.x - 14.x
-  checksum: 59582434c4950cb571567b162e7157c6ca8ddad6e7571dbc981bad5179965865395ba03d1003bdbb74bfb11ac24236cfad472fd17b22fa0f51e4a0d22df2a68c
+    stylelint: ^14.5.1
+  dependenciesMeta:
+    stylelint-scss:
+      optional: true
+  checksum: f14ca83da5aed5ba06dbbb8a8c8b80bb73db278073f733620189b612c95d790231d5920cc1a268acf0579f90a0791f8ef172f9dd0558120e355bf7148e276063
   languageName: node
   linkType: hard
 
@@ -21367,7 +21372,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"stylelint-scss@npm:^4.1.0":
+"stylelint-scss@npm:^4.1.0, stylelint-scss@npm:^4.2.0":
   version: 4.2.0
   resolution: "stylelint-scss@npm:4.2.0"
   dependencies:
