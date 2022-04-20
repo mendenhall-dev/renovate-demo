@@ -2,7 +2,7 @@
   "name": "renovate-demo",
   "version": "1.0.0",
   "engines": {
-    "node": "16.14.2"
+    "node": "16.14.0"
   },
   "devDependencies": {
     "@auth0/auth0-spa-js": "^1.21.0",
