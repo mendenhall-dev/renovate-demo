@@ -19474,9 +19474,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"renovate-demo@workspace:.":
+"renovate-demoo@workspace:.":
   version: 0.0.0-use.local
-  resolution: "renovate-demo@workspace:."
+  resolution: "renovate-demoo@workspace:."
   dependencies:
     "@auth0/auth0-spa-js": ^1.21.0
     "@babel/core": ^7.17.9
