@@ -25,6 +25,8 @@
     {
       matchDatasources: ['docker'],
       matchPackagePatterns: ['node'],
+
+      allowedVersions: '16',
       enabled: true,
     },
     {
