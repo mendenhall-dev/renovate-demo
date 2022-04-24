@@ -8540,7 +8540,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"core-js@npm:^3.0.4, core-js@npm:^3.20.3, core-js@npm:^3.22.1, core-js@npm:^3.6.5, core-js@npm:^3.8.2":
+"core-js@npm:^3.0.4, core-js@npm:^3.20.3, core-js@npm:^3.22.2, core-js@npm:^3.6.5, core-js@npm:^3.8.2":
   version: 3.22.2
   resolution: "core-js@npm:3.22.2"
   checksum: 23efd6148d2f564852f23de426401c86f1d8af410eacccf22ae5dd82b1e9de558f05692cacd4b7e709d47993c670d7bca6f601d0b2ab32cf397a113fc5b7d80c
@@ -19563,7 +19563,7 @@ __metadata:
     coffee-loader: ^3.0.0
     coffeelint: ^2.1.0
     coffeescript: ^2.6.1
-    core-js: ^3.22.1
+    core-js: ^3.22.2
     cors-anywhere: ^0.4.4
     create-react-class: ^15.7.0
     css-loader: ^6.7.1
