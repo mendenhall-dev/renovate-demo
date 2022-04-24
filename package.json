@@ -73,7 +73,7 @@
     "coffee-loader": "^3.0.0",
     "coffeelint": "^2.1.0",
     "coffeescript": "^2.6.1",
-    "core-js": "^3.22.1",
+    "core-js": "^3.22.2",
     "cors-anywhere": "^0.4.4",
     "create-react-class": "^15.7.0",
     "css-loader": "^6.7.1",
