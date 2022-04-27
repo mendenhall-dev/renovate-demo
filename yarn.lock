@@ -8174,13 +8174,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"coffeescript@npm:^2.1.0, coffeescript@npm:^2.6.1":
-  version: 2.6.1
-  resolution: "coffeescript@npm:2.6.1"
+"coffeescript@npm:^2.1.0, coffeescript@npm:^2.7.0":
+  version: 2.7.0
+  resolution: "coffeescript@npm:2.7.0"
   bin:
     cake: bin/cake
     coffee: bin/coffee
-  checksum: c53db08b1baa7405b6c549fad5c28dd88eeb5f04c98a1eb495788205f1785789c4af22cb65343047f8b717f53b88293047450708cb92d4ea3b58d0cec0df7338
+  checksum: b07c40910b0585ef7c1bddbfad93bdf1f47c158a1b6a21017a4366f2672d9253eb0d24c1301a96afb8dc687216a7613c2f40e572dc5994edcef9680dce839722
   languageName: node
   linkType: hard
 
@@ -19562,7 +19562,7 @@ __metadata:
     classnames: ^2.3.1
     coffee-loader: ^3.0.0
     coffeelint: ^2.1.0
-    coffeescript: ^2.6.1
+    coffeescript: ^2.7.0
     core-js: ^3.22.2
     cors-anywhere: ^0.4.4
     create-react-class: ^15.7.0
