@@ -11337,9 +11337,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"framer-motion@npm:^6.3.1":
-  version: 6.3.1
-  resolution: "framer-motion@npm:6.3.1"
+"framer-motion@npm:^6.3.2":
+  version: 6.3.3
+  resolution: "framer-motion@npm:6.3.3"
   dependencies:
     "@emotion/is-prop-valid": ^0.8.2
     framesync: 6.0.1
@@ -11353,7 +11353,7 @@ __metadata:
   dependenciesMeta:
     "@emotion/is-prop-valid":
       optional: true
-  checksum: 23971369855d0d6504ad126ff33e393dc153edf470f7150e6b74667ef0104089daf28105d9841a8f0aea35e459bffabbda6b682b7722e014eef5a54214ee1680
+  checksum: 905ccf2679a45b00f6fd3fa6220f73f176e0c14b43d65ceb5feb93e23b12098def275930b98926c9bd4320f0436564745ebcfd488d7a477646a7a4600362fdbf
   languageName: node
   linkType: hard
 
@@ -19521,7 +19521,7 @@ __metadata:
     fixed-data-table: ^0.6.5
     flux: ^4.0.3
     font-awesome: ^4.7.0
-    framer-motion: ^6.3.1
+    framer-motion: ^6.3.2
     graphql: ^15.8.0
     hoist-non-react-statics: ^3.3.2
     html-webpack-plugin: ^5.5.0
