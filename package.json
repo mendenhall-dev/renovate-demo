@@ -102,7 +102,7 @@
     "fixed-data-table": "^0.6.5",
     "flux": "^4.0.3",
     "font-awesome": "^4.7.0",
-    "framer-motion": "^6.3.2",
+    "framer-motion": "^6.3.3",
     "graphql": "^15.8.0",
     "hoist-non-react-statics": "^3.3.2",
     "html-webpack-plugin": "^5.5.0",
