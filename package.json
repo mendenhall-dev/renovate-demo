@@ -162,7 +162,7 @@
     "sass-loader": "^12.6.0",
     "scroll-behavior-polyfill": "^2.0.13",
     "style-loader": "^3.3.1",
-    "stylelint": "^14.8.0",
+    "stylelint": "^14.8.1",
     "stylelint-config-css-modules": "^2.3.0",
     "stylelint-config-prettier": "^9.0.3",
     "stylelint-config-recommended": "^7.0.0",
