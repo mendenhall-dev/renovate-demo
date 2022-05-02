@@ -6,7 +6,7 @@
   },
   "devDependencies": {
     "@auth0/auth0-spa-js": "^1.21.0",
-    "@babel/core": "^7.17.9",
+    "@babel/core": "^7.17.10",
     "@babel/plugin-transform-regenerator": "^7.17.9",
     "@babel/plugin-transform-strict-mode": "^7.16.7",
     "@babel/runtime": "^7.17.9",
