@@ -69,7 +69,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/core@npm:>=7.9.0, @babel/core@npm:^7.1.0, @babel/core@npm:^7.12.10, @babel/core@npm:^7.14.0, @babel/core@npm:^7.16.0, @babel/core@npm:^7.17.10, @babel/core@npm:^7.7.5":
+"@babel/core@npm:^7.1.0, @babel/core@npm:^7.12.10, @babel/core@npm:^7.14.0, @babel/core@npm:^7.16.0, @babel/core@npm:^7.17.10, @babel/core@npm:^7.17.9, @babel/core@npm:^7.7.5":
   version: 7.17.10
   resolution: "@babel/core@npm:7.17.10"
   dependencies:
@@ -4645,15 +4645,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@stylelint/postcss-css-in-js@npm:^0.37.2":
-  version: 0.37.2
-  resolution: "@stylelint/postcss-css-in-js@npm:0.37.2"
+"@stylelint/postcss-css-in-js@npm:^0.37.3":
+  version: 0.37.3
+  resolution: "@stylelint/postcss-css-in-js@npm:0.37.3"
   dependencies:
-    "@babel/core": ">=7.9.0"
+    "@babel/core": ^7.17.9
   peerDependencies:
     postcss: ">=7.0.0"
     postcss-syntax: ">=0.36.2"
-  checksum: cc9b5d1bd93b85c5e32754bf28b99031c783bd87a178542e42f84e627f00907c556d3c7839766fe47bb5a8eaa87eae89287e6cc939b9b91e1ab3e7c44acc3014
+  checksum: 0597e8f8f7159f9770d4b6e98bf1f36fffd91373b9e6349833a9081843e5a8111e65851fcf626c05922f718682aeb34e4eea990a5da5904c908fd9898b7ddc56
   languageName: node
   linkType: hard
 
@@ -19506,7 +19506,7 @@ __metadata:
     "@storybook/react": ^6.4.22
     "@stripe/react-stripe-js": 1.7.2
     "@stripe/stripe-js": ^1.29.0
-    "@stylelint/postcss-css-in-js": ^0.37.2
+    "@stylelint/postcss-css-in-js": ^0.37.3
     "@testing-library/dom": ^8.13.0
     "@testing-library/jest-dom": ^5.16.4
     "@testing-library/react": ^11.2.7
