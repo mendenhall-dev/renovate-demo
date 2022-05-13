@@ -14,18 +14,18 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@auth0/auth0-spa-js@npm:^1.21.0":
-  version: 1.21.0
-  resolution: "@auth0/auth0-spa-js@npm:1.21.0"
+"@auth0/auth0-spa-js@npm:^1.21.1":
+  version: 1.21.1
+  resolution: "@auth0/auth0-spa-js@npm:1.21.1"
   dependencies:
     abortcontroller-polyfill: ^1.7.3
     browser-tabs-lock: ^1.2.15
-    core-js: ^3.20.3
+    core-js: ^3.22.0
     es-cookie: ^1.3.2
     fast-text-encoding: ^1.0.3
-    promise-polyfill: ^8.2.1
+    promise-polyfill: ^8.2.3
     unfetch: ^4.2.0
-  checksum: 97096f122aa2fb05a117b07090e33d24a0a169d192416761c262028d79ca7162c1dbb13eba723fe3f18210f497b44506c6a6948e9563b8db82e81a66fadc1f3c
+  checksum: e0f2db65a2993853dae06122c387e433fed2f769dc0b94b1de9b49784728c18f191c5dc32ab3884a4c8cc6d1b332f281edc12484af56402374a021425cebd227
   languageName: node
   linkType: hard
 
@@ -8523,7 +8523,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"core-js@npm:^3.0.4, core-js@npm:^3.20.3, core-js@npm:^3.22.5, core-js@npm:^3.6.5, core-js@npm:^3.8.2":
+"core-js@npm:^3.0.4, core-js@npm:^3.22.0, core-js@npm:^3.22.5, core-js@npm:^3.6.5, core-js@npm:^3.8.2":
   version: 3.22.5
   resolution: "core-js@npm:3.22.5"
   checksum: d3d7495d7cdde01cf9ac3debc5087afc3c8dd56baa4953d9ccbb46b1a80872c79d14c1e6343c664c9c0fade288ab44c70b54dd34f879a71e6eff6fffeab84e00
@@ -18232,10 +18232,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"promise-polyfill@npm:^8.1.3, promise-polyfill@npm:^8.2.1":
-  version: 8.2.1
-  resolution: "promise-polyfill@npm:8.2.1"
-  checksum: bd2601d28c18086493d1eb0f4a5a538557600063b2a13aa9dfd89b69c28a3435ce6e0efac9049d1b13f0ed392730326b23c8c56c99be8abf708036245ece5192
+"promise-polyfill@npm:^8.1.3, promise-polyfill@npm:^8.2.3":
+  version: 8.2.3
+  resolution: "promise-polyfill@npm:8.2.3"
+  checksum: f320278bab8b8ce32f0e2f377d75aabe35c90a79f92b3e001db084d635da1fb8740ba8a26b5c1c2b4cdca5a4c988f9b6b3eb30f0b151d0362d3d9c1675024a8f
   languageName: node
   linkType: hard
 
@@ -19497,7 +19497,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "renovate-demo@workspace:."
   dependencies:
-    "@auth0/auth0-spa-js": ^1.21.0
+    "@auth0/auth0-spa-js": ^1.21.1
     "@babel/core": ^7.17.10
     "@babel/plugin-transform-regenerator": ^7.17.9
     "@babel/plugin-transform-strict-mode": ^7.16.7
