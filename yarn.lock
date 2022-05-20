@@ -1725,14 +1725,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@datadog/browser-core@npm:4.10.4, @datadog/browser-core@npm:^4.10.1":
+"@datadog/browser-core@npm:4.10.4, @datadog/browser-core@npm:^4.10.2":
   version: 4.10.4
   resolution: "@datadog/browser-core@npm:4.10.4"
   checksum: 82dd0135ee2b7d47271703e2d4b7ac06058a32849e346eff757766314cdc335de43d91cef7970b641a517034ec88dc6253ab9d12b050405a2a9be6d2f816a149
   languageName: node
   linkType: hard
 
-"@datadog/browser-logs@npm:^4.10.1":
+"@datadog/browser-logs@npm:^4.10.2":
   version: 4.10.4
   resolution: "@datadog/browser-logs@npm:4.10.4"
   dependencies:
@@ -1750,7 +1750,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@datadog/browser-rum@npm:^4.10.1":
+"@datadog/browser-rum@npm:^4.10.2":
   version: 4.10.4
   resolution: "@datadog/browser-rum@npm:4.10.4"
   dependencies:
@@ -19503,9 +19503,9 @@ __metadata:
     "@babel/plugin-transform-regenerator": ^7.17.9
     "@babel/plugin-transform-strict-mode": ^7.16.7
     "@babel/runtime": ^7.17.9
-    "@datadog/browser-core": ^4.10.1
-    "@datadog/browser-logs": ^4.10.1
-    "@datadog/browser-rum": ^4.10.1
+    "@datadog/browser-core": ^4.10.2
+    "@datadog/browser-logs": ^4.10.2
+    "@datadog/browser-rum": ^4.10.2
     "@emotion/babel-plugin": ^11.9.2
     "@emotion/css": ^11.9.0
     "@emotion/react": ^11.9.0
