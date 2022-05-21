@@ -70,7 +70,7 @@
     "bootstrap-sass": "^3.4.3",
     "case-sensitive-paths-webpack-plugin": "^2.4.0",
     "classnames": "^2.3.1",
-    "coffee-loader": "^3.0.0",
+    "coffee-loader": "^4.0.0",
     "coffeelint": "^2.1.0",
     "coffeescript": "^2.7.0",
     "core-js": "^3.22.5",

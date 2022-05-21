@@ -7956,13 +7956,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"coffee-loader@npm:^3.0.0":
-  version: 3.0.0
-  resolution: "coffee-loader@npm:3.0.0"
+"coffee-loader@npm:^4.0.0":
+  version: 4.0.0
+  resolution: "coffee-loader@npm:4.0.0"
   peerDependencies:
     coffeescript: ">= 2.0.0"
     webpack: ^5.0.0
-  checksum: c806c8550c53859a41ed9450aa695103289a7ca185d46b9c1ef9d5d1026031ede51364b972fe63c0d8dc4ffe602cb383c82bdbcf702621b63aa0ca332b21f80b
+  checksum: 193bc263f2c814e67a168ec6c23309ed9d6eb9cac840248e3d9acb2cb62617a62667a9049a7cd9a2319374e4466385f414184f26553d32a8350b9743d7feff19
   languageName: node
   linkType: hard
 
@@ -19452,7 +19452,7 @@ __metadata:
     bootstrap-sass: ^3.4.3
     case-sensitive-paths-webpack-plugin: ^2.4.0
     classnames: ^2.3.1
-    coffee-loader: ^3.0.0
+    coffee-loader: ^4.0.0
     coffeelint: ^2.1.0
     coffeescript: ^2.7.0
     core-js: ^3.22.5
