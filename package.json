@@ -103,7 +103,7 @@
     "flux": "^4.0.3",
     "font-awesome": "^4.7.0",
     "framer-motion": "^6.3.3",
-    "graphql": "^15.8.0",
+    "graphql": "^16.5.0",
     "hoist-non-react-statics": "^3.3.2",
     "html-webpack-plugin": "^5.5.0",
     "husky": "^8.0.1",
