@@ -8876,6 +8876,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"cycle@npm:^1.0.3":
+  version: 1.0.3
+  resolution: "cycle@npm:1.0.3"
+  checksum: b9f131094fb832a8c4ba18c6d2dc9c87fc80d3242847a45f0a5f70911b2acab68abc1c25eb23e5155fcf2135a27d8fcc3635556745b03b488c4f360cfbc352df
+  languageName: node
+  linkType: hard
+
 "cyclist@npm:~0.2.2":
   version: 0.2.2
   resolution: "cyclist@npm:0.2.2"
@@ -19277,6 +19284,7 @@ __metadata:
     create-react-class: ^15.7.0
     css-loader: ^6.7.1
     css-minimizer-webpack-plugin: ^4.0.0
+    cycle: ^1.0.3
     date-fns: ^2.28.0
     date-fns-timezone: ^0.1.4
     dotenv: ^16.0.1
