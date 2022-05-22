@@ -18110,17 +18110,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"prop-types@npm:15.7.2":
-  version: 15.7.2
-  resolution: "prop-types@npm:15.7.2"
-  dependencies:
-    loose-envify: ^1.4.0
-    object-assign: ^4.1.1
-    react-is: ^16.8.1
-  checksum: 5eef82fdda64252c7e75aa5c8cc28a24bbdece0f540adb60ce67c205cf978a5bd56b83e4f269f91c6e4dcfd80b36f2a2dec24d362e278913db2086ca9c6f9430
-  languageName: node
-  linkType: hard
-
 "prop-types@npm:^15.0.0, prop-types@npm:^15.5.0, prop-types@npm:^15.5.6, prop-types@npm:^15.5.7, prop-types@npm:^15.5.8, prop-types@npm:^15.6.0, prop-types@npm:^15.7.2, prop-types@npm:^15.8.1":
   version: 15.8.1
   resolution: "prop-types@npm:15.8.1"
@@ -18506,7 +18495,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-is@npm:^16.13.1, react-is@npm:^16.7.0, react-is@npm:^16.8.1":
+"react-is@npm:^16.13.1, react-is@npm:^16.7.0":
   version: 16.13.1
   resolution: "react-is@npm:16.13.1"
   checksum: f7a19ac3496de32ca9ae12aa030f00f14a3d45374f1ceca0af707c831b2a6098ef0d6bdae51bd437b0a306d7f01d4677fcc8de7c0d331eb47ad0f46130e53c5f
@@ -18596,18 +18585,6 @@ __metadata:
     shallowequal: ^1.1.0
     throttle-debounce: ^3.0.1
   checksum: 97cb852c24bbd50acb310da89df564e0d069415f6635676dae3d3bdc583ece88090c0f2ee88a6b0dc36d2793af4a11e83bf6bbb41b86225dd0cf338e8f7e8552
-  languageName: node
-  linkType: hard
-
-"react-stripe-elements@npm:^6.1.2":
-  version: 6.1.2
-  resolution: "react-stripe-elements@npm:6.1.2"
-  dependencies:
-    prop-types: 15.7.2
-  peerDependencies:
-    react: ^15.5.4 || ^16.0.0-0
-    react-dom: ^15.5.4 || ^16.0.0-0
-  checksum: 142d314cef0a075a2e12e159c655da8b0ce4a0c7b7d28565cab432ae1ed504d841a5ff7ff83af15862ad59e38cb07e9b30de3b70ba52dd31024042475a321df0
   languageName: node
   linkType: hard
 
@@ -19365,7 +19342,6 @@ __metadata:
     react-refresh: ^0.13.0
     react-relay: ^13.2.0
     react-router5: ^8.0.1
-    react-stripe-elements: ^6.1.2
     react-text-mask: ^5.4.3
     react-timer-mixin: ^0.13.4
     react-toggle-button: ^2.2.0
