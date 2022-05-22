@@ -1,7 +1,7 @@
 {
   extends: ['config:base'],
 
-  enabledManagers: ['circleci', 'npm', 'nvm'],
+  enabledManagers: ['circleci', 'github-actions', 'npm', 'nvm'],
   npmrc: '@fortawesome:registry=https://npm.fontawesome.com/',
   pinDigests: true,
   rangeStrategy: 'bump',
@@ -33,6 +33,11 @@
     {
       matchDatasources: ['orb'],
       enabled: false,
+    },
+    {
+      matchDatasources: ['docker'],
+      matchManagers: ['github-actions'],
+      enabled: true,
     },
 
     {
