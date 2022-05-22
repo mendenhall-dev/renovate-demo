@@ -4818,6 +4818,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@types/http-proxy@npm:^1.17.8":
+  version: 1.17.9
+  resolution: "@types/http-proxy@npm:1.17.9"
+  dependencies:
+    "@types/node": "*"
+  checksum: 7a6746d00729b2a9fe9f9dd3453430b099931df879ec8f7a7b5f07b1795f6d99b0512640c45a67390b1e4bacb9401e36824952aeeaf089feba8627a063cf8e00
+  languageName: node
+  linkType: hard
+
 "@types/is-function@npm:^1.0.0":
   version: 1.0.0
   resolution: "@types/is-function@npm:1.0.0"
@@ -8396,16 +8405,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"cors-anywhere@npm:^0.4.4":
-  version: 0.4.4
-  resolution: "cors-anywhere@npm:0.4.4"
-  dependencies:
-    http-proxy: 1.11.1
-    proxy-from-env: 0.0.1
-  checksum: 02e87cbebafc371c1d50535b6282feb0ae4b576500a6e3b07cd9b5f7fcd24f6bf4f6edbd3eef3eb730365f109475a1ec33ea116931769762646e78950d4a8696
-  languageName: node
-  linkType: hard
-
 "cosmiconfig-toml-loader@npm:1.0.0":
   version: 1.0.0
   resolution: "cosmiconfig-toml-loader@npm:1.0.0"
@@ -10414,17 +10413,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eventemitter3@npm:1.x.x":
-  version: 1.2.0
-  resolution: "eventemitter3@npm:1.2.0"
-  checksum: 1ce3c91340f5038bd611c31a32c69167ccc598049a6844f58400583b4d70f5c0c2d13a201c763624f81de461498fe2767d0bfadcb2c0c417e37556a481b00c1d
-  languageName: node
-  linkType: hard
-
 "eventemitter3@npm:^3.1.0":
   version: 3.1.2
   resolution: "eventemitter3@npm:3.1.2"
   checksum: 81e4e82b8418f5cfd986d2b4a2fa5397ac4eb8134e09bcb47005545e22fdf8e9e61d5c053d34651112245aae411bdfe6d0ad5511da0400743fef5fc38bfcfbe3
+  languageName: node
+  linkType: hard
+
+"eventemitter3@npm:^4.0.0":
+  version: 4.0.7
+  resolution: "eventemitter3@npm:4.0.7"
+  checksum: 1875311c42fcfe9c707b2712c32664a245629b42bb0a5a84439762dd0fd637fc54d078155ea83c2af9e0323c9ac13687e03cfba79b03af9f40c89b4960099374
   languageName: node
   linkType: hard
 
@@ -11112,6 +11111,16 @@ __metadata:
   peerDependencies:
     react: ^15.0.2 || ^16.0.0 || ^17.0.0
   checksum: 6b3f5150bcce481ce5bc09e54dbe4bf2a052f9fbc04c1de64f8d816adc4f90ad7955d9aed0022c7b6a2ed11b809ac40527bb50c2cd89c23d42f56694abe20748
+  languageName: node
+  linkType: hard
+
+"follow-redirects@npm:^1.0.0":
+  version: 1.15.0
+  resolution: "follow-redirects@npm:1.15.0"
+  peerDependenciesMeta:
+    debug:
+      optional: true
+  checksum: eaec81c3e0ae57aae2422e38ad3539d0e7279b3a63f9681eeea319bb683dea67502c4e097136b8ce9721542b4e236e092b6b49e34e326cdd7733c274f0a3f378
   languageName: node
   linkType: hard
 
@@ -12347,13 +12356,32 @@ __metadata:
   languageName: node
   linkType: hard
 
-"http-proxy@npm:1.11.1":
-  version: 1.11.1
-  resolution: "http-proxy@npm:1.11.1"
+"http-proxy-middleware@npm:^2.0.6":
+  version: 2.0.6
+  resolution: "http-proxy-middleware@npm:2.0.6"
   dependencies:
-    eventemitter3: 1.x.x
-    requires-port: 0.x.x
-  checksum: 2bd44ed6f45d49de125862df3818edd64fa6bcdc54baa509c4d3665e19dd3c4a95b80de3e7d9550b95b920c5e235564ff21eb9aff7f74b4df81892555d096ec7
+    "@types/http-proxy": ^1.17.8
+    http-proxy: ^1.18.1
+    is-glob: ^4.0.1
+    is-plain-obj: ^3.0.0
+    micromatch: ^4.0.2
+  peerDependencies:
+    "@types/express": ^4.17.13
+  peerDependenciesMeta:
+    "@types/express":
+      optional: true
+  checksum: 2ee85bc878afa6cbf34491e972ece0f5be0a3e5c98a60850cf40d2a9a5356e1fc57aab6cff33c1fc37691b0121c3a42602d2b1956c52577e87a5b77b62ae1c3a
+  languageName: node
+  linkType: hard
+
+"http-proxy@npm:^1.18.1":
+  version: 1.18.1
+  resolution: "http-proxy@npm:1.18.1"
+  dependencies:
+    eventemitter3: ^4.0.0
+    follow-redirects: ^1.0.0
+    requires-port: ^1.0.0
+  checksum: f5bd96bf83e0b1e4226633dbb51f8b056c3e6321917df402deacec31dd7fe433914fc7a2c1831cf7ae21e69c90b3a669b8f434723e9e8b71fd68afe30737b6a5
   languageName: node
   linkType: hard
 
@@ -13146,6 +13174,13 @@ __metadata:
   version: 2.1.0
   resolution: "is-plain-obj@npm:2.1.0"
   checksum: cec9100678b0a9fe0248a81743041ed990c2d4c99f893d935545cfbc42876cbe86d207f3b895700c690ad2fa520e568c44afc1605044b535a7820c1d40e38daa
+  languageName: node
+  linkType: hard
+
+"is-plain-obj@npm:^3.0.0":
+  version: 3.0.0
+  resolution: "is-plain-obj@npm:3.0.0"
+  checksum: a6ebdf8e12ab73f33530641972a72a4b8aed6df04f762070d823808303e4f76d87d5ea5bd76f96a7bbe83d93f04ac7764429c29413bd9049853a69cb630fb21c
   languageName: node
   linkType: hard
 
@@ -18198,20 +18233,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"proxy-from-env@npm:0.0.1":
-  version: 0.0.1
-  resolution: "proxy-from-env@npm:0.0.1"
-  checksum: 801947dd787b417528dee516599bfa4a66ab8508025ee7fe31ce8dddffbd2571a2c113c8fff4a794886fb68a75316af97559f87c0f86fcd59399a300f2bfe6a7
-  languageName: node
-  linkType: hard
-
-"proxy-middleware@npm:^0.15.0":
-  version: 0.15.0
-  resolution: "proxy-middleware@npm:0.15.0"
-  checksum: 6f537739fb99dc4118daa353795ed2244d11bd24fe89d1ca4570f70e7447f6355296411d965d818d7eacb6737e599d5d875bade8b40fdfe44581fff0fcaf4900
-  languageName: node
-  linkType: hard
-
 "prr@npm:~1.0.1":
   version: 1.0.1
   resolution: "prr@npm:1.0.1"
@@ -19308,7 +19329,6 @@ __metadata:
     coffee-loader: ^4.0.0
     coffeescript: ^2.7.0
     core-js: ^3.22.5
-    cors-anywhere: ^0.4.4
     create-react-class: ^15.7.0
     css-loader: ^6.7.1
     css-minimizer-webpack-plugin: ^4.0.0
@@ -19341,6 +19361,7 @@ __metadata:
     graphql: ^15.8.0
     hoist-non-react-statics: ^3.3.2
     html-webpack-plugin: ^5.5.0
+    http-proxy-middleware: ^2.0.6
     husky: ^8.0.1
     identity-obj-proxy: ^3.0.0
     jest: ^28.1.0
@@ -19366,7 +19387,6 @@ __metadata:
     prettier: ^2.6.2
     promise: ^8.1.0
     prop-types: ^15.8.1
-    proxy-middleware: ^0.15.0
     qs: ^6.10.3
     react: ^17.0.2
     react-currency-input-field: ^3.6.4
@@ -19476,10 +19496,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"requires-port@npm:0.x.x":
-  version: 0.0.1
-  resolution: "requires-port@npm:0.0.1"
-  checksum: 36a3414a76ff1dd4f7df519c2315e7af3eb54312d764319cf9aea4e0ab3a084772ff01edb46487c04fa5c9abe5de627e8eeb500d350b9b21407b94fe346358e2
+"requires-port@npm:^1.0.0":
+  version: 1.0.0
+  resolution: "requires-port@npm:1.0.0"
+  checksum: eee0e303adffb69be55d1a214e415cf42b7441ae858c76dfc5353148644f6fd6e698926fc4643f510d5c126d12a705e7c8ed7e38061113bdf37547ab356797ff
   languageName: node
   linkType: hard
 
