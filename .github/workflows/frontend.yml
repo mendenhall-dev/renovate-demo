@@ -9,6 +9,11 @@ jobs:
     steps:
       - uses: actions/checkout@v2
 
+      - uses: actions/setup-node@v2.5.1
+        with:
+          cache: 'yarn'
+          node-version-file: '.nvmrc'
+
       - name: Add Authentication for Private Packages
         run: yarn config set npmScopes.fortawesome.npmAuthToken ${{ secrets.FONTAWESOME_NPM_AUTH_TOKEN }}
 
