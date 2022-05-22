@@ -17805,7 +17805,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"relay-compiler@npm:^13.0.0, relay-compiler@npm:^13.2.0":
+"relay-compiler@npm:^13.2.0":
   version: 13.2.0
   resolution: "relay-compiler@npm:13.2.0"
   bin:

@@ -183,7 +183,7 @@
   },
   "resolutions": {
     "@graphql-codegen/cli/@graphql-tools/prisma-loader": "^7.1.22",
-    "@graphql-tools/relay-operation-optimizer/relay-compiler": "^13.0.0",
+    "@graphql-tools/relay-operation-optimizer/relay-compiler": "^13.2.0",
     "@storybook/addon-docs/@jest/transform": "^28.1.0",
     "@storybook/builder-webpack4/webpack": "^5.0.0",
     "@storybook/core-common/webpack": "^5.0.0",
