@@ -3,6 +3,7 @@
 
   enabledManagers: ['circleci', 'npm', 'nvm'],
   npmrc: '@fortawesome:registry=https://npm.fontawesome.com/',
+  pinDigests: true,
   rangeStrategy: 'bump',
   reviewersFromCodeOwners: true,
 
