@@ -19360,7 +19360,6 @@ __metadata:
     scroll-behavior-polyfill: ^2.0.13
     style-loader: ^3.3.1
     stylelint: ^14.8.2
-    stylelint-config-css-modules: ^2.3.0
     stylelint-config-prettier: ^9.0.3
     stylelint-config-recommended: ^7.0.0
     stylelint-config-styled-components: ^0.1.1
@@ -21031,15 +21030,6 @@ __metadata:
   peerDependencies:
     postcss: ^8.2.15
   checksum: 310b3452c11fd443b0d327aa2d5b43ae7479407339204b7ad11cf2e16d33b690c1cbf47a21b737ef112411e53563f0f996c5fa3642d135c896329950a008277f
-  languageName: node
-  linkType: hard
-
-"stylelint-config-css-modules@npm:^2.3.0":
-  version: 2.3.0
-  resolution: "stylelint-config-css-modules@npm:2.3.0"
-  peerDependencies:
-    stylelint: 11.x - 14.x
-  checksum: 59582434c4950cb571567b162e7157c6ca8ddad6e7571dbc981bad5179965865395ba03d1003bdbb74bfb11ac24236cfad472fd17b22fa0f51e4a0d22df2a68c
   languageName: node
   linkType: hard
 
