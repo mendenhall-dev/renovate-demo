@@ -151,7 +151,7 @@
     "react-use": "^17.4.0",
     "reconnecting-websocket": "^4.4.0",
     "relay-compiler": "^13.2.0",
-    "relay-hooks": "^7.0.0",
+    "relay-hooks": "^7.1.0",
     "relay-runtime": "^13.2.0",
     "relay-test-utils": "^13.2.0",
     "resolve-url-loader": "^5.0.0",
