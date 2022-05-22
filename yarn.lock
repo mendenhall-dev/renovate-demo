@@ -2738,7 +2738,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@jest/transform@npm:^28.0.0, @jest/transform@npm:^28.1.0":
+"@jest/transform@npm:^28.1.0":
   version: 28.1.0
   resolution: "@jest/transform@npm:28.1.0"
   dependencies:
