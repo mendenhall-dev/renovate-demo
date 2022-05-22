@@ -4,6 +4,7 @@
   "engines": {
     "node": "16.15.0"
   },
+  "packageManager": "yarn@3.2.1",
   "devDependencies": {
     "@auth0/auth0-spa-js": "^1.21.1",
     "@babel/core": "^7.18.0",
@@ -180,6 +181,5 @@
     "webpack-s3-plugin": "^1.2.0-rc.0",
     "worker-loader": "^3.0.8",
     "worker-timers": "^7.0.47"
-  },
-  "packageManager": "yarn@3.2.1"
+  }
 }
