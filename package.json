@@ -182,6 +182,7 @@
     "worker-timers": "^7.0.47"
   },
   "resolutions": {
+    "@storybook/addon-docs/@jest/transform": "^27.0.0",
     "strip-ansi@npm:4.0.0/ansi-regex": "3.0.1",
     "strip-ansi@npm:5.2.0/ansi-regex": "4.1.1"
   }
