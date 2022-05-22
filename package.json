@@ -183,7 +183,11 @@
   },
   "resolutions": {
     "@storybook/addon-docs/@jest/transform": "^28.1.0",
+    "@storybook/builder-webpack4/webpack": "^5.0.0",
+    "@storybook/core-common/webpack": "^5.0.0",
     "@storybook/core-server/cpy": "^9.0.1",
+    "@storybook/core-server/webpack": "^5.0.0",
+    "@storybook/manager-webpack4/webpack": "^5.0.0",
     "jest-haste-map/walker": "^1.0.8",
     "strip-ansi@npm:4.0.0/ansi-regex": "3.0.1",
     "strip-ansi@npm:5.2.0/ansi-regex": "4.1.1",
