@@ -12,5 +12,4 @@ jobs:
       - name: Add Authentication for Private Packages
         run: yarn config set npmScopes.fortawesome.npmAuthToken ${{ secrets.FONTAWESOME_NPM_AUTH_TOKEN }}
 
-      - name: Validate yarn Packages
-        run: yarn install --immutable --immutable-cache --check-cache
+      - run: yarn install --immutable --immutable-cache --check-cache
