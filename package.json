@@ -180,5 +180,9 @@
     "webpack-s3-plugin": "^1.2.0-rc.0",
     "worker-loader": "^3.0.8",
     "worker-timers": "^7.0.47"
+  },
+  "resolutions": {
+    "strip-ansi@npm:4.0.0/ansi-regex": "3.0.1",
+    "strip-ansi@npm:5.2.0/ansi-regex": "4.1.1"
   }
 }
