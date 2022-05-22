@@ -4513,23 +4513,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@testing-library/dom@npm:^7.28.1":
-  version: 7.31.2
-  resolution: "@testing-library/dom@npm:7.31.2"
-  dependencies:
-    "@babel/code-frame": ^7.10.4
-    "@babel/runtime": ^7.12.5
-    "@types/aria-query": ^4.2.0
-    aria-query: ^4.2.2
-    chalk: ^4.1.0
-    dom-accessibility-api: ^0.5.6
-    lz-string: ^1.4.4
-    pretty-format: ^26.6.2
-  checksum: 54fbedd1ecdfe1d47be2e592b98d18b2ab9d7e731f57231caf9b152593fe7329fe5ebe219e0e5d1e0df5b1ab803121cb8acd8b73bd1fb292bfdc2c55663eb01d
-  languageName: node
-  linkType: hard
-
-"@testing-library/dom@npm:^8.13.0":
+"@testing-library/dom@npm:^8.0.0, @testing-library/dom@npm:^8.13.0":
   version: 8.13.0
   resolution: "@testing-library/dom@npm:8.13.0"
   dependencies:
@@ -4584,16 +4568,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@testing-library/react@npm:^11.2.7":
-  version: 11.2.7
-  resolution: "@testing-library/react@npm:11.2.7"
+"@testing-library/react@npm:^12.1.5":
+  version: 12.1.5
+  resolution: "@testing-library/react@npm:12.1.5"
   dependencies:
     "@babel/runtime": ^7.12.5
-    "@testing-library/dom": ^7.28.1
+    "@testing-library/dom": ^8.0.0
+    "@types/react-dom": <18.0.0
   peerDependencies:
-    react: "*"
-    react-dom: "*"
-  checksum: 64e07cb96e40dbdbd3c46a09c47bed14446b30efafaa65a5d4fed5a7553878990cda108578f2b114422a775f31c635d51fd50b752f6163ddd6b8474e0e5fc2ce
+    react: <18.0.0
+    react-dom: <18.0.0
+  checksum: 4abd0490405e709a7df584a0db604e508a4612398bb1326e8fa32dd9393b15badc826dcf6d2f7525437886d507871f719f127b9860ed69ddd204d1fa834f576a
   languageName: node
   linkType: hard
 
@@ -4988,6 +4973,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@types/react-dom@npm:<18.0.0":
+  version: 17.0.17
+  resolution: "@types/react-dom@npm:17.0.17"
+  dependencies:
+    "@types/react": ^17
+  checksum: 23caf98aa03e968811560f92a2c8f451694253ebe16b670929b24eaf0e7fa62ba549abe9db0ac028a9d8a9086acd6ab9c6c773f163fa21224845edbc00ba6232
+  languageName: node
+  linkType: hard
+
 "@types/react-relay@npm:*, @types/react-relay@npm:^13.0.2":
   version: 13.0.2
   resolution: "@types/react-relay@npm:13.0.2"
@@ -5007,7 +5001,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react@npm:*, @types/react@npm:^17.0.45":
+"@types/react@npm:*, @types/react@npm:^17, @types/react@npm:^17.0.45":
   version: 17.0.45
   resolution: "@types/react@npm:17.0.45"
   dependencies:
@@ -19252,7 +19246,7 @@ __metadata:
     "@stylelint/postcss-css-in-js": ^0.38.0
     "@testing-library/dom": ^8.13.0
     "@testing-library/jest-dom": ^5.16.4
-    "@testing-library/react": ^11.2.7
+    "@testing-library/react": ^12.1.5
     "@testing-library/react-hooks": ^8.0.0
     "@testing-library/user-event": ^14.2.0
     "@types/googlemaps": ^3.43.3
