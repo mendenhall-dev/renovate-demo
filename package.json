@@ -182,7 +182,7 @@
     "worker-timers": "^7.0.47"
   },
   "resolutions": {
-    "@graphql-tools/url-loader/dset": "^3.1.1",
+    "@graphql-tools/url-loader/dset": "^3.1.2",
     "@graphql-tools/relay-operation-optimizer/relay-compiler": "^13.2.0",
     "@storybook/addon-docs/@jest/transform": "^28.1.0",
     "@storybook/builder-webpack4/html-webpack-plugin": "^5.5.0",
