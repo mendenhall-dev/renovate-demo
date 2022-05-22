@@ -124,7 +124,7 @@
     "polished": "^4.2.2",
     "postcss": "^8.4.14",
     "postcss-import": "^14.1.0",
-    "postcss-loader": "^6.2.1",
+    "postcss-loader": "^7.0.0",
     "postcss-preset-env": "^7.5.0",
     "postcss-scss": "^4.0.4",
     "postcss-syntax": "^0.36.2",
