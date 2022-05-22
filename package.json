@@ -194,6 +194,7 @@
     "@storybook/manager-webpack4/webpack": "^5.0.0",
     "@storybook/mdx1-csf/@mdx-js/mdx": "^2.1.1",
     "jest-haste-map/walker": "^1.0.8",
+    "read-pkg/normalize-package-data": "^3.0.0",
     "strip-ansi@npm:4.0.0/ansi-regex": "3.0.1",
     "strip-ansi@npm:5.2.0/ansi-regex": "4.1.1",
     "meow@npm:9.0.0/trim-newlines": "^3.0.1",
