@@ -69,7 +69,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/core@npm:^7.1.0, @babel/core@npm:^7.12.10, @babel/core@npm:^7.14.0, @babel/core@npm:^7.16.0, @babel/core@npm:^7.17.12, @babel/core@npm:^7.17.9, @babel/core@npm:^7.7.5":
+"@babel/core@npm:^7.1.0, @babel/core@npm:^7.12.10, @babel/core@npm:^7.14.0, @babel/core@npm:^7.16.0, @babel/core@npm:^7.17.9, @babel/core@npm:^7.18.0, @babel/core@npm:^7.7.5":
   version: 7.18.0
   resolution: "@babel/core@npm:7.18.0"
   dependencies:
@@ -1233,14 +1233,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/plugin-transform-regenerator@npm:^7.16.7, @babel/plugin-transform-regenerator@npm:^7.17.9":
-  version: 7.17.9
-  resolution: "@babel/plugin-transform-regenerator@npm:7.17.9"
+"@babel/plugin-transform-regenerator@npm:^7.16.7, @babel/plugin-transform-regenerator@npm:^7.18.0":
+  version: 7.18.0
+  resolution: "@babel/plugin-transform-regenerator@npm:7.18.0"
   dependencies:
+    "@babel/helper-plugin-utils": ^7.17.12
     regenerator-transform: ^0.15.0
   peerDependencies:
     "@babel/core": ^7.0.0-0
-  checksum: bf92f7228397615f12fa62d1decbe854ee9065d44e55036f99bf312783d51b082981bab38ba61de9858f7e20513484a043bfa958c0ce4a0d4d1710710df029a9
+  checksum: ebacf2bbe9e2fb6f2bd7996e19b41bfc9848628950ae06a1a832802a0b8e32a32003c6b89318da6ca521f79045c91324dcb4c97247ed56f86fa58d7401a7316f
   languageName: node
   linkType: hard
 
@@ -1540,12 +1541,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/runtime@npm:^7.0.0, @babel/runtime@npm:^7.1.2, @babel/runtime@npm:^7.10.2, @babel/runtime@npm:^7.12.5, @babel/runtime@npm:^7.13.10, @babel/runtime@npm:^7.14.8, @babel/runtime@npm:^7.16.3, @babel/runtime@npm:^7.17.8, @babel/runtime@npm:^7.17.9, @babel/runtime@npm:^7.3.1, @babel/runtime@npm:^7.5.0, @babel/runtime@npm:^7.7.2, @babel/runtime@npm:^7.7.6, @babel/runtime@npm:^7.8.4, @babel/runtime@npm:^7.9.2":
-  version: 7.17.9
-  resolution: "@babel/runtime@npm:7.17.9"
+"@babel/runtime@npm:^7.0.0, @babel/runtime@npm:^7.1.2, @babel/runtime@npm:^7.10.2, @babel/runtime@npm:^7.12.5, @babel/runtime@npm:^7.13.10, @babel/runtime@npm:^7.14.8, @babel/runtime@npm:^7.16.3, @babel/runtime@npm:^7.17.8, @babel/runtime@npm:^7.17.9, @babel/runtime@npm:^7.18.0, @babel/runtime@npm:^7.3.1, @babel/runtime@npm:^7.5.0, @babel/runtime@npm:^7.7.2, @babel/runtime@npm:^7.7.6, @babel/runtime@npm:^7.8.4, @babel/runtime@npm:^7.9.2":
+  version: 7.18.0
+  resolution: "@babel/runtime@npm:7.18.0"
   dependencies:
     regenerator-runtime: ^0.13.4
-  checksum: 4d56bdb82890f386d5a57c40ef985a0ed7f0a78f789377a2d0c3e8826819e0f7f16ba0fe906d9b2241c5f7ca56630ef0653f5bb99f03771f7b87ff8af4bf5fe3
+  checksum: 9d0caa5fe690623fb6c5df6fb3b3581d227b55ef9f7c35eba0da83d10aa756669a81fe521ac4dbc007e5790716bac40ebe71ff098e2d1a9599dd696a282a3e95
   languageName: node
   linkType: hard
 
@@ -19388,10 +19389,10 @@ __metadata:
   resolution: "renovate-demo@workspace:."
   dependencies:
     "@auth0/auth0-spa-js": ^1.21.1
-    "@babel/core": ^7.17.12
-    "@babel/plugin-transform-regenerator": ^7.17.9
+    "@babel/core": ^7.18.0
+    "@babel/plugin-transform-regenerator": ^7.18.0
     "@babel/plugin-transform-strict-mode": ^7.16.7
-    "@babel/runtime": ^7.17.9
+    "@babel/runtime": ^7.18.0
     "@datadog/browser-core": ^4.10.3
     "@datadog/browser-logs": ^4.10.3
     "@datadog/browser-rum": ^4.10.3
