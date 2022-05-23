@@ -3086,34 +3086,34 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@react-google-maps/api@npm:^2.10.3":
-  version: 2.11.4
-  resolution: "@react-google-maps/api@npm:2.11.4"
+"@react-google-maps/api@npm:^2.11.3":
+  version: 2.11.8
+  resolution: "@react-google-maps/api@npm:2.11.8"
   dependencies:
     "@googlemaps/js-api-loader": 1.14.3
     "@googlemaps/markerclusterer": 2.0.7
-    "@react-google-maps/infobox": 2.11.4
-    "@react-google-maps/marker-clusterer": 2.11.4
+    "@react-google-maps/infobox": 2.11.8
+    "@react-google-maps/marker-clusterer": 2.11.8
     "@types/google.maps": 3.49.0
     invariant: 2.2.4
   peerDependencies:
     react: ^16.8 || ^17 || ^18
     react-dom: ^16.8 || ^17 || ^18
-  checksum: f80244020997a66154114c7cfd6ea631d76cb931f6b1d179722e2614e3aac8fb0a7b7c7e08b53129b77d7b67eb2fc22d0901e28d311bf502ba18170ee811976f
+  checksum: 3af6bae77ce13a1a97f089aab2755ce58c9f252454e9b586ebe30e61c15158b7c67e51c6ed515612f2009d9b3b43f06139a941655e46d5e66cdec5c23363cffb
   languageName: node
   linkType: hard
 
-"@react-google-maps/infobox@npm:2.11.4":
-  version: 2.11.4
-  resolution: "@react-google-maps/infobox@npm:2.11.4"
-  checksum: 89ffa493720f3a6609caedb408569798aa5c89e13273c558b7ab4e75241d01cde372ff0d2fd74411dc07affd6b9f13f7fc1af596841f68d9ccfb18e4ddd384dd
+"@react-google-maps/infobox@npm:2.11.8":
+  version: 2.11.8
+  resolution: "@react-google-maps/infobox@npm:2.11.8"
+  checksum: 3567c0d19be01d1b3bc4f8d417b06eb74125cb094ae6b68cff47ba54c104114f0b4b86e06c20954ad30e979506457c2778b6bff4bb4068750fd7a1ea653767f4
   languageName: node
   linkType: hard
 
-"@react-google-maps/marker-clusterer@npm:2.11.4":
-  version: 2.11.4
-  resolution: "@react-google-maps/marker-clusterer@npm:2.11.4"
-  checksum: 384eb7bb63a9acc3e9ecbfb57ba581286d6023d0ebad08740fe7b87d0d6d59300444b0a79913a9392cd967b331c74d8a2de1c8e9bfe8ae2bb12f697978ea1fb9
+"@react-google-maps/marker-clusterer@npm:2.11.8":
+  version: 2.11.8
+  resolution: "@react-google-maps/marker-clusterer@npm:2.11.8"
+  checksum: 09307e55a905ec3425820dc664cfb3c9f43b59d55a3dc567bb36d09227079dc331f7446cc6f4de6a2b13d3411d21f365e93a829586bad2b637afbe6e32d261e0
   languageName: node
   linkType: hard
 
@@ -17852,7 +17852,7 @@ __metadata:
     "@percy/storybook": ^4.2.0
     "@pmmmwh/react-refresh-webpack-plugin": ^0.5.6
     "@rails/actioncable": ^6.1.6
-    "@react-google-maps/api": ^2.10.3
+    "@react-google-maps/api": ^2.11.3
     "@splitsoftware/splitio-browserjs": ^0.5.0
     "@storybook/addon-a11y": ^6.5.3
     "@storybook/addon-actions": ^6.5.3
