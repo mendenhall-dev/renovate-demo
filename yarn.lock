@@ -3086,7 +3086,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@react-google-maps/api@npm:^2.11.3":
+"@react-google-maps/api@npm:^2.11.4":
   version: 2.11.8
   resolution: "@react-google-maps/api@npm:2.11.8"
   dependencies:
@@ -17852,7 +17852,7 @@ __metadata:
     "@percy/storybook": ^4.2.0
     "@pmmmwh/react-refresh-webpack-plugin": ^0.5.6
     "@rails/actioncable": ^6.1.6
-    "@react-google-maps/api": ^2.11.3
+    "@react-google-maps/api": ^2.11.4
     "@splitsoftware/splitio-browserjs": ^0.5.0
     "@storybook/addon-a11y": ^6.5.3
     "@storybook/addon-actions": ^6.5.3
