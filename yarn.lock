@@ -6221,10 +6221,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"awesome-phonenumber@npm:^3.0.1":
-  version: 3.0.1
-  resolution: "awesome-phonenumber@npm:3.0.1"
-  checksum: 4efd41e5a00126dbf864c6722db58e792873cf68a6c1f40380c7f77e0612dd41979f7ccab36fb9274c5332938900da603ff73a708248a344355890914326cfc0
+"awesome-phonenumber@npm:^3.0.2":
+  version: 3.0.2
+  resolution: "awesome-phonenumber@npm:3.0.2"
+  checksum: c8abfdb11bc7c7e5d4001ec8dada0b7a7479b6ac07f8ca4e778fa20c1d51df7609a4c032c5cc64503faf892a2809ddb82cf86efac603c055da87293a30ed195e
   languageName: node
   linkType: hard
 
@@ -17874,7 +17874,7 @@ __metadata:
     "@typescript-eslint/eslint-plugin": ^5.25.0
     "@typescript-eslint/parser": ^5.25.0
     assets-webpack-plugin: 7.1.1
-    awesome-phonenumber: ^3.0.1
+    awesome-phonenumber: ^3.0.2
     babel-jest: ^28.1.0
     babel-loader: ^8.2.5
     babel-plugin-minify-replace: ^0.5.0
