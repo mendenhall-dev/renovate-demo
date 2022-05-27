@@ -3186,7 +3186,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@storybook/addon-a11y@npm:^6.5.4":
+"@storybook/addon-a11y@npm:^6.5.5":
   version: 6.5.5
   resolution: "@storybook/addon-a11y@npm:6.5.5"
   dependencies:
@@ -3218,7 +3218,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@storybook/addon-actions@npm:6.5.5, @storybook/addon-actions@npm:^6.5.4":
+"@storybook/addon-actions@npm:6.5.5, @storybook/addon-actions@npm:^6.5.5":
   version: 6.5.5
   resolution: "@storybook/addon-actions@npm:6.5.5"
   dependencies:
@@ -3357,7 +3357,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@storybook/addon-essentials@npm:^6.5.4":
+"@storybook/addon-essentials@npm:^6.5.5":
   version: 6.5.5
   resolution: "@storybook/addon-essentials@npm:6.5.5"
   dependencies:
@@ -3417,7 +3417,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@storybook/addon-links@npm:^6.5.4":
+"@storybook/addon-links@npm:^6.5.5":
   version: 6.5.5
   resolution: "@storybook/addon-links@npm:6.5.5"
   dependencies:
@@ -3656,7 +3656,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@storybook/builder-webpack5@npm:^6.5.4":
+"@storybook/builder-webpack5@npm:^6.5.5":
   version: 6.5.5
   resolution: "@storybook/builder-webpack5@npm:6.5.5"
   dependencies:
@@ -3979,7 +3979,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@storybook/core@npm:6.5.5, @storybook/core@npm:^6.5.4":
+"@storybook/core@npm:6.5.5, @storybook/core@npm:^6.5.5":
   version: 6.5.5
   resolution: "@storybook/core@npm:6.5.5"
   dependencies:
@@ -4100,7 +4100,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@storybook/manager-webpack5@npm:^6.5.4":
+"@storybook/manager-webpack5@npm:^6.5.5":
   version: 6.5.5
   resolution: "@storybook/manager-webpack5@npm:6.5.5"
   dependencies:
@@ -4232,7 +4232,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@storybook/react@npm:^6.5.4":
+"@storybook/react@npm:^6.5.5":
   version: 6.5.5
   resolution: "@storybook/react@npm:6.5.5"
   dependencies:
@@ -17847,14 +17847,14 @@ __metadata:
     "@rails/actioncable": ^6.1.6
     "@react-google-maps/api": ^2.11.8
     "@splitsoftware/splitio-browserjs": ^0.5.0
-    "@storybook/addon-a11y": ^6.5.4
-    "@storybook/addon-actions": ^6.5.4
-    "@storybook/addon-essentials": ^6.5.4
-    "@storybook/addon-links": ^6.5.4
-    "@storybook/builder-webpack5": ^6.5.4
-    "@storybook/core": ^6.5.4
-    "@storybook/manager-webpack5": ^6.5.4
-    "@storybook/react": ^6.5.4
+    "@storybook/addon-a11y": ^6.5.5
+    "@storybook/addon-actions": ^6.5.5
+    "@storybook/addon-essentials": ^6.5.5
+    "@storybook/addon-links": ^6.5.5
+    "@storybook/builder-webpack5": ^6.5.5
+    "@storybook/core": ^6.5.5
+    "@storybook/manager-webpack5": ^6.5.5
+    "@storybook/react": ^6.5.5
     "@stripe/react-stripe-js": 1.8.0
     "@stripe/stripe-js": ^1.29.0
     "@stylelint/postcss-css-in-js": ^0.38.0
