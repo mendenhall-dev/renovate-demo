@@ -4433,16 +4433,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@stripe/react-stripe-js@npm:1.8.0":
-  version: 1.8.0
-  resolution: "@stripe/react-stripe-js@npm:1.8.0"
+"@stripe/react-stripe-js@npm:1.8.1":
+  version: 1.8.1
+  resolution: "@stripe/react-stripe-js@npm:1.8.1"
   dependencies:
     prop-types: ^15.7.2
   peerDependencies:
     "@stripe/stripe-js": ^1.26.0
     react: ^16.8.0 || ^17.0.0 || ^18.0.0
     react-dom: ^16.8.0 || ^17.0.0 || ^18.0.0
-  checksum: b6cedb43f2f1141c539dd5c57ee37415b81e74006635318f6cc0f1f80b32e3ea67a486a1df4c777ef5f01857cc854be9ffc7680cfe9b9bc9696354b4ef142e58
+  checksum: 0a7a5743a4efcffe6f6067d3b097fe1b77de26ab790ea3ad26ea9b06ec2b3abda1f66e5433ae47e9fab1d6c43bce5e3f7b08bd5c4882616109aad9334ada4085
   languageName: node
   linkType: hard
 
@@ -17861,7 +17861,7 @@ __metadata:
     "@storybook/core": ^6.5.5
     "@storybook/manager-webpack5": ^6.5.5
     "@storybook/react": ^6.5.5
-    "@stripe/react-stripe-js": 1.8.0
+    "@stripe/react-stripe-js": 1.8.1
     "@stripe/stripe-js": ^1.29.0
     "@stylelint/postcss-css-in-js": ^0.38.0
     "@testing-library/dom": ^8.13.0
