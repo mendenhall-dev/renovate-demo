@@ -179,7 +179,7 @@
     "webpack-merge": "^5.8.0",
     "webpack-s3-plugin": "^1.2.0-rc.0",
     "worker-loader": "^3.0.8",
-    "worker-timers": "^7.0.48"
+    "worker-timers": "^7.0.49"
   },
   "resolutions": {
     "@graphql-tools/url-loader/dset": "^3.1.2",
