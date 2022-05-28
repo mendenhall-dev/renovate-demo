@@ -41,7 +41,7 @@
     "@storybook/core": "^6.5.5",
     "@storybook/manager-webpack5": "^6.5.5",
     "@storybook/react": "^6.5.5",
-    "@stripe/react-stripe-js": "1.8.0",
+    "@stripe/react-stripe-js": "1.8.1",
     "@stripe/stripe-js": "^1.29.0",
     "@stylelint/postcss-css-in-js": "^0.38.0",
     "@testing-library/dom": "^8.13.0",
