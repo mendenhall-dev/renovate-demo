@@ -2881,7 +2881,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@percy/cli-command@npm:1.2.1, @percy/cli-command@npm:^1.0.5":
+"@percy/cli-command@npm:1.2.1, @percy/cli-command@npm:^1.2.1":
   version: 1.2.1
   resolution: "@percy/cli-command@npm:1.2.1"
   dependencies:
@@ -3017,17 +3017,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@percy/storybook@npm:^4.2.0":
-  version: 4.2.0
-  resolution: "@percy/storybook@npm:4.2.0"
+"@percy/storybook@npm:^4.2.1":
+  version: 4.2.1
+  resolution: "@percy/storybook@npm:4.2.1"
   dependencies:
-    "@percy/cli-command": ^1.0.5
-    "@storybook/router": ^6.4.19
+    "@percy/cli-command": ^1.2.1
+    "@storybook/router": ~6.4.22
     cross-spawn: ^7.0.3
     qs: ^6.10.3
   bin:
     percy-storybook: bin/percy-storybook.cjs
-  checksum: 37407421e687ae43f3c0fc2eb00f3761c2ffb3a7f0d3db34852a2988f9d6cb277a889848143742cb07ca6807b49eaa6920f0085243caa78f8bff4c23806500cc
+  checksum: 4712bea8c28b9e0fbbf09bb836b4648e8bebdefc1bd82b37a7c5959587c5569c321021e35057bb9266cc4fa85c1293de837c28a6806f7ab635b77b605985fa50
   languageName: node
   linkType: hard
 
@@ -3784,6 +3784,16 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@storybook/client-logger@npm:6.4.22":
+  version: 6.4.22
+  resolution: "@storybook/client-logger@npm:6.4.22"
+  dependencies:
+    core-js: ^3.8.2
+    global: ^4.4.0
+  checksum: ed615b4f4e022830565b47fe850fa4dc7f75169b84710b5807e95cb75e45b58cba3f514154e039e3fe6ad96519faacaa096e3fd26af5b31322c29946e066c5b2
+  languageName: node
+  linkType: hard
+
 "@storybook/client-logger@npm:6.5.5":
   version: 6.5.5
   resolution: "@storybook/client-logger@npm:6.5.5"
@@ -4303,7 +4313,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@storybook/router@npm:6.5.5, @storybook/router@npm:^6.4.19":
+"@storybook/router@npm:6.5.5":
   version: 6.5.5
   resolution: "@storybook/router@npm:6.5.5"
   dependencies:
@@ -4314,6 +4324,28 @@ __metadata:
     react: ^16.8.0 || ^17.0.0 || ^18.0.0
     react-dom: ^16.8.0 || ^17.0.0 || ^18.0.0
   checksum: 6bce63a5b4876091b26a055568117ddb868d6844fa4ae4db77050afcca0d2f291a277cd52d0e2b27312251531a67fc647a5a089f585de57129a1b171e40ccedf
+  languageName: node
+  linkType: hard
+
+"@storybook/router@npm:~6.4.22":
+  version: 6.4.22
+  resolution: "@storybook/router@npm:6.4.22"
+  dependencies:
+    "@storybook/client-logger": 6.4.22
+    core-js: ^3.8.2
+    fast-deep-equal: ^3.1.3
+    global: ^4.4.0
+    history: 5.0.0
+    lodash: ^4.17.21
+    memoizerific: ^1.11.3
+    qs: ^6.10.0
+    react-router: ^6.0.0
+    react-router-dom: ^6.0.0
+    ts-dedent: ^2.0.0
+  peerDependencies:
+    react: ^16.8.0 || ^17.0.0
+    react-dom: ^16.8.0 || ^17.0.0
+  checksum: 107f7e6fa244325f053bbd32a36c891db513d2c6802908964a5fa2f03302256d33c3a85b95e999f36dc8097fb89503999881f56affc8c542874a1dc0468781c7
   languageName: node
   linkType: hard
 
@@ -11070,6 +11102,24 @@ __metadata:
   languageName: node
   linkType: hard
 
+"history@npm:5.0.0":
+  version: 5.0.0
+  resolution: "history@npm:5.0.0"
+  dependencies:
+    "@babel/runtime": ^7.7.6
+  checksum: 14eab13619b4d297eeda0ae7adcf2dd8e6cec48fc9fac903b8dfb626337f8f6fc12743c286be819885c71f522daf0e9e7f814aa126ae5e1b01ab4a3d6801b5f5
+  languageName: node
+  linkType: hard
+
+"history@npm:^5.2.0":
+  version: 5.3.0
+  resolution: "history@npm:5.3.0"
+  dependencies:
+    "@babel/runtime": ^7.7.6
+  checksum: d73c35df49d19ac172f9547d30a21a26793e83f16a78386d99583b5bf1429cc980799fcf1827eb215d31816a6600684fba9686ce78104e23bd89ec239e7c726f
+  languageName: node
+  linkType: hard
+
 "hoist-non-react-statics@npm:^3.3.1, hoist-non-react-statics@npm:^3.3.2":
   version: 3.3.2
   resolution: "hoist-non-react-statics@npm:3.3.2"
@@ -17316,6 +17366,19 @@ __metadata:
   languageName: node
   linkType: hard
 
+"react-router-dom@npm:^6.0.0":
+  version: 6.3.0
+  resolution: "react-router-dom@npm:6.3.0"
+  dependencies:
+    history: ^5.2.0
+    react-router: 6.3.0
+  peerDependencies:
+    react: ">=16.8"
+    react-dom: ">=16.8"
+  checksum: 77603a654f8a8dc7f65535a2e5917a65f8d9ffcb06546d28dd297e52adcc4b8a84377e0115f48dca330b080af2da3e78f29d590c89307094d36927d2b1751ec3
+  languageName: node
+  linkType: hard
+
 "react-router5@npm:^8.0.1":
   version: 8.0.1
   resolution: "react-router5@npm:8.0.1"
@@ -17325,6 +17388,17 @@ __metadata:
     react: ">=16.3.0"
     router5: ^8.0.0
   checksum: 6fb60f39a171396e6a7ba4eded0bbc36e3539b910003ea519355e7c94ea31dc06931c4d10e9ea16b09ca9f793cbc07dff362e1293f75069ff8e5ddcd6f288c65
+  languageName: node
+  linkType: hard
+
+"react-router@npm:6.3.0, react-router@npm:^6.0.0":
+  version: 6.3.0
+  resolution: "react-router@npm:6.3.0"
+  dependencies:
+    history: ^5.2.0
+  peerDependencies:
+    react: ">=16.8"
+  checksum: 7be673f5e72104be01e6ab274516bdb932efd93305243170690f6560e3bd1035dd1df3d3c9ce1e0f452638a2529f43a1e77dcf0934fc8031c4783da657be13ca
   languageName: node
   linkType: hard
 
@@ -17848,7 +17922,7 @@ __metadata:
     "@hookform/devtools": ^4.1.0
     "@hookform/resolvers": ^2.8.10
     "@percy/cli": ^1.2.1
-    "@percy/storybook": ^4.2.0
+    "@percy/storybook": ^4.2.1
     "@pmmmwh/react-refresh-webpack-plugin": ^0.5.7
     "@rails/actioncable": ^6.1.6
     "@react-google-maps/api": ^2.11.8
