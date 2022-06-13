@@ -2479,12 +2479,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@hookform/resolvers@npm:^2.9.0":
-  version: 2.9.0
-  resolution: "@hookform/resolvers@npm:2.9.0"
+"@hookform/resolvers@npm:^2.9.1":
+  version: 2.9.1
+  resolution: "@hookform/resolvers@npm:2.9.1"
   peerDependencies:
     react-hook-form: ^7.0.0
-  checksum: e56771f5c1452edba7829e35a2572aa401b854eb7a25513a876f117e9d1cb1ecca2cde0141a66629bbd830b6e359dd10c18b60d62a91427e5f5f2e18a752b9c4
+  checksum: 534fc126462c26b27b786a785d24fdf36f6c704d23bba3d614c1df676892862f6ff3d5bc179378b4d062a11c842f83d92501baea48c8df67d3dfe8330a6b546d
   languageName: node
   linkType: hard
 
@@ -18027,7 +18027,7 @@ __metadata:
     "@graphql-codegen/cli": 2.6.2
     "@graphql-codegen/typescript": ^2.5.0
     "@hookform/devtools": ^4.1.0
-    "@hookform/resolvers": ^2.9.0
+    "@hookform/resolvers": ^2.9.1
     "@percy/cli": ^1.3.0
     "@percy/storybook": ^4.2.1
     "@pmmmwh/react-refresh-webpack-plugin": ^0.5.7
