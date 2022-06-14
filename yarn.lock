@@ -18275,7 +18275,7 @@ __metadata:
     sass-loader: ^13.0.0
     scroll-behavior-polyfill: ^2.0.13
     style-loader: ^3.3.1
-    stylelint: ^14.9.0
+    stylelint: ^14.9.1
     stylelint-config-prettier: ^9.0.3
     stylelint-config-recommended: ^7.0.0
     stylelint-config-styled-components: ^0.1.1
@@ -19834,7 +19834,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"stylelint@npm:^14.9.0":
+"stylelint@npm:^14.9.1":
   version: 14.9.1
   resolution: "stylelint@npm:14.9.1"
   dependencies:
