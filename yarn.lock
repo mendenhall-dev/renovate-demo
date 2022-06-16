@@ -7905,10 +7905,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"core-js@npm:^3.0.4, core-js@npm:^3.22.4, core-js@npm:^3.22.8, core-js@npm:^3.6.5, core-js@npm:^3.8.2":
-  version: 3.22.8
-  resolution: "core-js@npm:3.22.8"
-  checksum: c79bcfea37920a5da880ad1fc8336355e833c83998bb28cd45cc59eef4d9824dd8d59ccd24d6b18ff88f284d53d9eef021ddbd2b5ab1c6305b01e98c1402e510
+"core-js@npm:^3.0.4, core-js@npm:^3.22.4, core-js@npm:^3.23.0, core-js@npm:^3.6.5, core-js@npm:^3.8.2":
+  version: 3.23.1
+  resolution: "core-js@npm:3.23.1"
+  checksum: 460328e0b743900d48fc744aab475f6dabdae498cc73f6d038321b0ae1488cb5e73d1670b5914abfe7dd84d0843a828b5d4dd3eba0a5b6a4450f0d7094cda2a5
   languageName: node
   linkType: hard
 
@@ -18193,7 +18193,7 @@ __metadata:
     classnames: ^2.3.1
     coffee-loader: ^4.0.0
     coffeescript: ^2.7.0
-    core-js: ^3.22.8
+    core-js: ^3.23.0
     create-react-class: ^15.7.0
     css-loader: ^6.7.1
     css-minimizer-webpack-plugin: ^4.0.0
