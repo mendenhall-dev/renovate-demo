@@ -43,18 +43,18 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@auth0/auth0-spa-js@npm:^1.22.0":
-  version: 1.22.0
-  resolution: "@auth0/auth0-spa-js@npm:1.22.0"
+"@auth0/auth0-spa-js@npm:^1.22.1":
+  version: 1.22.1
+  resolution: "@auth0/auth0-spa-js@npm:1.22.1"
   dependencies:
     abortcontroller-polyfill: ^1.7.3
     browser-tabs-lock: ^1.2.15
-    core-js: ^3.22.4
+    core-js: ^3.22.6
     es-cookie: ^1.3.2
     fast-text-encoding: ^1.0.3
     promise-polyfill: ^8.2.3
     unfetch: ^4.2.0
-  checksum: ed525e7bf93742d28543b2d3754266c6042689930e343503eade5146813ec5849b556a124e888381ea43a18e10a1c52f4e63309528b744c76ff4de3544d814e6
+  checksum: b66d4252997c8d2433b81e009872b066ebf94cdf9a51b9822ac2b846d082ad97b3a75f7d6ab41055dc80796f57d253f26f871cc9618d21b14d515f90dd51d95d
   languageName: node
   linkType: hard
 
@@ -7905,7 +7905,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"core-js@npm:^3.0.4, core-js@npm:^3.22.4, core-js@npm:^3.23.1, core-js@npm:^3.6.5, core-js@npm:^3.8.2":
+"core-js@npm:^3.0.4, core-js@npm:^3.22.6, core-js@npm:^3.23.1, core-js@npm:^3.6.5, core-js@npm:^3.8.2":
   version: 3.23.1
   resolution: "core-js@npm:3.23.1"
   checksum: 460328e0b743900d48fc744aab475f6dabdae498cc73f6d038321b0ae1488cb5e73d1670b5914abfe7dd84d0843a828b5d4dd3eba0a5b6a4450f0d7094cda2a5
@@ -18126,7 +18126,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "renovate-demo@workspace:."
   dependencies:
-    "@auth0/auth0-spa-js": ^1.22.0
+    "@auth0/auth0-spa-js": ^1.22.1
     "@babel/core": ^7.18.5
     "@babel/plugin-transform-regenerator": ^7.18.0
     "@babel/plugin-transform-strict-mode": ^7.16.7
