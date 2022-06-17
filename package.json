@@ -6,7 +6,7 @@
   },
   "packageManager": "yarn@3.2.1",
   "devDependencies": {
-    "@auth0/auth0-spa-js": "^1.22.0",
+    "@auth0/auth0-spa-js": "^1.22.1",
     "@babel/core": "^7.18.5",
     "@babel/plugin-transform-regenerator": "^7.18.0",
     "@babel/plugin-transform-strict-mode": "^7.16.7",
