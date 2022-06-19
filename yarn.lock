@@ -17034,7 +17034,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"prettier@npm:^2.7.0":
+"prettier@npm:^2.7.1":
   version: 2.7.1
   resolution: "prettier@npm:2.7.1"
   bin:
@@ -18249,7 +18249,7 @@ __metadata:
     postcss-preset-env: ^7.7.1
     postcss-scss: ^4.0.4
     postcss-syntax: ^0.36.2
-    prettier: ^2.7.0
+    prettier: ^2.7.1
     promise: ^8.1.0
     prop-types: ^15.8.1
     qs: ^6.10.5
