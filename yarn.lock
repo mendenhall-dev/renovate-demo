@@ -2835,9 +2835,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@mdx-js/mdx@npm:^2.1.1":
-  version: 2.1.1
-  resolution: "@mdx-js/mdx@npm:2.1.1"
+"@mdx-js/mdx@npm:^2.1.2":
+  version: 2.1.2
+  resolution: "@mdx-js/mdx@npm:2.1.2"
   dependencies:
     "@types/estree-jsx": ^0.0.1
     "@types/mdx": ^2.0.0
@@ -2856,7 +2856,7 @@ __metadata:
     unist-util-stringify-position: ^3.0.0
     unist-util-visit: ^4.0.0
     vfile: ^5.0.0
-  checksum: 565d0cf10b78f49c7f3bf098f529094e9084732e1138fbd02505ad9f42fbfb201dde7fa40261293972173b32192246e912b0bd174b1df453d4f916c995276b41
+  checksum: ca4de4ea018a0af9e4bdd9fcd944654eeb7c4fd9c8abf6e239c681162d4f8d2252a0d2c140789ca95bd1323976df5b86ecd34d93a25c6411d99e8f8355f3be01
   languageName: node
   linkType: hard
 
