@@ -192,7 +192,7 @@
     "@storybook/core-server/webpack": "^5.73.0",
     "@storybook/manager-webpack4/html-webpack-plugin": "^5.5.0",
     "@storybook/manager-webpack4/webpack": "^5.73.0",
-    "@storybook/mdx1-csf/@mdx-js/mdx": "^2.1.1",
+    "@storybook/mdx1-csf/@mdx-js/mdx": "^2.1.2",
     "jest-haste-map/walker": "^1.0.8",
     "read-pkg/normalize-package-data": "^4.0.0",
     "strip-ansi@npm:4.0.0/ansi-regex": "3.0.1",
