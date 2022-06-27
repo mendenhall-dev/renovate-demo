@@ -9578,7 +9578,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"framer-motion@npm:^6.3.13":
+"framer-motion@npm:^6.3.14":
   version: 6.3.15
   resolution: "framer-motion@npm:6.3.15"
   dependencies:
@@ -16446,7 +16446,7 @@ __metadata:
     fixed-data-table: ^0.6.5
     flux: ^4.0.3
     font-awesome: ^4.7.0
-    framer-motion: ^6.3.13
+    framer-motion: ^6.3.14
     graphql: ^16.5.0
     hoist-non-react-statics: ^3.3.2
     html-webpack-plugin: ^5.5.0
