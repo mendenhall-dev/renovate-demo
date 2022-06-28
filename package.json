@@ -183,6 +183,7 @@
     "@graphql-tools/relay-operation-optimizer/relay-compiler": "^14.0.0",
     "@storybook/addon-docs/@jest/transform": "^28.1.1",
     "@storybook/mdx1-csf/@mdx-js/mdx": "^2.1.2",
+    "cross-undici-fetch@npm:0.0.20/undici": "^5.5.1",
     "jest-haste-map/walker": "^1.0.8",
     "read-pkg/normalize-package-data": "^4.0.0",
     "strip-ansi@npm:4.0.0/ansi-regex": "3.0.1",
