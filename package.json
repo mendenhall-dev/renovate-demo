@@ -185,6 +185,7 @@
     "@storybook/mdx1-csf/@mdx-js/mdx": "^2.1.2",
     "cross-undici-fetch@npm:0.0.20/undici": "^5.5.1",
     "jest-haste-map/walker": "^1.0.8",
+    "package-json/got": "^11.8.5",
     "read-pkg/normalize-package-data": "^4.0.0",
     "strip-ansi@npm:4.0.0/ansi-regex": "3.0.1",
     "strip-ansi@npm:5.2.0/ansi-regex": "4.1.1",
