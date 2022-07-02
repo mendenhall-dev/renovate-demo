@@ -2052,9 +2052,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@graphql-codegen/cli@npm:2.6.2":
-  version: 2.6.2
-  resolution: "@graphql-codegen/cli@npm:2.6.2"
+"@graphql-codegen/cli@npm:2.6.3":
+  version: 2.6.3
+  resolution: "@graphql-codegen/cli@npm:2.6.3"
   dependencies:
     "@graphql-codegen/core": 2.5.1
     "@graphql-codegen/plugin-helpers": ^2.4.1
@@ -2075,24 +2075,18 @@ __metadata:
     common-tags: ^1.8.0
     cosmiconfig: ^7.0.0
     debounce: ^1.2.0
-    dependency-graph: ^0.11.0
     detect-indent: ^6.0.0
-    glob: ^7.1.6
-    globby: ^11.0.4
     graphql-config: ^4.1.0
     inquirer: ^8.0.0
     is-glob: ^4.0.1
     json-to-pretty-yaml: ^1.2.2
-    latest-version: 5.1.0
+    latest-version: ^6.0.0
     listr: ^0.14.3
     listr-update-renderer: ^0.5.0
     log-symbols: ^4.0.0
-    minimatch: ^4.0.0
     mkdirp: ^1.0.4
     string-env-interpolation: ^1.0.1
     ts-log: ^2.2.3
-    tslib: ~2.3.0
-    valid-url: ^1.0.9
     wrap-ansi: ^7.0.0
     yaml: ^1.10.0
     yargs: ^17.0.0
@@ -2102,7 +2096,7 @@ __metadata:
     gql-gen: bin.js
     graphql-code-generator: bin.js
     graphql-codegen: bin.js
-  checksum: 5d8f81fab26984588fe4a7cfde12c45d86c101086acb3e2c3e6b23e194be7af6c2a76825c6da996e8841ac8c0a52f23d4658c6a795f345e1d577d75ad8025c2c
+  checksum: 9188fcba6d19f499bf000a2d8507b8624f47d246657e92f79a6bf44729584bbb0fc458dad896f857eb1a2ee944883e605f6d8b2e982b59b32397825e088ccbf8
   languageName: node
   linkType: hard
 
@@ -9967,7 +9961,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"globby@npm:^11.0.3, globby@npm:^11.0.4, globby@npm:^11.1.0":
+"globby@npm:^11.0.3, globby@npm:^11.1.0":
   version: 11.1.0
   resolution: "globby@npm:11.1.0"
   dependencies:
@@ -12211,12 +12205,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"latest-version@npm:5.1.0":
-  version: 5.1.0
-  resolution: "latest-version@npm:5.1.0"
+"latest-version@npm:^6.0.0":
+  version: 6.0.0
+  resolution: "latest-version@npm:6.0.0"
   dependencies:
-    package-json: ^6.3.0
-  checksum: fbc72b071eb66c40f652441fd783a9cca62f08bf42433651937f078cd9ef94bf728ec7743992777826e4e89305aef24f234b515e6030503a2cbee7fc9bdc2c0f
+    package-json: ^7.0.0
+  checksum: c3f282dee464b400dacac9bd785415df9f55b31b08f7e201ca9d6862ce829c6f49d2c14120632d43f6bca48e0eaa2daa6cf755f291fac9fe5dc67fdd9777ab77
   languageName: node
   linkType: hard
 
@@ -13480,15 +13474,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"minimatch@npm:^4.0.0":
-  version: 4.2.1
-  resolution: "minimatch@npm:4.2.1"
-  dependencies:
-    brace-expansion: ^1.1.7
-  checksum: 2b1514e3d0f29a549912f0db7ae7b82c5cab4a8f2dd0369f1c6451a325b3f12b2cf473c95873b6157bb8df183d6cf6db82ff03614b6adaaf1d7e055beccdfd01
-  languageName: node
-  linkType: hard
-
 "minimist-options@npm:4.1.0":
   version: 4.1.0
   resolution: "minimist-options@npm:4.1.0"
@@ -14212,15 +14197,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"package-json@npm:^6.3.0":
-  version: 6.5.0
-  resolution: "package-json@npm:6.5.0"
+"package-json@npm:^7.0.0":
+  version: 7.0.0
+  resolution: "package-json@npm:7.0.0"
   dependencies:
-    got: ^9.6.0
+    got: ^11.8.2
     registry-auth-token: ^4.0.0
     registry-url: ^5.0.0
-    semver: ^6.2.0
-  checksum: cc9f890d3667d7610e6184decf543278b87f657d1ace0deb4a9c9155feca738ef88f660c82200763d3348010f4e42e9c7adc91e96ab0f86a770955995b5351e2
+    semver: ^7.3.5
+  checksum: c03699b057f665c5bf2d6af76190b8fb32aaf69c70a78faf7c073c03c3d0d5e168d4a96f386739a4d179e925e66289bf0b93a446fbb3f97b05451a3cd2a3bd90
   languageName: node
   linkType: hard
 
@@ -16394,7 +16379,7 @@ __metadata:
     "@fortawesome/pro-regular-svg-icons": ^6.1.1
     "@fortawesome/pro-solid-svg-icons": ^6.1.1
     "@fortawesome/react-fontawesome": ^0.2.0
-    "@graphql-codegen/cli": 2.6.2
+    "@graphql-codegen/cli": 2.6.3
     "@graphql-codegen/typescript": ^2.5.1
     "@hookform/devtools": ^4.1.0
     "@hookform/resolvers": ^2.9.3
@@ -17070,7 +17055,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"semver@npm:^6.0.0, semver@npm:^6.1.1, semver@npm:^6.1.2, semver@npm:^6.2.0, semver@npm:^6.3.0":
+"semver@npm:^6.0.0, semver@npm:^6.1.1, semver@npm:^6.1.2, semver@npm:^6.3.0":
   version: 6.3.0
   resolution: "semver@npm:6.3.0"
   bin:
@@ -18933,13 +18918,6 @@ __metadata:
     "@types/istanbul-lib-coverage": ^2.0.1
     convert-source-map: ^1.6.0
   checksum: d8ed2c39ba657dfd851a3c7b3f2b87e5b96c9face806ecfe5b627abe53b0c86f264f51425c591e451405b739e3f8a6728da59670f081790990710e813d8d3440
-  languageName: node
-  linkType: hard
-
-"valid-url@npm:^1.0.9":
-  version: 1.0.9
-  resolution: "valid-url@npm:1.0.9"
-  checksum: 3ecb030559404441c2cf104cbabab8770efb0f36d117db03d1081052ef133015a68806148ce954bb4dd0b5c42c14b709a88783c93d66b0916cb67ba771c98702
   languageName: node
   linkType: hard
 
