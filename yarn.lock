@@ -3002,7 +3002,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@percy/cli@npm:^1.5.0":
+"@percy/cli@npm:^1.5.1":
   version: 1.5.1
   resolution: "@percy/cli@npm:1.5.1"
   dependencies:
@@ -16383,7 +16383,7 @@ __metadata:
     "@graphql-codegen/typescript": ^2.5.1
     "@hookform/devtools": ^4.1.0
     "@hookform/resolvers": ^2.9.3
-    "@percy/cli": ^1.5.0
+    "@percy/cli": ^1.5.1
     "@percy/storybook": ^4.2.1
     "@pmmmwh/react-refresh-webpack-plugin": ^0.5.7
     "@rails/actioncable": ^6.1.6
