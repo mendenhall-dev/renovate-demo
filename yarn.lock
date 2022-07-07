@@ -5108,7 +5108,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@typescript-eslint/eslint-plugin@npm:^5.30.4":
+"@typescript-eslint/eslint-plugin@npm:^5.30.5":
   version: 5.30.5
   resolution: "@typescript-eslint/eslint-plugin@npm:5.30.5"
   dependencies:
@@ -5131,7 +5131,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@typescript-eslint/parser@npm:^5.30.4":
+"@typescript-eslint/parser@npm:^5.30.5":
   version: 5.30.5
   resolution: "@typescript-eslint/parser@npm:5.30.5"
   dependencies:
@@ -16386,8 +16386,8 @@ __metadata:
     "@types/react-relay": ^13.0.2
     "@types/relay-runtime": ^13.0.3
     "@types/relay-test-utils": ^6.0.5
-    "@typescript-eslint/eslint-plugin": ^5.30.4
-    "@typescript-eslint/parser": ^5.30.4
+    "@typescript-eslint/eslint-plugin": ^5.30.5
+    "@typescript-eslint/parser": ^5.30.5
     assets-webpack-plugin: 7.1.1
     awesome-phonenumber: ^3.2.0
     babel-jest: ^28.1.2
