@@ -2497,7 +2497,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@hookform/resolvers@npm:^2.9.4":
+"@hookform/resolvers@npm:^2.9.5":
   version: 2.9.5
   resolution: "@hookform/resolvers@npm:2.9.5"
   peerDependencies:
@@ -16789,7 +16789,7 @@ __metadata:
     "@graphql-codegen/cli": 2.8.0
     "@graphql-codegen/typescript": ^2.7.1
     "@hookform/devtools": ^4.1.1
-    "@hookform/resolvers": ^2.9.4
+    "@hookform/resolvers": ^2.9.5
     "@percy/cli": ^1.6.0
     "@percy/storybook": ^4.3.0
     "@pmmmwh/react-refresh-webpack-plugin": ^0.5.7
