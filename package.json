@@ -181,6 +181,6 @@
   },
   "resolutions": {
     "@storybook/mdx1-csf/@mdx-js/mdx": "^2.1.2",
-    "react-inspector": "^5.1.1"
+    "react-inspector": "^6.0.1"
   }
 }
