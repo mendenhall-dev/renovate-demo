@@ -2479,7 +2479,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@hookform/devtools@npm:^4.2.0":
+"@hookform/devtools@npm:^4.2.1":
   version: 4.2.2
   resolution: "@hookform/devtools@npm:4.2.2"
   dependencies:
@@ -16761,7 +16761,7 @@ __metadata:
     "@fortawesome/react-fontawesome": ^0.2.0
     "@graphql-codegen/cli": 2.8.0
     "@graphql-codegen/typescript": ^2.7.1
-    "@hookform/devtools": ^4.2.0
+    "@hookform/devtools": ^4.2.1
     "@hookform/resolvers": ^2.9.5
     "@percy/cli": ^1.6.1
     "@percy/storybook": ^4.3.0
