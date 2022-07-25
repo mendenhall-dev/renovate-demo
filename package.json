@@ -33,7 +33,7 @@
     "@pmmmwh/react-refresh-webpack-plugin": "^0.5.7",
     "@rails/actioncable": "^6.1.6",
     "@react-google-maps/api": "^2.12.1",
-    "@splitsoftware/splitio-browserjs": "^0.7.0",
+    "@splitsoftware/splitio-browserjs": "^0.8.0",
     "@storybook/addon-a11y": "^7.0.0-alpha.13",
     "@storybook/addon-actions": "^7.0.0-alpha.13",
     "@storybook/addon-essentials": "^7.0.0-alpha.13",
