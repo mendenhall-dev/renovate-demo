@@ -3093,7 +3093,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@percy/cli-command@npm:1.7.2, @percy/cli-command@npm:^1.6.3":
+"@percy/cli-command@npm:1.7.2":
   version: 1.7.2
   resolution: "@percy/cli-command@npm:1.7.2"
   dependencies:
@@ -3103,6 +3103,19 @@ __metadata:
   bin:
     percy-cli-readme: bin/readme.js
   checksum: 71e1c9d7d41591c0f5fb410be4c2a25c3653cbed353d1d3deaf1e60da73dcad9d81dd996311fae28bb6d458464119b9b9ccb40599f4f0ef61de38ae33b4ad145
+  languageName: node
+  linkType: hard
+
+"@percy/cli-command@npm:^1.8.0":
+  version: 1.8.0
+  resolution: "@percy/cli-command@npm:1.8.0"
+  dependencies:
+    "@percy/config": 1.8.0
+    "@percy/core": 1.8.0
+    "@percy/logger": 1.8.0
+  bin:
+    percy-cli-readme: bin/readme.js
+  checksum: 96c44fc6c41e755dac1844e3a412f511c1ca419b43e3fdd62cb26e91444622818447b0c4f14b2800b8cd844ede7bc91666e118956ce9e044d3ad69442b008de4
   languageName: node
   linkType: hard
 
@@ -3175,6 +3188,16 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@percy/client@npm:1.8.0":
+  version: 1.8.0
+  resolution: "@percy/client@npm:1.8.0"
+  dependencies:
+    "@percy/env": 1.8.0
+    "@percy/logger": 1.8.0
+  checksum: 3956eac0f0d4747b4f2b9b78d7723dc23893df3ddb7584b8fc32dbe8e40adfea9ce0cc48b12a4bac58fe9f44ae0958df148023802500b2b89ac4553bbd895377
+  languageName: node
+  linkType: hard
+
 "@percy/config@npm:1.7.2":
   version: 1.7.2
   resolution: "@percy/config@npm:1.7.2"
@@ -3184,6 +3207,18 @@ __metadata:
     cosmiconfig: ^7.0.0
     yaml: ^2.0.0
   checksum: dd49824bee578e211fd9bf21ab14a264b0a6dfe76bf8430741862670ce8bd52e8a46bff17283e67a99e9d783c7870d65f3434935a2629b090639b9fdb26af49d
+  languageName: node
+  linkType: hard
+
+"@percy/config@npm:1.8.0":
+  version: 1.8.0
+  resolution: "@percy/config@npm:1.8.0"
+  dependencies:
+    "@percy/logger": 1.8.0
+    ajv: ^8.6.2
+    cosmiconfig: ^7.0.0
+    yaml: ^2.0.0
+  checksum: 6f4e35210eb539968cc5537a5d781a12dd5549bd3d6d2c4033ea3a5fd31c0ac7ee2245d350d27ec73e676c32446b16f6f3845cd16f7f8dfe9bbcf7a39509de18
   languageName: node
   linkType: hard
 
@@ -3208,10 +3243,38 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@percy/core@npm:1.8.0":
+  version: 1.8.0
+  resolution: "@percy/core@npm:1.8.0"
+  dependencies:
+    "@percy/client": 1.8.0
+    "@percy/config": 1.8.0
+    "@percy/dom": 1.8.0
+    "@percy/logger": 1.8.0
+    content-disposition: ^0.5.4
+    cross-spawn: ^7.0.3
+    extract-zip: ^2.0.1
+    fast-glob: ^3.2.11
+    micromatch: ^4.0.4
+    mime-types: ^2.1.34
+    path-to-regexp: ^6.2.0
+    rimraf: ^3.0.2
+    ws: ^8.0.0
+  checksum: f2102395857066f618a599c6706e94c26c6fd6082fc48657167dd12047af322639b7290727c35e1965ce101cc64f548c0cc23eb0308e026d16bd4b1d01456556
+  languageName: node
+  linkType: hard
+
 "@percy/dom@npm:1.7.2":
   version: 1.7.2
   resolution: "@percy/dom@npm:1.7.2"
   checksum: e27c92d4a3e728f5850ed6bb7f959a4e94f58cbdb38e0f9c87f3deca44c7472dc7478cf2400141857395b5f486a5f86672c53f9e7d97cd76af70750ac5c698ed
+  languageName: node
+  linkType: hard
+
+"@percy/dom@npm:1.8.0":
+  version: 1.8.0
+  resolution: "@percy/dom@npm:1.8.0"
+  checksum: e20babc6a8735848b59c433accfaaf35a6ccb3e8d857f31304c88b25cf3cfcdbee5815fbeceba7c75f74c88517fec6bfc93c608e700b1d6d0ee27d5c569931d0
   languageName: node
   linkType: hard
 
@@ -3222,6 +3285,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@percy/env@npm:1.8.0":
+  version: 1.8.0
+  resolution: "@percy/env@npm:1.8.0"
+  checksum: 0c94ae35e3b182970ae05bfc780b4892a8440c856218533482f024cbc4c3a41c1e1c1c1b9d8271e2bb83bbae5d929a7181a11340e391e0d8513498e2244aad1c
+  languageName: node
+  linkType: hard
+
 "@percy/logger@npm:1.7.2":
   version: 1.7.2
   resolution: "@percy/logger@npm:1.7.2"
@@ -3229,16 +3299,23 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@percy/storybook@npm:^4.3.1":
-  version: 4.3.1
-  resolution: "@percy/storybook@npm:4.3.1"
+"@percy/logger@npm:1.8.0":
+  version: 1.8.0
+  resolution: "@percy/logger@npm:1.8.0"
+  checksum: 87b0f08fdbb7f98e961312cf8f9b5c58c9b94869d8896586bbc1c9ae08c1d29fc2c2e134bf70647a5d72baad202da485fbea318af875dba9d5dfff1bf1f96cc3
+  languageName: node
+  linkType: hard
+
+"@percy/storybook@npm:^4.3.2":
+  version: 4.3.3
+  resolution: "@percy/storybook@npm:4.3.3"
   dependencies:
-    "@percy/cli-command": ^1.6.3
-    "@storybook/router": ^6.5.0
+    "@percy/cli-command": ^1.8.0
     cross-spawn: ^7.0.3
+    qs: ^6.11.0
   bin:
     percy-storybook: bin/percy-storybook.cjs
-  checksum: 4171bb639a6d69d266003982781c9a725e86bb6b52e35fb2660c15266ebfb9ca70ed3316001d2a5cd2a6a9ab3ff58c4c50ca8c9db0c5c5ca14831c4f0905e618
+  checksum: 772a18e5414fabdff4e5d3af0172f96582c3a0951270be32e8c521b66b744540454a74f2d561f23a53a1cbac1206881c8988c655dddab9180483b4bf9547e92c
   languageName: node
   linkType: hard
 
@@ -3943,16 +4020,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@storybook/client-logger@npm:6.5.9":
-  version: 6.5.9
-  resolution: "@storybook/client-logger@npm:6.5.9"
-  dependencies:
-    core-js: ^3.8.2
-    global: ^4.4.0
-  checksum: 5b72d93a57fae8d188bb40db0a3af3ce9f3ccc58751e90d38e0786b58f26a5358d10339916455646a8d60e2cc749d761990927fdeb06e5f09e68d48fe50a5de7
-  languageName: node
-  linkType: hard
-
 "@storybook/client-logger@npm:7.0.0-alpha.18":
   version: 7.0.0-alpha.18
   resolution: "@storybook/client-logger@npm:7.0.0-alpha.18"
@@ -4329,22 +4396,6 @@ __metadata:
     react: ^16.8.0 || ^17.0.0 || ^18.0.0
     react-dom: ^16.8.0 || ^17.0.0 || ^18.0.0
   checksum: 74d8e678b5fcba90cdecc6774f9a119ff36261f180fa7b438957e3a45a0ccff6d04393cbedc258597247a6b7be43d0b1ca4a670106c6116eb4d9b6a613cb9892
-  languageName: node
-  linkType: hard
-
-"@storybook/router@npm:^6.5.0":
-  version: 6.5.9
-  resolution: "@storybook/router@npm:6.5.9"
-  dependencies:
-    "@storybook/client-logger": 6.5.9
-    core-js: ^3.8.2
-    memoizerific: ^1.11.3
-    qs: ^6.10.0
-    regenerator-runtime: ^0.13.7
-  peerDependencies:
-    react: ^16.8.0 || ^17.0.0 || ^18.0.0
-    react-dom: ^16.8.0 || ^17.0.0 || ^18.0.0
-  checksum: 10acf6d67fa245ca10d8e377d593405ab1505d22b3bb2e7ce7dc45bc5be2074d7bb89f9266b7550b84063c907e2188742b355fc8af05f7cf4554a0770915d12e
   languageName: node
   linkType: hard
 
@@ -16100,12 +16151,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"qs@npm:^6.10.0, qs@npm:^6.10.5":
-  version: 6.10.5
-  resolution: "qs@npm:6.10.5"
+"qs@npm:^6.10.0, qs@npm:^6.10.5, qs@npm:^6.11.0":
+  version: 6.11.0
+  resolution: "qs@npm:6.11.0"
   dependencies:
     side-channel: ^1.0.4
-  checksum: b3873189a11bcf48445864b3ba66f7a76db0d9d874955d197779f561addfa604884f7b107971526ce1eca02c99bf7d1e47f28a3e7e6e29204d798fb279164226
+  checksum: 6e1f29dd5385f7488ec74ac7b6c92f4d09a90408882d0c208414a34dd33badc1a621019d4c799a3df15ab9b1d0292f97c1dd71dc7c045e69f81a8064e5af7297
   languageName: node
   linkType: hard
 
@@ -16869,7 +16920,7 @@ __metadata:
     "@hookform/devtools": ^4.2.2
     "@hookform/resolvers": ^2.9.7
     "@percy/cli": ^1.7.2
-    "@percy/storybook": ^4.3.1
+    "@percy/storybook": ^4.3.2
     "@pmmmwh/react-refresh-webpack-plugin": ^0.5.7
     "@rails/actioncable": ^6.1.6
     "@react-google-maps/api": ^2.12.1
