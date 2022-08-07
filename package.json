@@ -42,7 +42,7 @@
     "@stripe/react-stripe-js": "1.10.0",
     "@stripe/stripe-js": "^1.35.0",
     "@stylelint/postcss-css-in-js": "^0.38.0",
-    "@testing-library/dom": "^8.16.0",
+    "@testing-library/dom": "^8.16.1",
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^12.1.5",
     "@testing-library/react-hooks": "^8.0.1",
