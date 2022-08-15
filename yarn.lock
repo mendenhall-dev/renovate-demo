@@ -3136,117 +3136,117 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@percy/cli-build@npm:1.8.1":
-  version: 1.8.1
-  resolution: "@percy/cli-build@npm:1.8.1"
+"@percy/cli-build@npm:1.9.1":
+  version: 1.9.1
+  resolution: "@percy/cli-build@npm:1.9.1"
   dependencies:
-    "@percy/cli-command": 1.8.1
-  checksum: 1d00f9363b887e21bc634ddd26006f1786af756a49f55be888af4f11fdc076903ed950a7bba4859e948d8d390f815a53804963c9728236d337cf72f073c34816
+    "@percy/cli-command": 1.9.1
+  checksum: f46be9c45260dcf2d869fe7293f7938c015f9f92b7a471e7d5484cb44f7aab8f06fe365c05dafa5b8e4e5d764f6d43c5ba051ceef0a4788fcbaa6f8ac401ec62
   languageName: node
   linkType: hard
 
-"@percy/cli-command@npm:1.8.1, @percy/cli-command@npm:^1.8.0":
-  version: 1.8.1
-  resolution: "@percy/cli-command@npm:1.8.1"
+"@percy/cli-command@npm:1.9.1, @percy/cli-command@npm:^1.8.0":
+  version: 1.9.1
+  resolution: "@percy/cli-command@npm:1.9.1"
   dependencies:
-    "@percy/config": 1.8.1
-    "@percy/core": 1.8.1
-    "@percy/logger": 1.8.1
+    "@percy/config": 1.9.1
+    "@percy/core": 1.9.1
+    "@percy/logger": 1.9.1
   bin:
     percy-cli-readme: bin/readme.js
-  checksum: 408218617c53f7596a3b2e9b3b9da13de10e89bfac62b2a24d162248bbf3939857c4c2f7f942c28d5650d1b76e3e386969014082f4fa3af63b892fe7c5a986d9
+  checksum: 7d577ca9adc099c931c5595e4056b5e89f400f44a6ee88f68c582881befa9627ea094a27c88cad9dc01b44e5a1600737ec0fa3c6779061b4fdc97d1a60c1aff8
   languageName: node
   linkType: hard
 
-"@percy/cli-config@npm:1.8.1":
-  version: 1.8.1
-  resolution: "@percy/cli-config@npm:1.8.1"
+"@percy/cli-config@npm:1.9.1":
+  version: 1.9.1
+  resolution: "@percy/cli-config@npm:1.9.1"
   dependencies:
-    "@percy/cli-command": 1.8.1
-  checksum: c258fcdd1fbd958e093af46c2bd1334d84d9d755d31c2c84eb7d058639745576015dc252392254529c753d3d3adba76413c1094f9897b4d4d9ef11b30bbccaf0
+    "@percy/cli-command": 1.9.1
+  checksum: fbbe6c263ccebd243e6ea4faa5a2fe65b64990408ce0ec172869d88e21c88b0504c8463199441b79aeb1eed4e204a7d521b90ab80dadd8ab8ba8dcb16934d421
   languageName: node
   linkType: hard
 
-"@percy/cli-exec@npm:1.8.1":
-  version: 1.8.1
-  resolution: "@percy/cli-exec@npm:1.8.1"
+"@percy/cli-exec@npm:1.9.1":
+  version: 1.9.1
+  resolution: "@percy/cli-exec@npm:1.9.1"
   dependencies:
-    "@percy/cli-command": 1.8.1
+    "@percy/cli-command": 1.9.1
     cross-spawn: ^7.0.3
     which: ^2.0.2
-  checksum: 10cb4aae2ef59ac40f333816c989e332da3898d634026ddcbd0c8905558e0e344e4080792e9dd5b5ddd701470ce04acf4d90389f29fbcea66c5d762964357938
+  checksum: da94a224d88931633e352dc853485f5cbd640c4f74a1e1d34d3c72aaebb38b2ad20274ba06114efd7c2269895051b7c4826caef9a9c51b97a845d3152d69ff41
   languageName: node
   linkType: hard
 
-"@percy/cli-snapshot@npm:1.8.1":
-  version: 1.8.1
-  resolution: "@percy/cli-snapshot@npm:1.8.1"
+"@percy/cli-snapshot@npm:1.9.1":
+  version: 1.9.1
+  resolution: "@percy/cli-snapshot@npm:1.9.1"
   dependencies:
-    "@percy/cli-command": 1.8.1
+    "@percy/cli-command": 1.9.1
     yaml: ^2.0.0
-  checksum: 44215a8dc2f2ed48b33eccc469f982c896f821eb712dccb0f8ba1b64fdcdb2b27c06e5a88724e7cfdf748ef18a49f69cbcd666713ed1a18f903250799d180bc9
+  checksum: d1f6178fc30fde664dbb2015fd2937d274a7df293564fe1a48f82e99c1f71f5bf553d5af94b0e44e96c31cce0a171230ed42322d1dee149adb89df5f57167a59
   languageName: node
   linkType: hard
 
-"@percy/cli-upload@npm:1.8.1":
-  version: 1.8.1
-  resolution: "@percy/cli-upload@npm:1.8.1"
+"@percy/cli-upload@npm:1.9.1":
+  version: 1.9.1
+  resolution: "@percy/cli-upload@npm:1.9.1"
   dependencies:
-    "@percy/cli-command": 1.8.1
+    "@percy/cli-command": 1.9.1
     fast-glob: ^3.2.11
     image-size: ^1.0.0
-  checksum: 88199aaed2d2f9547be5f5cec72d4c81e97cc853b774f543d647b6068d58373906e2f834586cf27d3f13dd7c6e64ede1b347c06e044ca2cd1458a868a43e92be
+  checksum: 8e9e2917841f17d4a508baf5c5b627119a7dd65934e88937c196077afbf9bcdfb04953162b589ffb3551eb7e25a627cc85342c8e9c456ef35a89535fa8467e7d
   languageName: node
   linkType: hard
 
-"@percy/cli@npm:^1.8.1":
-  version: 1.8.1
-  resolution: "@percy/cli@npm:1.8.1"
+"@percy/cli@npm:^1.9.0":
+  version: 1.9.1
+  resolution: "@percy/cli@npm:1.9.1"
   dependencies:
-    "@percy/cli-build": 1.8.1
-    "@percy/cli-command": 1.8.1
-    "@percy/cli-config": 1.8.1
-    "@percy/cli-exec": 1.8.1
-    "@percy/cli-snapshot": 1.8.1
-    "@percy/cli-upload": 1.8.1
-    "@percy/client": 1.8.1
-    "@percy/logger": 1.8.1
+    "@percy/cli-build": 1.9.1
+    "@percy/cli-command": 1.9.1
+    "@percy/cli-config": 1.9.1
+    "@percy/cli-exec": 1.9.1
+    "@percy/cli-snapshot": 1.9.1
+    "@percy/cli-upload": 1.9.1
+    "@percy/client": 1.9.1
+    "@percy/logger": 1.9.1
   bin:
     percy: bin/run.cjs
-  checksum: 111d06136bf2307bbfababd9eb60d45f677aadfa87d2b972aac9ddb0d60a76762ebbbc14a7fd4649321dc74cdb4186894b198f3e33babc65881049282594d6f0
+  checksum: 16cdedcdd5ef973bb6f2bff07a9d596951ffb2ece234fe4456e3c9a62c790e93c39dc804e16d54c158852668d4ce91dacd45dbddd01e9c10d744dcd683f7af27
   languageName: node
   linkType: hard
 
-"@percy/client@npm:1.8.1":
-  version: 1.8.1
-  resolution: "@percy/client@npm:1.8.1"
+"@percy/client@npm:1.9.1":
+  version: 1.9.1
+  resolution: "@percy/client@npm:1.9.1"
   dependencies:
-    "@percy/env": 1.8.1
-    "@percy/logger": 1.8.1
-  checksum: d89e60d36ca7bfff088adf22da1b22a959acf845718ebf21dc1f5d0ac7274d1aafc732cb93e192ca3ac8748220b5e9d6d800c6a8ec4d0a625e2f00298aa6a014
+    "@percy/env": 1.9.1
+    "@percy/logger": 1.9.1
+  checksum: 07d7e453670ceed2f7ae563b8f582b5555c5bddde886414d130ad572eb1a4e689f07640ddd1d2c51e89cc7a285b1a35ba7fd16c1763f68ae3504a83008da2817
   languageName: node
   linkType: hard
 
-"@percy/config@npm:1.8.1":
-  version: 1.8.1
-  resolution: "@percy/config@npm:1.8.1"
+"@percy/config@npm:1.9.1":
+  version: 1.9.1
+  resolution: "@percy/config@npm:1.9.1"
   dependencies:
-    "@percy/logger": 1.8.1
+    "@percy/logger": 1.9.1
     ajv: ^8.6.2
     cosmiconfig: ^7.0.0
     yaml: ^2.0.0
-  checksum: 421e04fcb2340ebfe1be068a5fc0473581f91b700d58a40ae5d8e95b5a9efbf8fbba224c488319820b519680419296bb9a2fce582dd8ac8d2844f6757cf906e1
+  checksum: 3427b65bb2ae42233f917bc0ca6ea95d13fac44d03ee0e96c7ea4c614395207c1fe18622226bab8565300ed8c31420d1e5ee4cff057bdabb419d9dd0de140094
   languageName: node
   linkType: hard
 
-"@percy/core@npm:1.8.1":
-  version: 1.8.1
-  resolution: "@percy/core@npm:1.8.1"
+"@percy/core@npm:1.9.1":
+  version: 1.9.1
+  resolution: "@percy/core@npm:1.9.1"
   dependencies:
-    "@percy/client": 1.8.1
-    "@percy/config": 1.8.1
-    "@percy/dom": 1.8.1
-    "@percy/logger": 1.8.1
+    "@percy/client": 1.9.1
+    "@percy/config": 1.9.1
+    "@percy/dom": 1.9.1
+    "@percy/logger": 1.9.1
     content-disposition: ^0.5.4
     cross-spawn: ^7.0.3
     extract-zip: ^2.0.1
@@ -3256,28 +3256,28 @@ __metadata:
     path-to-regexp: ^6.2.0
     rimraf: ^3.0.2
     ws: ^8.0.0
-  checksum: 6fd0214f43c04848f755bc07aff00a89d1372d6ada65a2e77ff0091a00bfe482ea713a04f4367eb204ade114926ac73009a0192b2cb92128ff68fe847f0d1642
+  checksum: 38cf58417efc756af59ef334f9e1353258da92b430b1f742ef2570166dd4569da8fef98c306e6b06e1e81f03c3b425dabb6c67339fb525db52269242a992f09c
   languageName: node
   linkType: hard
 
-"@percy/dom@npm:1.8.1":
-  version: 1.8.1
-  resolution: "@percy/dom@npm:1.8.1"
-  checksum: c64966f76e159a46bbd22df0d32dd26e27d496c2f10db7e89881253a9a8b6a7c9e1ef8d964d720d3305582324a16d97b2bd1297eafe74d280ab6148f72e64dae
+"@percy/dom@npm:1.9.1":
+  version: 1.9.1
+  resolution: "@percy/dom@npm:1.9.1"
+  checksum: f4c288652015a75f6f0cbb99fa01fd1aa37b701540601d20d50f56962cc373348de00bbf0a4ff35c75b98c890623abab6da2740a8349e85f1b152b8d5b02bac0
   languageName: node
   linkType: hard
 
-"@percy/env@npm:1.8.1":
-  version: 1.8.1
-  resolution: "@percy/env@npm:1.8.1"
-  checksum: 9f25fec2e79815d579edd98407653d69447bbd3f6f4451356b70c08e7d04b4a0190eeb5d5e45521b4b8eb9d3bb382d8fd4db4b1d43e5f460a00caab8e7c07de9
+"@percy/env@npm:1.9.1":
+  version: 1.9.1
+  resolution: "@percy/env@npm:1.9.1"
+  checksum: 177f7417cc47af3dca7dd75043c93b68f1c8f33d4bce6796f371996a782f939bca894832b174766ebb806991b20a90df4eca88203ca6328e731e92ce14735851
   languageName: node
   linkType: hard
 
-"@percy/logger@npm:1.8.1":
-  version: 1.8.1
-  resolution: "@percy/logger@npm:1.8.1"
-  checksum: cf26248b9d99bb3d33832ea4e1ddbaa84df8b29f4c02d314beda79018fe0e9d0ee0f3c8431c70ace5984fad23a663aeb56cbd675dd6c942e95cd957e2bb9c7fc
+"@percy/logger@npm:1.9.1":
+  version: 1.9.1
+  resolution: "@percy/logger@npm:1.9.1"
+  checksum: 970c3af3940f238481f575268ff920316651b7fd4d53a178651f53279709a9c2e8e672f3aada6eb06c829bd9d1eadb4a0cf6fa9946f04ee61987d38a270cb4d3
   languageName: node
   linkType: hard
 
@@ -16851,7 +16851,7 @@ __metadata:
     "@graphql-codegen/typescript": ^2.7.3
     "@hookform/devtools": ^4.2.2
     "@hookform/resolvers": ^2.9.7
-    "@percy/cli": ^1.8.1
+    "@percy/cli": ^1.9.0
     "@percy/storybook": ^4.3.3
     "@pmmmwh/react-refresh-webpack-plugin": ^0.5.7
     "@rails/actioncable": ^6.1.6
