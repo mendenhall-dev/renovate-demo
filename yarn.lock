@@ -4936,7 +4936,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/lodash@npm:^4.14.167, @types/lodash@npm:^4.14.168, @types/lodash@npm:^4.14.183":
+"@types/lodash@npm:^4.14.167, @types/lodash@npm:^4.14.168, @types/lodash@npm:^4.14.184":
   version: 4.14.184
   resolution: "@types/lodash@npm:4.14.184"
   checksum: 6d9a4d67f7f9d0ec3fd21174f3dd3d00629dc1227eb469450eace53adbc1f7e2330699c28d0fe093e5f0fef0f0e763098be1f779268857213224af082b62be21
@@ -16909,7 +16909,7 @@ __metadata:
     "@types/googlemaps": ^3.43.3
     "@types/jest": ^28.1.7
     "@types/jquery": ^3.5.14
-    "@types/lodash": ^4.14.183
+    "@types/lodash": ^4.14.184
     "@types/react": ^17.0.48
     "@types/react-relay": ^13.0.4
     "@types/relay-runtime": ^13.0.5
