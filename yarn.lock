@@ -5073,13 +5073,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react-relay@npm:*, @types/react-relay@npm:^13.0.4":
-  version: 13.0.4
-  resolution: "@types/react-relay@npm:13.0.4"
+"@types/react-relay@npm:*, @types/react-relay@npm:^14.1.1":
+  version: 14.1.1
+  resolution: "@types/react-relay@npm:14.1.1"
   dependencies:
     "@types/react": "*"
     "@types/relay-runtime": "*"
-  checksum: b5fc4a9638df52662db6bb09b6baef77b553c31b6a2efc392ce49285456e6a334633dad6f09b83abdd01e0aa35e36ee22c51192368cebceac3c9868f6ee0ac24
+  checksum: 7c3849782f2f9557a4060596ba27fb621605759ed565a808fd93d16240a31d95c9b991d8e3e548f7fcfacd562b6daa23b34a1bf4b4ed6c9a70c155e5a8331a2d
   languageName: node
   linkType: hard
 
@@ -5094,10 +5094,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/relay-runtime@npm:*, @types/relay-runtime@npm:^13.0.5":
-  version: 13.0.5
-  resolution: "@types/relay-runtime@npm:13.0.5"
-  checksum: aaa481b369ae3b4831eaba694f435f4b71725b7a7392ceff1f251b776872d010887e928e45ce095deac2fcf536ec833af4ebac9a851ee19630ca8e47ac5ddae9
+"@types/relay-runtime@npm:*, @types/relay-runtime@npm:^14.1.1":
+  version: 14.1.1
+  resolution: "@types/relay-runtime@npm:14.1.1"
+  checksum: 6fbbe88aabfaf405afd35a25c8b7aabeb8177d8cfcc98231a87e544743dc547fece8b36731cb9f6aeeee9a8c346941bc0e50b3f798052cd4584751bf366d0e78
   languageName: node
   linkType: hard
 
@@ -16911,8 +16911,8 @@ __metadata:
     "@types/jquery": ^3.5.14
     "@types/lodash": ^4.14.184
     "@types/react": ^17.0.48
-    "@types/react-relay": ^13.0.4
-    "@types/relay-runtime": ^13.0.5
+    "@types/react-relay": ^14.1.1
+    "@types/relay-runtime": ^14.1.1
     "@types/relay-test-utils": ^6.0.6
     "@typescript-eslint/eslint-plugin": ^5.33.1
     "@typescript-eslint/parser": ^5.33.1
