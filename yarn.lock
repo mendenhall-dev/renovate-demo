@@ -5105,10 +5105,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/relay-runtime@npm:*, @types/relay-runtime@npm:^14.1.1":
-  version: 14.1.1
-  resolution: "@types/relay-runtime@npm:14.1.1"
-  checksum: 6fbbe88aabfaf405afd35a25c8b7aabeb8177d8cfcc98231a87e544743dc547fece8b36731cb9f6aeeee9a8c346941bc0e50b3f798052cd4584751bf366d0e78
+"@types/relay-runtime@npm:*, @types/relay-runtime@npm:^14.1.2":
+  version: 14.1.2
+  resolution: "@types/relay-runtime@npm:14.1.2"
+  checksum: 914654f1ad762cad234e41520bbeadcb91ea751e176aa8aeb85fa01b72b8ea3c8afbef58bd40b7d50c4b7e0efac75892f241d72076ebe87b62d99acef71a57cb
   languageName: node
   linkType: hard
 
@@ -16923,7 +16923,7 @@ __metadata:
     "@types/lodash": ^4.14.184
     "@types/react": ^17.0.48
     "@types/react-relay": ^14.1.1
-    "@types/relay-runtime": ^14.1.1
+    "@types/relay-runtime": ^14.1.2
     "@types/relay-test-utils": ^6.0.6
     "@typescript-eslint/eslint-plugin": ^5.34.0
     "@typescript-eslint/parser": ^5.34.0
