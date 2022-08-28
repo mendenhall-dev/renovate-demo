@@ -14120,7 +14120,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"moment-timezone@npm:^0.5.35":
+"moment-timezone@npm:^0.5.37":
   version: 0.5.37
   resolution: "moment-timezone@npm:0.5.37"
   dependencies:
@@ -17006,7 +17006,7 @@ __metadata:
     mockdate: ^3.0.5
     moment: ^2.29.4
     moment-locales-webpack-plugin: ^1.2.0
-    moment-timezone: ^0.5.35
+    moment-timezone: ^0.5.37
     polished: ^4.2.2
     postcss: ^8.4.16
     postcss-import: ^14.1.0
