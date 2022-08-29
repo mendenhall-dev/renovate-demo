@@ -3479,7 +3479,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@storybook/addon-a11y@npm:^7.0.0-alpha.25":
+"@storybook/addon-a11y@npm:^7.0.0-alpha.26":
   version: 7.0.0-alpha.26
   resolution: "@storybook/addon-a11y@npm:7.0.0-alpha.26"
   dependencies:
@@ -3511,7 +3511,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@storybook/addon-actions@npm:7.0.0-alpha.26, @storybook/addon-actions@npm:^7.0.0-alpha.25":
+"@storybook/addon-actions@npm:7.0.0-alpha.26, @storybook/addon-actions@npm:^7.0.0-alpha.26":
   version: 7.0.0-alpha.26
   resolution: "@storybook/addon-actions@npm:7.0.0-alpha.26"
   dependencies:
@@ -3650,7 +3650,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@storybook/addon-essentials@npm:^7.0.0-alpha.25":
+"@storybook/addon-essentials@npm:^7.0.0-alpha.26":
   version: 7.0.0-alpha.26
   resolution: "@storybook/addon-essentials@npm:7.0.0-alpha.26"
   dependencies:
@@ -3712,7 +3712,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@storybook/addon-links@npm:^7.0.0-alpha.25":
+"@storybook/addon-links@npm:^7.0.0-alpha.26":
   version: 7.0.0-alpha.26
   resolution: "@storybook/addon-links@npm:7.0.0-alpha.26"
   dependencies:
@@ -4343,7 +4343,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@storybook/react-webpack5@npm:^7.0.0-alpha.25":
+"@storybook/react-webpack5@npm:^7.0.0-alpha.26":
   version: 7.0.0-alpha.26
   resolution: "@storybook/react-webpack5@npm:7.0.0-alpha.26"
   dependencies:
@@ -16918,11 +16918,11 @@ __metadata:
     "@rails/actioncable": ^6.1.6
     "@react-google-maps/api": ^2.12.2
     "@splitsoftware/splitio-browserjs": ^0.8.0
-    "@storybook/addon-a11y": ^7.0.0-alpha.25
-    "@storybook/addon-actions": ^7.0.0-alpha.25
-    "@storybook/addon-essentials": ^7.0.0-alpha.25
-    "@storybook/addon-links": ^7.0.0-alpha.25
-    "@storybook/react-webpack5": ^7.0.0-alpha.25
+    "@storybook/addon-a11y": ^7.0.0-alpha.26
+    "@storybook/addon-actions": ^7.0.0-alpha.26
+    "@storybook/addon-essentials": ^7.0.0-alpha.26
+    "@storybook/addon-links": ^7.0.0-alpha.26
+    "@storybook/react-webpack5": ^7.0.0-alpha.26
     "@stripe/react-stripe-js": 1.10.0
     "@stripe/stripe-js": ^1.35.0
     "@stylelint/postcss-css-in-js": ^0.38.0
