@@ -16796,16 +16796,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"relay-hooks@npm:^7.1.0":
-  version: 7.1.0
-  resolution: "relay-hooks@npm:7.1.0"
+"relay-hooks@npm:^7.2.0":
+  version: 7.2.0
+  resolution: "relay-hooks@npm:7.2.0"
   dependencies:
     "@restart/hooks": ^0.3.1
     fbjs: ^3.0.0
   peerDependencies:
     react: ^16.9.0 || ^17 || ^18
-    relay-runtime: ^13.0.2
-  checksum: 7391fb41736eaf0941e986363aae1a9ba04495bb6bc2f0e103af0bf80e4abfbb3fd0944774b60bf3c109464d285931727514be396a3fa9862b906c9ca280d5cc
+    relay-runtime: ^13.0.2 || ^14.0.0
+  checksum: 28dc54d284e726f9115513f054d430df66330cd39f02dfc6d6d47702c389832e313b2463a57846d16a09bbaae1972f43f42af4ead0de9664ec80024b38a60cc3
   languageName: node
   linkType: hard
 
@@ -17079,7 +17079,7 @@ __metadata:
     react-use: ^17.4.0
     reconnecting-websocket: ^4.4.0
     relay-compiler: ^14.1.0
-    relay-hooks: ^7.1.0
+    relay-hooks: ^7.2.0
     relay-runtime: ^14.1.0
     relay-test-utils: ^14.1.0
     resolve-url-loader: ^5.0.0
