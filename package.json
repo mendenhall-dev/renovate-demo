@@ -177,7 +177,7 @@
     "webpack-merge": "^5.8.0",
     "webpack-s3-plugin": "^1.2.0-rc.0",
     "worker-loader": "^3.0.8",
-    "worker-timers": "^7.0.53"
+    "worker-timers": "^7.0.54"
   },
   "resolutions": {
     "@storybook/mdx1-csf/@mdx-js/mdx": "^2.1.2",
