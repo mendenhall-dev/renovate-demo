@@ -8255,7 +8255,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"downshift@npm:^6.1.10":
+"downshift@npm:^6.1.11":
   version: 6.1.11
   resolution: "downshift@npm:6.1.11"
   dependencies:
@@ -16812,7 +16812,7 @@ __metadata:
     date-fns-timezone: ^0.1.4
     dotenv: ^16.0.2
     dotenv-webpack: ^8.0.1
-    downshift: ^6.1.10
+    downshift: ^6.1.11
     eslint: ^8.23.1
     eslint-config-airbnb: ^19.0.4
     eslint-config-airbnb-base: ^15.0.0
