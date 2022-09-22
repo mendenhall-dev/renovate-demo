@@ -4403,7 +4403,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@testing-library/dom@npm:^8.0.0, @testing-library/dom@npm:^8.18.0":
+"@testing-library/dom@npm:^8.0.0, @testing-library/dom@npm:^8.18.1":
   version: 8.18.1
   resolution: "@testing-library/dom@npm:8.18.1"
   dependencies:
@@ -16773,7 +16773,7 @@ __metadata:
     "@stripe/react-stripe-js": 1.10.0
     "@stripe/stripe-js": ^1.36.0
     "@stylelint/postcss-css-in-js": ^0.38.0
-    "@testing-library/dom": ^8.18.0
+    "@testing-library/dom": ^8.18.1
     "@testing-library/jest-dom": ^5.16.5
     "@testing-library/react": ^12.1.5
     "@testing-library/react-hooks": ^8.0.1
