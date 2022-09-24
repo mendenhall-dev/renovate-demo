@@ -122,7 +122,7 @@
     "moment-timezone": "^0.5.37",
     "polished": "^4.2.2",
     "postcss": "^8.4.16",
-    "postcss-import": "^14.1.0",
+    "postcss-import": "^15.0.0",
     "postcss-loader": "^7.0.1",
     "postcss-preset-env": "^7.8.2",
     "postcss-scss": "^4.0.5",
