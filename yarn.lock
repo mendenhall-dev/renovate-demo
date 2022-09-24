@@ -18742,7 +18742,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"ts-node@npm:^10.8.1":
+"ts-node@npm:*, ts-node@npm:^10.8.1":
   version: 10.9.1
   resolution: "ts-node@npm:10.9.1"
   dependencies:
@@ -18918,7 +18918,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"typescript@npm:^4.8.3":
+"typescript@npm:*, typescript@npm:^4.8.3":
   version: 4.8.3
   resolution: "typescript@npm:4.8.3"
   bin:
@@ -18928,7 +18928,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"typescript@patch:typescript@^4.8.3#~builtin<compat/typescript>":
+"typescript@patch:typescript@*#~builtin<compat/typescript>, typescript@patch:typescript@^4.8.3#~builtin<compat/typescript>":
   version: 4.8.3
   resolution: "typescript@patch:typescript@npm%3A4.8.3#~builtin<compat/typescript>::version=4.8.3&hash=a1c5e5"
   bin:
