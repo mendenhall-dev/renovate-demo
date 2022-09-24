@@ -40,7 +40,7 @@
     "@storybook/addon-links": "^7.0.0-alpha.33",
     "@storybook/react-webpack5": "^7.0.0-alpha.33",
     "@stripe/react-stripe-js": "1.10.0",
-    "@stripe/stripe-js": "^1.36.0",
+    "@stripe/stripe-js": "^1.37.0",
     "@stylelint/postcss-css-in-js": "^0.38.0",
     "@testing-library/dom": "^8.18.1",
     "@testing-library/jest-dom": "^5.16.5",
