@@ -39,7 +39,7 @@
     "@storybook/addon-essentials": "^7.0.0-alpha.33",
     "@storybook/addon-links": "^7.0.0-alpha.33",
     "@storybook/react-webpack5": "^7.0.0-alpha.33",
-    "@stripe/react-stripe-js": "1.10.0",
+    "@stripe/react-stripe-js": "1.11.0",
     "@stripe/stripe-js": "^1.37.0",
     "@stylelint/postcss-css-in-js": "^0.38.0",
     "@testing-library/dom": "^8.18.1",
