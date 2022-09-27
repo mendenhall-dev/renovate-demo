@@ -8246,9 +8246,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"downshift@npm:^6.1.11":
-  version: 6.1.11
-  resolution: "downshift@npm:6.1.11"
+"downshift@npm:^6.1.12":
+  version: 6.1.12
+  resolution: "downshift@npm:6.1.12"
   dependencies:
     "@babel/runtime": ^7.14.8
     compute-scroll-into-view: ^1.0.17
@@ -8257,7 +8257,7 @@ __metadata:
     tslib: ^2.3.0
   peerDependencies:
     react: ">=16.12.0"
-  checksum: 96d58ddcaf19cf41bb11e8d6f8e78db9eca1eca6e4dd2c6a43204283d4f442f37f445769443869698ad4d45db3926987ff39a95dbe785283f236088f53c08592
+  checksum: c623dc436f332fefddc332b42ca4a267b3f5b47aaf1372a61212678d7ecbe22698fdb63f61373bcbd3773fa526eb4f210cf7f044cd5642b689dbd37ba27e9aaf
   languageName: node
   linkType: hard
 
@@ -16805,7 +16805,7 @@ __metadata:
     date-fns-timezone: ^0.1.4
     dotenv: ^16.0.2
     dotenv-webpack: ^8.0.1
-    downshift: ^6.1.11
+    downshift: ^6.1.12
     eslint: ^8.24.0
     eslint-config-airbnb: ^19.0.4
     eslint-config-airbnb-base: ^15.0.0
