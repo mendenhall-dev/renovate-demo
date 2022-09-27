@@ -4384,7 +4384,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@stripe/stripe-js@npm:^1.37.0":
+"@stripe/stripe-js@npm:^1.38.0":
   version: 1.38.1
   resolution: "@stripe/stripe-js@npm:1.38.1"
   checksum: ddc7744c83b5c6a18af1c673fca7b760e0660023e6ec01e9a9440f1f3c85977d583eeb5e0680c3b8b253501cc9328f1392b376c2dc22ff83f8a7f83c6f28031c
@@ -16765,7 +16765,7 @@ __metadata:
     "@storybook/addon-links": ^7.0.0-alpha.33
     "@storybook/react-webpack5": ^7.0.0-alpha.33
     "@stripe/react-stripe-js": 1.11.0
-    "@stripe/stripe-js": ^1.37.0
+    "@stripe/stripe-js": ^1.38.0
     "@stylelint/postcss-css-in-js": ^0.38.0
     "@testing-library/dom": ^8.18.1
     "@testing-library/jest-dom": ^5.16.5
