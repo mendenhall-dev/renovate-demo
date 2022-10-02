@@ -3365,11 +3365,13 @@ __metadata:
   linkType: hard
 
 "@restart/hooks@npm:^0.3.1":
-  version: 0.3.19
-  resolution: "@restart/hooks@npm:0.3.19"
+  version: 0.3.27
+  resolution: "@restart/hooks@npm:0.3.27"
+  dependencies:
+    dequal: ^2.0.2
   peerDependencies:
-    react: ^16.8.0
-  checksum: 053bdfa3d040e88269c2c1306a69cbde09cb2c42192f2eae46f70fd8662e43cc8113caf3c893282d7a936dd7370ee62c7bdb8276defc987d94cc6755eb8f5f27
+    react: ">=16.8.0"
+  checksum: bdca3849953de0b8322cebe47206ce2a0cc8616d42221e5de91d381bce586bed5c19e0ad9f3f9873a00f721c2d51188d242d06d4bc7b49ba5f28e181e3322377
   languageName: node
   linkType: hard
 
