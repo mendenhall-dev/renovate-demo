@@ -23,7 +23,7 @@
     "@fortawesome/pro-light-svg-icons": "^6.2.0",
     "@fortawesome/pro-solid-svg-icons": "^6.2.0",
     "@fortawesome/react-fontawesome": "^0.2.0",
-    "@graphql-codegen/cli": "2.13.4",
+    "@graphql-codegen/cli": "2.13.5",
     "@graphql-codegen/typescript": "^2.7.3",
     "@hookform/resolvers": "^2.9.8",
     "@percy/cli": "^1.10.4",
