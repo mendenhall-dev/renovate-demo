@@ -26,7 +26,7 @@
     "@graphql-codegen/cli": "2.13.5",
     "@graphql-codegen/typescript": "^2.7.3",
     "@hookform/resolvers": "^2.9.8",
-    "@percy/cli": "^1.10.4",
+    "@percy/cli": "^1.11.0",
     "@percy/storybook": "^4.3.3",
     "@pmmmwh/react-refresh-webpack-plugin": "^0.5.7",
     "@rails/actioncable": "^6.1.7",
