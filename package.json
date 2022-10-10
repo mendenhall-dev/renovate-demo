@@ -27,7 +27,7 @@
     "@graphql-codegen/typescript": "^2.7.3",
     "@hookform/resolvers": "^2.9.8",
     "@percy/cli": "^1.11.0",
-    "@percy/storybook": "^4.3.3",
+    "@percy/storybook": "^4.3.4",
     "@pmmmwh/react-refresh-webpack-plugin": "^0.5.7",
     "@rails/actioncable": "^6.1.7",
     "@react-google-maps/api": "^2.13.1",
