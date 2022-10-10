@@ -3130,7 +3130,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@percy/cli-command@npm:1.11.0, @percy/cli-command@npm:^1.8.0":
+"@percy/cli-command@npm:1.11.0, @percy/cli-command@npm:^1.10.4":
   version: 1.11.0
   resolution: "@percy/cli-command@npm:1.11.0"
   dependencies:
@@ -3267,16 +3267,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@percy/storybook@npm:^4.3.3":
-  version: 4.3.3
-  resolution: "@percy/storybook@npm:4.3.3"
+"@percy/storybook@npm:^4.3.4":
+  version: 4.3.4
+  resolution: "@percy/storybook@npm:4.3.4"
   dependencies:
-    "@percy/cli-command": ^1.8.0
+    "@percy/cli-command": ^1.10.4
     cross-spawn: ^7.0.3
     qs: ^6.11.0
   bin:
     percy-storybook: bin/percy-storybook.cjs
-  checksum: 772a18e5414fabdff4e5d3af0172f96582c3a0951270be32e8c521b66b744540454a74f2d561f23a53a1cbac1206881c8988c655dddab9180483b4bf9547e92c
+  checksum: c99fab93b7c0b7fcab403b4b658a0a215cc0c80217bb25e91486f7f858b7ca2b9b79879c4a3422acd45b363b26376b61e1728761e96f8bea11aa2a2d9388fa09
   languageName: node
   linkType: hard
 
@@ -16814,7 +16814,7 @@ __metadata:
     "@graphql-codegen/typescript": ^2.7.3
     "@hookform/resolvers": ^2.9.8
     "@percy/cli": ^1.11.0
-    "@percy/storybook": ^4.3.3
+    "@percy/storybook": ^4.3.4
     "@pmmmwh/react-refresh-webpack-plugin": ^0.5.7
     "@rails/actioncable": ^6.1.7
     "@react-google-maps/api": ^2.13.1
