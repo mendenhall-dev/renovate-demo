@@ -2061,9 +2061,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@graphql-codegen/cli@npm:2.13.5":
-  version: 2.13.5
-  resolution: "@graphql-codegen/cli@npm:2.13.5"
+"@graphql-codegen/cli@npm:2.13.6":
+  version: 2.13.6
+  resolution: "@graphql-codegen/cli@npm:2.13.6"
   dependencies:
     "@babel/generator": ^7.18.13
     "@babel/template": ^7.18.10
@@ -2095,6 +2095,7 @@ __metadata:
     listr2: ^4.0.5
     log-symbols: ^4.0.0
     mkdirp: ^1.0.4
+    shell-quote: ^1.7.3
     string-env-interpolation: ^1.0.1
     ts-log: ^2.2.3
     tslib: ^2.4.0
@@ -2107,7 +2108,7 @@ __metadata:
     graphql-code-generator: cjs/bin.js
     graphql-codegen: cjs/bin.js
     graphql-codegen-esm: esm/bin.js
-  checksum: aa80a4440657bad9ebc3dce6c7b22f843bff97b78c4b37808b6605bf7e2f3d7a227afa66d641284ffb914554147d07aab61ca27eec4551308a3909360191500b
+  checksum: 9fc0b1e18c2f62dbe36ee2addee49f99976ab4579b6a240f8b5f4ebfac255e5458ba2a0b1eb2a976d66ea7a5d6597633ae21832f653ef7a92ab6d465dab5def1
   languageName: node
   linkType: hard
 
@@ -16789,7 +16790,7 @@ __metadata:
     "@fortawesome/pro-light-svg-icons": ^6.2.0
     "@fortawesome/pro-solid-svg-icons": ^6.2.0
     "@fortawesome/react-fontawesome": ^0.2.0
-    "@graphql-codegen/cli": 2.13.5
+    "@graphql-codegen/cli": 2.13.6
     "@graphql-codegen/typescript": ^2.7.3
     "@hookform/resolvers": ^2.9.8
     "@percy/cli": ^1.11.0
@@ -17636,6 +17637,13 @@ __metadata:
   version: 3.0.0
   resolution: "shebang-regex@npm:3.0.0"
   checksum: 1a2bcae50de99034fcd92ad4212d8e01eedf52c7ec7830eedcf886622804fe36884278f2be8be0ea5fde3fd1c23911643a4e0f726c8685b61871c8908af01222
+  languageName: node
+  linkType: hard
+
+"shell-quote@npm:^1.7.3":
+  version: 1.7.4
+  resolution: "shell-quote@npm:1.7.4"
+  checksum: 2874ea9c1a7c3ebfc9ec5734a897e16533d0d06f2e4cddc22ba3d1cab5cdc07d0f825364c1b1e39abe61236f44d8e60e933c7ad7349ce44de4f5dddc7b4354e9
   languageName: node
   linkType: hard
 
