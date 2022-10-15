@@ -18,7 +18,7 @@ executors:
     shell: /bin/bash --login
     working_directory: ~/joinswoop/swoop
     docker:
-      - image: cimg/node:16.17.1@sha256:9e7dff70aee20446a146e374367c3fddc58df1e39cca318dbd4993e625892880
+      - image: cimg/node:16.18.0@sha256:6124d6b148fedcc379c328bd8d5083844c014e5a33665c95ef6f65548a6624f6
     resource_class: small
 
   fullstack:
@@ -90,7 +90,7 @@ jobs:
     shell: /bin/bash --login
     resource_class: large
     docker:
-      - image: cimg/node:16.17.1-browsers@sha256:0c64656d30e674482e117c80439e49a86e7cf517c8a20377f490488ba0e74d58
+      - image: cimg/node:16.18.0-browsers@sha256:a83d4293e9a93ea7cc415dff8c4456ff8bfc258843729967e0c63abb6f63fbe6
     steps:
       - checkout
 
