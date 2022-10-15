@@ -120,7 +120,7 @@
     "mockdate": "^3.0.5",
     "moment": "^2.29.4",
     "moment-locales-webpack-plugin": "^1.2.0",
-    "moment-timezone": "^0.5.37",
+    "moment-timezone": "^0.5.38",
     "polished": "^4.2.2",
     "postcss": "^8.4.17",
     "postcss-import": "^15.0.0",
