@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "license": "ISC",
   "engines": {
-    "node": "16.17.1"
+    "node": "16.18.0"
   },
   "packageManager": "yarn@3.2.4",
   "devDependencies": {
@@ -49,7 +49,7 @@
     "@types/jest": "^29.1.2",
     "@types/jquery": "^3.5.14",
     "@types/lodash": "^4.14.186",
-    "@types/node": "^16.11.64",
+    "@types/node": "^16.11.65",
     "@types/react": "^17.0.50",
     "@types/react-relay": "^14.1.2",
     "@types/relay-runtime": "^14.1.3",
