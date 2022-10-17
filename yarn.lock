@@ -16940,7 +16940,7 @@ __metadata:
     ts-node: ^10.9.1
     typeface-open-sans: ^1.1.13
     typescript: ^4.8.4
-    typescript-strict-plugin: ^2.0.1
+    typescript-strict-plugin: ^2.1.0
     webpack: ^5.74.0
     webpack-bundle-analyzer: ^4.6.1
     webpack-cli: ^4.10.0
@@ -18964,9 +18964,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"typescript-strict-plugin@npm:^2.0.1":
-  version: 2.0.1
-  resolution: "typescript-strict-plugin@npm:2.0.1"
+"typescript-strict-plugin@npm:^2.1.0":
+  version: 2.1.0
+  resolution: "typescript-strict-plugin@npm:2.1.0"
   dependencies:
     chalk: ^3.0.0
     execa: ^4.0.0
@@ -18975,7 +18975,7 @@ __metadata:
   bin:
     tsc-strict: dist/cli/tsc-strict/index.js
     update-strict-comments: dist/cli/update-strict-comments/index.js
-  checksum: 5edbe8eb81792074c4b1e8c738700307621f6ba6de641946485895341f01db10a550d8b51fd2cc2752bba4d6edb9afb4019df46544805a7083e4f2fd47cf0456
+  checksum: 5a2f2b37563d60242c75d997b922d6e54b859f79eb131cb93aef9bf4499a9ea9bd9789f9a652582aea8bede3221b81d7e011201f85a04b74dbf2893e16030ee9
   languageName: node
   linkType: hard
 
