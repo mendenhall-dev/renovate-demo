@@ -38,7 +38,7 @@
     "@storybook/addon-links": "^7.0.0-alpha.38",
     "@storybook/react-webpack5": "^7.0.0-alpha.38",
     "@stripe/react-stripe-js": "1.13.0",
-    "@stripe/stripe-js": "^1.41.0",
+    "@stripe/stripe-js": "^1.42.0",
     "@stylelint/postcss-css-in-js": "^0.38.0",
     "@testing-library/dom": "^8.19.0",
     "@testing-library/jest-dom": "^5.16.5",
