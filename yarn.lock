@@ -1480,7 +1480,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/runtime@npm:^7.0.0, @babel/runtime@npm:^7.1.2, @babel/runtime@npm:^7.10.2, @babel/runtime@npm:^7.12.5, @babel/runtime@npm:^7.14.8, @babel/runtime@npm:^7.16.3, @babel/runtime@npm:^7.17.8, @babel/runtime@npm:^7.18.3, @babel/runtime@npm:^7.18.9, @babel/runtime@npm:^7.19.0, @babel/runtime@npm:^7.19.4, @babel/runtime@npm:^7.5.0, @babel/runtime@npm:^7.7.2, @babel/runtime@npm:^7.7.6, @babel/runtime@npm:^7.8.4, @babel/runtime@npm:^7.9.2":
+"@babel/runtime@npm:^7.0.0, @babel/runtime@npm:^7.1.2, @babel/runtime@npm:^7.10.2, @babel/runtime@npm:^7.12.5, @babel/runtime@npm:^7.14.8, @babel/runtime@npm:^7.16.3, @babel/runtime@npm:^7.17.8, @babel/runtime@npm:^7.18.3, @babel/runtime@npm:^7.18.9, @babel/runtime@npm:^7.19.4, @babel/runtime@npm:^7.5.0, @babel/runtime@npm:^7.7.2, @babel/runtime@npm:^7.7.6, @babel/runtime@npm:^7.8.4, @babel/runtime@npm:^7.9.2":
   version: 7.19.4
   resolution: "@babel/runtime@npm:7.19.4"
   dependencies:
@@ -9649,13 +9649,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"fast-unique-numbers@npm:^6.0.21":
-  version: 6.0.21
-  resolution: "fast-unique-numbers@npm:6.0.21"
+"fast-unique-numbers@npm:^6.0.22":
+  version: 6.0.22
+  resolution: "fast-unique-numbers@npm:6.0.22"
   dependencies:
-    "@babel/runtime": ^7.19.0
+    "@babel/runtime": ^7.19.4
     tslib: ^2.4.0
-  checksum: 88841b4c0b834ea53070a2b523a4d3f4b0b8eab661a380cf28b3cf425ede01cdd5708d63091523ff5502f25de05234152f3c0d04a309eaa491f3939a353142eb
+  checksum: 18a96013d8d2582113111f10db2d2b5a2d79a158d19bd8b6f43757efe0c0bb29def58fbc68c011e853bb27e29493c87f930ffc9eccfa5c1cb16c81da76ffefbb
   languageName: node
   linkType: hard
 
@@ -16989,7 +16989,7 @@ __metadata:
     webpack-merge: ^5.8.0
     webpack-s3-plugin: ^1.2.0-rc.0
     worker-loader: ^3.0.8
-    worker-timers: ^7.0.54
+    worker-timers: ^7.0.56
     yaml: ^2.1.3
   languageName: unknown
   linkType: soft
@@ -19929,37 +19929,37 @@ __metadata:
   languageName: node
   linkType: hard
 
-"worker-timers-broker@npm:^6.0.76":
-  version: 6.0.76
-  resolution: "worker-timers-broker@npm:6.0.76"
+"worker-timers-broker@npm:^6.0.77":
+  version: 6.0.77
+  resolution: "worker-timers-broker@npm:6.0.77"
   dependencies:
-    "@babel/runtime": ^7.19.0
-    fast-unique-numbers: ^6.0.21
+    "@babel/runtime": ^7.19.4
+    fast-unique-numbers: ^6.0.22
     tslib: ^2.4.0
-    worker-timers-worker: ^7.0.42
-  checksum: d0081a08965d53c81815b3f7f471dab9d577a11d1d8e5350b0abf9000646a60dbeaa22389fbfa877db7e21efa1fa6f478494fc423d6aa23d20fc52bd71bd9d6d
+    worker-timers-worker: ^7.0.43
+  checksum: 0e020b5e4c88e149ed46b49236a5eff5a4494ab4b18ba8bacbbe57eae821e342156b35db265d2149371cb4adf5482f81c2d752d81150112b6f42e8ef21d0e4eb
   languageName: node
   linkType: hard
 
-"worker-timers-worker@npm:^7.0.42":
-  version: 7.0.42
-  resolution: "worker-timers-worker@npm:7.0.42"
+"worker-timers-worker@npm:^7.0.43":
+  version: 7.0.43
+  resolution: "worker-timers-worker@npm:7.0.43"
   dependencies:
-    "@babel/runtime": ^7.19.0
+    "@babel/runtime": ^7.19.4
     tslib: ^2.4.0
-  checksum: b34c88407c73a4304adfac77b37e9e31d72974ed395d134662726356ba3afda857290c4067d214d634e5991d1f7d916ab6c9c003ef0187ec9d01a5d6700f49f5
+  checksum: 447ffeeb2b62d3cb9527b23aeffbac5f373c1d735ee6b82acf05fe6e9358f0dfd98f049d1e6b868910cc27124aa3c4ef6eaa7dd6e0e7e51e0ccbccf700b89185
   languageName: node
   linkType: hard
 
-"worker-timers@npm:^7.0.54":
-  version: 7.0.54
-  resolution: "worker-timers@npm:7.0.54"
+"worker-timers@npm:^7.0.56":
+  version: 7.0.56
+  resolution: "worker-timers@npm:7.0.56"
   dependencies:
-    "@babel/runtime": ^7.19.0
+    "@babel/runtime": ^7.19.4
     tslib: ^2.4.0
-    worker-timers-broker: ^6.0.76
-    worker-timers-worker: ^7.0.42
-  checksum: a948bc70affa0a1ecbc6b3bdd635c4a71aeea071ddd5d305f383478ae2f567b8151964c0321f1856709c2571bf5c736c12dcabf4ce9829884c0581a0a23a92b9
+    worker-timers-broker: ^6.0.77
+    worker-timers-worker: ^7.0.43
+  checksum: 4db81163e58ea27af50ab4c9f9b51b550cbe0d866c658e7c3ced51330da6cb9522d994371a5bd9091869051c6a0a778c880fed13c2faf02ad74f017f17598008
   languageName: node
   linkType: hard
 
