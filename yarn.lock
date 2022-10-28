@@ -4861,10 +4861,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:*, @types/node@npm:^16.0.0, @types/node@npm:^16.18.0":
+"@types/node@npm:*, @types/node@npm:^16.0.0":
   version: 16.18.0
   resolution: "@types/node@npm:16.18.0"
   checksum: 4eb4b88012c7d3f527c1b4989cf085479d44ce418fb047fb8d3b545601a3e1fc436de8491b9734debeda8eae241963fb802cea87a5a5698bf5f6f3d489d446a8
+  languageName: node
+  linkType: hard
+
+"@types/node@npm:^18.11.5":
+  version: 18.11.7
+  resolution: "@types/node@npm:18.11.7"
+  checksum: 69d630825cf6fbf580d08d76a4d4836ef8c34ed4fe0842221ade87d275f517099cbfabe8e22397208e564bd24926db97699ab9db5c091383269a432b336665e2
   languageName: node
   linkType: hard
 
@@ -16860,7 +16867,7 @@ __metadata:
     "@types/jest": ^29.2.0
     "@types/jquery": ^3.5.14
     "@types/lodash": ^4.14.186
-    "@types/node": ^16.18.0
+    "@types/node": ^18.11.5
     "@types/react": ^17.0.50
     "@types/react-relay": ^14.1.2
     "@types/relay-runtime": ^14.1.3
