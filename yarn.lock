@@ -16167,12 +16167,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-currency-input-field@npm:^3.6.8":
-  version: 3.6.8
-  resolution: "react-currency-input-field@npm:3.6.8"
+"react-currency-input-field@npm:^3.6.9":
+  version: 3.6.9
+  resolution: "react-currency-input-field@npm:3.6.9"
   peerDependencies:
     react: ^16.9.0 || ^17.0.0 || ^18.0.0
-  checksum: 3219ec7e232268bcf3f6c8c6fc1cd10bff246ea4a5999822f2199c1327a831c9cbd98ced2635a4c060f24a7afcc291bbf4255a61f812f724a343576594555818
+  checksum: d13016069cde18193724fa4640fb84aa5541dbba643b59c4896819508de2f0d1c8f2d87eaf6ede11ed55547d22cc3a04edecd0c52b015ca4fbe3fdf1ba2fb380
   languageName: node
   linkType: hard
 
@@ -16943,7 +16943,7 @@ __metadata:
     prop-types: ^15.8.1
     qs: ^6.10.5
     react: ^17.0.2
-    react-currency-input-field: ^3.6.8
+    react-currency-input-field: ^3.6.9
     react-datetime: ^3.1.1
     react-dom: ^17.0.2
     react-dom-factories: ^1.0.2
