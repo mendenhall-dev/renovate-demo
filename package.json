@@ -36,6 +36,7 @@
     "@storybook/addon-actions": "^7.0.0-alpha.47",
     "@storybook/addon-essentials": "^7.0.0-alpha.47",
     "@storybook/addon-links": "^7.0.0-alpha.47",
+    "@storybook/cli": "^7.0.0-alpha.47",
     "@storybook/react-webpack5": "^7.0.0-alpha.47",
     "@stripe/react-stripe-js": "1.14.1",
     "@stripe/stripe-js": "^1.42.0",
