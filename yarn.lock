@@ -5167,7 +5167,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:*, @types/node@npm:^18.11.8":
+"@types/node@npm:*, @types/node@npm:^18.11.9":
   version: 18.11.9
   resolution: "@types/node@npm:18.11.9"
   checksum: cc0aae109e9b7adefc32eecb838d6fad931663bb06484b5e9cbbbf74865c721b03d16fd8d74ad90e31dbe093d956a7c2c306ba5429ba0c00f3f7505103d7a496
@@ -18129,7 +18129,7 @@ __metadata:
     "@types/jest": ^29.2.1
     "@types/jquery": ^3.5.14
     "@types/lodash": ^4.14.187
-    "@types/node": ^18.11.8
+    "@types/node": ^18.11.9
     "@types/react": ^17.0.52
     "@types/react-relay": ^14.1.2
     "@types/relay-runtime": ^14.1.4
