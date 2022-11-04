@@ -39,7 +39,7 @@
     "@storybook/cli": "^7.0.0-alpha.47",
     "@storybook/react-webpack5": "^7.0.0-alpha.47",
     "@stripe/react-stripe-js": "1.14.1",
-    "@stripe/stripe-js": "^1.42.0",
+    "@stripe/stripe-js": "^1.42.1",
     "@stylelint/postcss-css-in-js": "^0.38.0",
     "@testing-library/dom": "^8.19.0",
     "@testing-library/jest-dom": "^5.16.5",
