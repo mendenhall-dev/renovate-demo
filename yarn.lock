@@ -3412,20 +3412,20 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@react-google-maps/api@npm:^2.14.0":
-  version: 2.16.0
-  resolution: "@react-google-maps/api@npm:2.16.0"
+"@react-google-maps/api@npm:^2.15.0":
+  version: 2.16.1
+  resolution: "@react-google-maps/api@npm:2.16.1"
   dependencies:
     "@googlemaps/js-api-loader": 1.15.1
     "@googlemaps/markerclusterer": 2.0.13
     "@react-google-maps/infobox": 2.16.0
-    "@react-google-maps/marker-clusterer": 2.16.0
+    "@react-google-maps/marker-clusterer": 2.16.1
     "@types/google.maps": 3.50.5
     invariant: 2.2.4
   peerDependencies:
     react: ^16.8 || ^17 || ^18
     react-dom: ^16.8 || ^17 || ^18
-  checksum: b037fd8975b0cadfc390f731afb9d79f3d5bc15317e194a17eee642aec0f2ffbe97737c8720884cd297414da3d2a173f9bb3fcc65fae413477b800b5bf263e13
+  checksum: da87f82500e2feaebe865b496bbe99f908d51c375f1fcd11e718d4638129c7090c33a5e395857b12aecb7b3ce595b46d16401f3d3fa311b87d56c12059a2075f
   languageName: node
   linkType: hard
 
@@ -3436,10 +3436,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@react-google-maps/marker-clusterer@npm:2.16.0":
-  version: 2.16.0
-  resolution: "@react-google-maps/marker-clusterer@npm:2.16.0"
-  checksum: 67312339bbe2bfc9b498059ed205ad23c55973e71577b6d64f8c458603b3f23771eefc720c77f623cf6c13f99451be0bca89083a49dfc3470bd90f2d891bf173
+"@react-google-maps/marker-clusterer@npm:2.16.1":
+  version: 2.16.1
+  resolution: "@react-google-maps/marker-clusterer@npm:2.16.1"
+  checksum: 2b65cbe34b1e52c90bb0b175774e4296896064749b05a53344b21fd8c029d35228e0ea338bcefec97cc511505cc8b9b8ba579862b3ddd915c5f7260697509e27
   languageName: node
   linkType: hard
 
@@ -18120,7 +18120,7 @@ __metadata:
     "@percy/storybook": ^4.3.4
     "@pmmmwh/react-refresh-webpack-plugin": ^0.5.8
     "@rails/actioncable": ^6.1.7
-    "@react-google-maps/api": ^2.14.0
+    "@react-google-maps/api": ^2.15.0
     "@splitsoftware/splitio-browserjs": ^0.9.1
     "@storybook/addon-a11y": ^7.0.0-alpha.47
     "@storybook/addon-actions": ^7.0.0-alpha.47
