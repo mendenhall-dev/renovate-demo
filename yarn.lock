@@ -3412,9 +3412,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@react-google-maps/api@npm:^2.16.0":
-  version: 2.16.1
-  resolution: "@react-google-maps/api@npm:2.16.1"
+"@react-google-maps/api@npm:^2.16.1":
+  version: 2.17.0
+  resolution: "@react-google-maps/api@npm:2.17.0"
   dependencies:
     "@googlemaps/js-api-loader": 1.15.1
     "@googlemaps/markerclusterer": 2.0.13
@@ -3425,7 +3425,7 @@ __metadata:
   peerDependencies:
     react: ^16.8 || ^17 || ^18
     react-dom: ^16.8 || ^17 || ^18
-  checksum: da87f82500e2feaebe865b496bbe99f908d51c375f1fcd11e718d4638129c7090c33a5e395857b12aecb7b3ce595b46d16401f3d3fa311b87d56c12059a2075f
+  checksum: f74de35f2713efa5fb48e8631958a06a8d4ddae41d6fc563ac9bd831a19e8e7045e0a5791d0ecb123dfac06f9cb03fbde28c4b31a9461472175cf7e504d538de
   languageName: node
   linkType: hard
 
@@ -18118,7 +18118,7 @@ __metadata:
     "@percy/storybook": ^4.3.4
     "@pmmmwh/react-refresh-webpack-plugin": ^0.5.8
     "@rails/actioncable": ^6.1.7
-    "@react-google-maps/api": ^2.16.0
+    "@react-google-maps/api": ^2.16.1
     "@splitsoftware/splitio-browserjs": ^0.9.1
     "@storybook/addon-a11y": ^7.0.0-alpha.48
     "@storybook/addon-actions": ^7.0.0-alpha.48
