@@ -5209,14 +5209,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/relay-test-utils@npm:^6.0.6":
-  version: 6.0.6
-  resolution: "@types/relay-test-utils@npm:6.0.6"
+"@types/relay-test-utils@npm:^14.1.0":
+  version: 14.1.0
+  resolution: "@types/relay-test-utils@npm:14.1.0"
   dependencies:
     "@types/react": "*"
     "@types/react-relay": "*"
     "@types/relay-runtime": "*"
-  checksum: f3eca9e09f9b184ae4d724bf8dc758779cfdb8998e1db7c1b49816464fbb018eca6557a7a26600991044ca9a219b25a88d07ca2a08385ab99ee44156eff29edc
+  checksum: c43cea6e926d5b84fb87f8cc4dfcde9de85b9acd4d3336a0be918ca5c84d70c6bcc30aede0b21a93eec6c2e7fd6d85b8036d03da0f2ebc4434353434220f6028
   languageName: node
   linkType: hard
 
@@ -17903,7 +17903,7 @@ __metadata:
     "@types/react": ^17.0.52
     "@types/react-relay": ^14.1.2
     "@types/relay-runtime": ^14.1.4
-    "@types/relay-test-utils": ^6.0.6
+    "@types/relay-test-utils": ^14.1.0
     "@typescript-eslint/eslint-plugin": ^5.43.0
     "@typescript-eslint/parser": ^5.43.0
     assets-webpack-plugin: 7.1.1
