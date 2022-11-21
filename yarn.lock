@@ -17191,7 +17191,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-dom@npm:^17.0.0, react-dom@npm:^17.0.2":
+"react-dom@npm:^17.0.2":
   version: 17.0.2
   resolution: "react-dom@npm:17.0.2"
   dependencies:
@@ -20896,7 +20896,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"webpack@npm:5, webpack@npm:^5.0.0, webpack@npm:^5.75.0":
+"webpack@npm:5, webpack@npm:^5.75.0":
   version: 5.75.0
   resolution: "webpack@npm:5.75.0"
   dependencies:
