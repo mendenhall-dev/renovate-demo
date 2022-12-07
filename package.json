@@ -47,7 +47,7 @@
     "@testing-library/react-hooks": "^8.0.1",
     "@testing-library/user-event": "^14.4.3",
     "@types/googlemaps": "^3.43.3",
-    "@types/jest": "^29.2.3",
+    "@types/jest": "^29.2.4",
     "@types/jquery": "^3.5.14",
     "@types/lodash": "^4.14.191",
     "@types/node": "^18.11.10",
