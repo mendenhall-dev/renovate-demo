@@ -113,7 +113,7 @@
     "jest-fetch-mock": "^3.0.3",
     "jest-junit": "^15.0.0",
     "jest-runner-eslint": "^1.1.0",
-    "jquery": "^3.6.2",
+    "jquery": "^3.6.3",
     "lint-staged": ">=13.1.0",
     "lodash": "^4.17.21",
     "microevent-github": "=1.0.0",
