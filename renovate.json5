@@ -1,5 +1,14 @@
 {
-  extends: ['config:base'],
+  extends: [
+    ':dependencyDashboard',
+    ':ignoreModulesAndTests',
+    ':autodetectRangeStrategy',
+    ':prHourlyLimit2',
+    ':prConcurrentLimit10',
+    'group:monorepos',
+    'group:recommended',
+    'workarounds:all',
+  ],
 
   enabledManagers: ['circleci', 'github-actions', 'npm', 'nvm'],
   npmrc: '@fortawesome:registry=https://npm.fontawesome.com/',
