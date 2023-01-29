@@ -6672,7 +6672,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"babel-jest@npm:^29.4.0, babel-jest@npm:^29.4.1":
+"babel-jest@npm:^29.4.1":
   version: 29.4.1
   resolution: "babel-jest@npm:29.4.1"
   dependencies:
@@ -12755,7 +12755,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"jest-environment-jsdom@npm:^29.4.0":
+"jest-environment-jsdom@npm:^29.4.1":
   version: 29.4.1
   resolution: "jest-environment-jsdom@npm:29.4.1"
   dependencies:
@@ -13122,7 +13122,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"jest@npm:^29.4.0":
+"jest@npm:^29.4.1":
   version: 29.4.1
   resolution: "jest@npm:29.4.1"
   dependencies:
@@ -17702,7 +17702,7 @@ __metadata:
     "@typescript-eslint/parser": ^5.49.0
     assets-webpack-plugin: 7.1.1
     awesome-phonenumber: ^3.4.0
-    babel-jest: ^29.4.0
+    babel-jest: ^29.4.1
     babel-loader: ^9.1.2
     babel-plugin-minify-replace: ^0.5.0
     babel-plugin-relay: ^14.1.0
@@ -17750,8 +17750,8 @@ __metadata:
     http-proxy-middleware: ^2.0.6
     husky: ^8.0.3
     identity-obj-proxy: ^3.0.0
-    jest: ^29.4.0
-    jest-environment-jsdom: ^29.4.0
+    jest: ^29.4.1
+    jest-environment-jsdom: ^29.4.1
     jest-fetch-mock: ^3.0.3
     jest-junit: ^15.0.0
     jest-runner-eslint: ^1.1.0
