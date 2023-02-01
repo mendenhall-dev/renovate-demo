@@ -11105,8 +11105,8 @@ __metadata:
   linkType: hard
 
 "graphql-config@npm:^4.4.0":
-  version: 4.4.0
-  resolution: "graphql-config@npm:4.4.0"
+  version: 4.4.1
+  resolution: "graphql-config@npm:4.4.1"
   dependencies:
     "@graphql-tools/graphql-file-loader": ^7.3.7
     "@graphql-tools/json-file-loader": ^7.3.7
@@ -11122,7 +11122,12 @@ __metadata:
     cosmiconfig-toml-loader: ^1.0.0
     cosmiconfig-typescript-loader: ^4.0.0
     graphql: ^0.11.0 || ^0.12.0 || ^0.13.0 || ^14.0.0 || ^15.0.0 || ^16.0.0
-  checksum: 2f8cbb4710a7c0a411074eb843317bc66e5602fdab7eefa9765812d986d4b04fc2d285d3c0811ed0efaef12ea58351676561d704e79880f5848ed970badab500
+  peerDependenciesMeta:
+    cosmiconfig-toml-loader:
+      optional: true
+    cosmiconfig-typescript-loader:
+      optional: true
+  checksum: 42b9876a59619230d0e6511c80f5cde17de20fe5fa98fe2df8164a1b8590bb280aedb7dbb3707d2b4a5f86ad621d33600ac157e6402346f934d52fc76309c6f3
   languageName: node
   linkType: hard
 
