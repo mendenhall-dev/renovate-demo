@@ -10337,13 +10337,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"fast-unique-numbers@npm:^7.0.0":
-  version: 7.0.0
-  resolution: "fast-unique-numbers@npm:7.0.0"
+"fast-unique-numbers@npm:^7.0.1":
+  version: 7.0.1
+  resolution: "fast-unique-numbers@npm:7.0.1"
   dependencies:
-    "@babel/runtime": ^7.20.7
-    tslib: ^2.4.1
-  checksum: b10dfa7b4d89a5ec9ea31372003a9f2fef3373fa517a3182c02fccda07899f19388ce00729869f88ccd728458b4265da9524f8abf1b8707e0a4facae4a23a917
+    "@babel/runtime": ^7.20.13
+    tslib: ^2.5.0
+  checksum: 431d5427f4d09fb164e6005d345a8d985b44117423308ce571c281f3fb290e6f51e9fccd7c4673cf70779a4a508925995f2c00d549dbeac490265be771851d5d
   languageName: node
   linkType: hard
 
@@ -17855,7 +17855,7 @@ __metadata:
     webpack-merge: ^5.8.0
     webpack-s3-plugin: ^1.2.0-rc.0
     worker-loader: ^3.0.8
-    worker-timers: ^7.0.61
+    worker-timers: ^7.0.62
     yaml: ^2.2.1
   languageName: unknown
   linkType: soft
@@ -19797,7 +19797,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"tslib@npm:^2.0.0, tslib@npm:^2.0.1, tslib@npm:^2.0.3, tslib@npm:^2.1.0, tslib@npm:^2.3.0, tslib@npm:^2.3.1, tslib@npm:^2.4.0, tslib@npm:^2.4.1, tslib@npm:~2.4.0":
+"tslib@npm:^2.0.0, tslib@npm:^2.0.1, tslib@npm:^2.0.3, tslib@npm:^2.1.0, tslib@npm:^2.3.0, tslib@npm:^2.3.1, tslib@npm:^2.4.0, tslib@npm:^2.5.0":
+  version: 2.5.0
+  resolution: "tslib@npm:2.5.0"
+  checksum: ae3ed5f9ce29932d049908ebfdf21b3a003a85653a9a140d614da6b767a93ef94f460e52c3d787f0e4f383546981713f165037dc2274df212ea9f8a4541004e1
+  languageName: node
+  linkType: hard
+
+"tslib@npm:~2.4.0":
   version: 2.4.1
   resolution: "tslib@npm:2.4.1"
   checksum: 19480d6e0313292bd6505d4efe096a6b31c70e21cf08b5febf4da62e95c265c8f571f7b36fcc3d1a17e068032f59c269fab3459d6cd3ed6949eafecf64315fca
@@ -20916,37 +20923,37 @@ __metadata:
   languageName: node
   linkType: hard
 
-"worker-timers-broker@npm:^6.0.81":
-  version: 6.0.81
-  resolution: "worker-timers-broker@npm:6.0.81"
+"worker-timers-broker@npm:^6.0.82":
+  version: 6.0.82
+  resolution: "worker-timers-broker@npm:6.0.82"
   dependencies:
-    "@babel/runtime": ^7.20.7
-    fast-unique-numbers: ^7.0.0
-    tslib: ^2.4.1
-    worker-timers-worker: ^7.0.47
-  checksum: 3e3b6a2bcaced9849bd6683f0abc97941660b2a47150260ef0729b7a6c12301359b62ee51ae10b76a651853ab92f0ab15ef08d4bf39955f206f2c4bb7882f24b
+    "@babel/runtime": ^7.20.13
+    fast-unique-numbers: ^7.0.1
+    tslib: ^2.5.0
+    worker-timers-worker: ^7.0.48
+  checksum: 7593090d07ce66c15414fd6ce65328cef6b9e34dbdee24e4b705c53b01c4c441451183143ceab8b9c3274e0678118df4a2f81285743e7364d8c7eb8515cb65d1
   languageName: node
   linkType: hard
 
-"worker-timers-worker@npm:^7.0.47":
-  version: 7.0.47
-  resolution: "worker-timers-worker@npm:7.0.47"
+"worker-timers-worker@npm:^7.0.48":
+  version: 7.0.48
+  resolution: "worker-timers-worker@npm:7.0.48"
   dependencies:
-    "@babel/runtime": ^7.20.7
-    tslib: ^2.4.1
-  checksum: 1c7736f4350ea81b5e8d8258b9d7f2737f3fa9655c3849e6335672ebe312aff5cd7f0909bb469306894705f1827110d2279811c8fb35fc899fe72370abbe5464
+    "@babel/runtime": ^7.20.13
+    tslib: ^2.5.0
+  checksum: b4161000c8a91564233deb1bd1ad4f329d88ca823b9df2428ae6e23835284f204942edf089578595a852de50422b1aa2dedc7ff911c3e38881ea5c92c5b7f155
   languageName: node
   linkType: hard
 
-"worker-timers@npm:^7.0.61":
-  version: 7.0.61
-  resolution: "worker-timers@npm:7.0.61"
+"worker-timers@npm:^7.0.62":
+  version: 7.0.62
+  resolution: "worker-timers@npm:7.0.62"
   dependencies:
-    "@babel/runtime": ^7.20.7
-    tslib: ^2.4.1
-    worker-timers-broker: ^6.0.81
-    worker-timers-worker: ^7.0.47
-  checksum: ba791770470b8d20ea2e6851b0e1ed5bfc66c9e691bcc2dc5224122fdc756e13a2518ef827dbd546c4c10cd168062a289710cee6c6f06dc780fd38dc13f0059a
+    "@babel/runtime": ^7.20.13
+    tslib: ^2.5.0
+    worker-timers-broker: ^6.0.82
+    worker-timers-worker: ^7.0.48
+  checksum: bb7c1615e120e7534278e88b6a257d6d25f7ab591f5a0d7e5fcd4e821abec8eb6ea4cc436a262d160abfa534001879c660764d5ede70b908b9c53ff2130ab4aa
   languageName: node
   linkType: hard
 
