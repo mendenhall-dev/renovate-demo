@@ -3780,7 +3780,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@storybook/addon-a11y@npm:^7.0.0-beta.40":
+"@storybook/addon-a11y@npm:^7.0.0-beta.41":
   version: 7.0.0-beta.43
   resolution: "@storybook/addon-a11y@npm:7.0.0-beta.43"
   dependencies:
@@ -3809,7 +3809,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@storybook/addon-actions@npm:7.0.0-beta.43, @storybook/addon-actions@npm:^7.0.0-beta.40":
+"@storybook/addon-actions@npm:7.0.0-beta.43, @storybook/addon-actions@npm:^7.0.0-beta.41":
   version: 7.0.0-beta.43
   resolution: "@storybook/addon-actions@npm:7.0.0-beta.43"
   dependencies:
@@ -3929,7 +3929,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@storybook/addon-essentials@npm:^7.0.0-beta.40":
+"@storybook/addon-essentials@npm:^7.0.0-beta.41":
   version: 7.0.0-beta.43
   resolution: "@storybook/addon-essentials@npm:7.0.0-beta.43"
   dependencies:
@@ -3965,7 +3965,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@storybook/addon-links@npm:^7.0.0-beta.40":
+"@storybook/addon-links@npm:^7.0.0-beta.41":
   version: 7.0.0-beta.43
   resolution: "@storybook/addon-links@npm:7.0.0-beta.43"
   dependencies:
@@ -4256,7 +4256,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@storybook/cli@npm:^7.0.0-beta.40":
+"@storybook/cli@npm:^7.0.0-beta.41":
   version: 7.0.0-beta.43
   resolution: "@storybook/cli@npm:7.0.0-beta.43"
   dependencies:
@@ -4690,7 +4690,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@storybook/react-webpack5@npm:^7.0.0-beta.40":
+"@storybook/react-webpack5@npm:^7.0.0-beta.41":
   version: 7.0.0-beta.43
   resolution: "@storybook/react-webpack5@npm:7.0.0-beta.43"
   dependencies:
@@ -17214,12 +17214,12 @@ __metadata:
     "@rails/actioncable": ^6.1.7
     "@react-google-maps/api": ^2.18.1
     "@splitsoftware/splitio-browserjs": ^0.9.2
-    "@storybook/addon-a11y": ^7.0.0-beta.40
-    "@storybook/addon-actions": ^7.0.0-beta.40
-    "@storybook/addon-essentials": ^7.0.0-beta.40
-    "@storybook/addon-links": ^7.0.0-beta.40
-    "@storybook/cli": ^7.0.0-beta.40
-    "@storybook/react-webpack5": ^7.0.0-beta.40
+    "@storybook/addon-a11y": ^7.0.0-beta.41
+    "@storybook/addon-actions": ^7.0.0-beta.41
+    "@storybook/addon-essentials": ^7.0.0-beta.41
+    "@storybook/addon-links": ^7.0.0-beta.41
+    "@storybook/cli": ^7.0.0-beta.41
+    "@storybook/react-webpack5": ^7.0.0-beta.41
     "@stripe/react-stripe-js": 1.16.4
     "@stripe/stripe-js": ^1.46.0
     "@stylelint/postcss-css-in-js": ^0.38.0
