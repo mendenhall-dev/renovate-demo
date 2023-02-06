@@ -98,7 +98,7 @@
     "fixed-data-table": "^0.6.5",
     "flux": "^4.0.3",
     "font-awesome": "^4.7.0",
-    "framer-motion": "^6.5.1",
+    "framer-motion": "^9.0.1",
     "graphql": "^16.6.0",
     "graphql-schema-linter": "^3.0.1",
     "hoist-non-react-statics": "^3.3.2",
