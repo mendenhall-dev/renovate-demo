@@ -17831,7 +17831,7 @@ __metadata:
     rollbar-sourcemap-webpack-plugin: ^3.3.0
     router5: ^8.0.1
     router5-plugin-browser: ^8.0.1
-    sass: ^1.58.0
+    sass: ^1.58.1
     sass-loader: ^13.2.0
     scroll-behavior-polyfill: ^2.0.13
     style-loader: ^3.3.1
@@ -18238,16 +18238,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"sass@npm:^1.58.0":
-  version: 1.58.0
-  resolution: "sass@npm:1.58.0"
+"sass@npm:^1.58.1":
+  version: 1.58.2
+  resolution: "sass@npm:1.58.2"
   dependencies:
     chokidar: ">=3.0.0 <4.0.0"
     immutable: ^4.0.0
     source-map-js: ">=0.6.2 <2.0.0"
   bin:
     sass: sass.js
-  checksum: a7219634881d2de6441fb619787fb1a02e3fa0333fb715be26aa335ba49d6bdb4f1105d9df70a80a67200893022b08346745783dc49046095d94fc6e044492d6
+  checksum: e0febe4d274af7b9490b9207ff7f05762d60df6b2ad307f7a823432cb4e1604eced6784ae635a6b80e4a6177c047f5a9623c53a15aaec3b9bf981ea86e8937a9
   languageName: node
   linkType: hard
 
