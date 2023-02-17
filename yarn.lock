@@ -17828,7 +17828,6 @@ __metadata:
     scroll-behavior-polyfill: ^2.0.13
     style-loader: ^3.3.1
     stylelint: ^15.1.0
-    stylelint-config-prettier: ^9.0.5
     stylelint-config-recommended: ^10.0.1
     stylelint-config-styled-components: ^0.1.1
     stylelint-prettier: ^2.0.0
@@ -19092,18 +19091,6 @@ __metadata:
   peerDependencies:
     postcss: ^8.2.15
   checksum: 310b3452c11fd443b0d327aa2d5b43ae7479407339204b7ad11cf2e16d33b690c1cbf47a21b737ef112411e53563f0f996c5fa3642d135c896329950a008277f
-  languageName: node
-  linkType: hard
-
-"stylelint-config-prettier@npm:^9.0.5":
-  version: 9.0.5
-  resolution: "stylelint-config-prettier@npm:9.0.5"
-  peerDependencies:
-    stylelint: ">= 11.x < 15"
-  bin:
-    stylelint-config-prettier: bin/check.js
-    stylelint-config-prettier-check: bin/check.js
-  checksum: 3d04e463e0bb7e42a5ddec49eea6ef4ea07705d887e8a3ff1fcb82278a5e2bec1a36b8498ea7ed2d24878de29d7c94ac75b1d3ac4f8b19c3a84970595b29261f
   languageName: node
   linkType: hard
 
