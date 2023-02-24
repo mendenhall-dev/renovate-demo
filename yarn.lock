@@ -17925,7 +17925,6 @@ __metadata:
     stylelint: ^15.2.0
     stylelint-config-recommended: ^10.0.1
     stylelint-config-styled-components: ^0.1.1
-    stylelint-prettier: ^2.0.0
     stylelint-scss: ^4.4.0
     terser-webpack-plugin: ^5.3.6
     ts-node: ^10.9.1
@@ -19202,18 +19201,6 @@ __metadata:
   version: 0.1.1
   resolution: "stylelint-config-styled-components@npm:0.1.1"
   checksum: 1421187a27d11740f9ee224163231a9f3194c8055c27b0cb3204e76742c55a9397004bc70da9b3feee9988d0afe0d3c839186ef01d847a163ba7ad3299a9759a
-  languageName: node
-  linkType: hard
-
-"stylelint-prettier@npm:^2.0.0":
-  version: 2.0.0
-  resolution: "stylelint-prettier@npm:2.0.0"
-  dependencies:
-    prettier-linter-helpers: ^1.0.0
-  peerDependencies:
-    prettier: ">=2.0.0"
-    stylelint: ">=14.0.0"
-  checksum: 6ce7628517a492e0c2e6104f654c9bc710f1aaf035c8b5274e187b68e8d510e70bae5ded2cb65df76aa01096460b9dfe02f844fea13bfba7e3dcca13baec2ff4
   languageName: node
   linkType: hard
 

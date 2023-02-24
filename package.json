@@ -162,7 +162,6 @@
     "stylelint": "^15.2.0",
     "stylelint-config-recommended": "^10.0.1",
     "stylelint-config-styled-components": "^0.1.1",
-    "stylelint-prettier": "^2.0.0",
     "stylelint-scss": "^4.4.0",
     "terser-webpack-plugin": "^5.3.6",
     "ts-node": "^10.9.1",
