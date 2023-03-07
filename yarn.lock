@@ -10328,15 +10328,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"fbemitter@npm:^3.0.0":
-  version: 3.0.0
-  resolution: "fbemitter@npm:3.0.0"
-  dependencies:
-    fbjs: ^3.0.0
-  checksum: 069690b8cdff3521ade3c9beb92ba0a38d818a86ef36dff8690e66749aef58809db4ac0d6938eb1cacea2dbef5f2a508952d455669590264cdc146bbe839f605
-  languageName: node
-  linkType: hard
-
 "fbjs-css-vars@npm:^1.0.0":
   version: 1.0.2
   resolution: "fbjs-css-vars@npm:1.0.2"
@@ -10344,7 +10335,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"fbjs@npm:^3.0.0, fbjs@npm:^3.0.1, fbjs@npm:^3.0.2":
+"fbjs@npm:^3.0.0, fbjs@npm:^3.0.2":
   version: 3.0.4
   resolution: "fbjs@npm:3.0.4"
   dependencies:
@@ -10537,18 +10528,6 @@ __metadata:
   version: 0.191.0
   resolution: "flow-parser@npm:0.191.0"
   checksum: ae5eeaf0b76d7ad1803b6c1674f8749adfa2bc81cd18335ce07de2b51ec7c39a801b0cc1824ca482a1bf3996422cf6377b955dccef4cf750670d38528b566dea
-  languageName: node
-  linkType: hard
-
-"flux@npm:^4.0.3":
-  version: 4.0.3
-  resolution: "flux@npm:4.0.3"
-  dependencies:
-    fbemitter: ^3.0.0
-    fbjs: ^3.0.1
-  peerDependencies:
-    react: ^15.0.2 || ^16.0.0 || ^17.0.0
-  checksum: 6b3f5150bcce481ce5bc09e54dbe4bf2a052f9fbc04c1de64f8d816adc4f90ad7955d9aed0022c7b6a2ed11b809ac40527bb50c2cd89c23d42f56694abe20748
   languageName: node
   linkType: hard
 
@@ -17564,7 +17543,6 @@ __metadata:
     eslint-stats: ^1.0.1
     express: =4.18.2
     fixed-data-table: ^0.6.5
-    flux: ^4.0.3
     font-awesome: ^4.7.0
     framer-motion: ^6.5.1
     graphql: ^16.6.0
