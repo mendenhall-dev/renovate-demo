@@ -29,7 +29,7 @@
     "@graphql-codegen/cli": "3.2.2",
     "@graphql-codegen/typescript": "^3.0.2",
     "@hookform/resolvers": "^2.9.11",
-    "@percy/cli": "^1.20.2",
+    "@percy/cli": "^1.20.3",
     "@percy/cypress": "^3.1.2",
     "@percy/storybook": "^4.3.5",
     "@pmmmwh/react-refresh-webpack-plugin": "^0.5.10",
