@@ -14091,7 +14091,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"lint-staged@npm:>=13.1.4":
+"lint-staged@npm:>=13.2.0":
   version: 13.2.0
   resolution: "lint-staged@npm:13.2.0"
   dependencies:
@@ -18426,7 +18426,7 @@ __metadata:
     jest-junit: ^15.0.0
     jest-runner-eslint: ^2.0.0
     jquery: ^3.6.4
-    lint-staged: ">=13.1.4"
+    lint-staged: ">=13.2.0"
     local-cypress: ^1.2.6
     lodash: ^4.17.21
     microevent-github: =1.0.0
