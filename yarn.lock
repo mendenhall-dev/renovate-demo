@@ -18478,7 +18478,7 @@ __metadata:
     style-loader: ^3.3.2
     stylelint: ^15.2.0
     stylelint-config-recommended: ^10.0.1
-    stylelint-scss: ^4.4.0
+    stylelint-scss: ^4.5.0
     terser-webpack-plugin: ^5.3.7
     ts-node: ^10.9.1
     typeface-open-sans: ^1.1.13
@@ -19769,9 +19769,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"stylelint-scss@npm:^4.4.0":
-  version: 4.4.0
-  resolution: "stylelint-scss@npm:4.4.0"
+"stylelint-scss@npm:^4.5.0":
+  version: 4.5.0
+  resolution: "stylelint-scss@npm:4.5.0"
   dependencies:
     lodash: ^4.17.21
     postcss-media-query-parser: ^0.2.3
@@ -19780,7 +19780,7 @@ __metadata:
     postcss-value-parser: ^4.1.0
   peerDependencies:
     stylelint: ^14.5.1 || ^15.0.0
-  checksum: f206bb9014d59af5ccc16f7c0d81bc9126c908f09f3aba296695a200f31c354386d6e2d6177821af761bcfc10fe4be41f3d00d6b2057561710b06d0c30407cc0
+  checksum: 4abd0f769dc4be2adcd6e4ca75b069b13dbfec22fd758cd18fa924aadd15306e79ca87b2a3dd014977345385f4f24d8f9f480c6d2d63c18e9a8c013cfee406d4
   languageName: node
   linkType: hard
 
