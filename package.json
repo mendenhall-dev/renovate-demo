@@ -80,7 +80,7 @@
     "css-loader": "^6.7.3",
     "css-minimizer-webpack-plugin": "^4.2.2",
     "cycle": "^1.0.3",
-    "cypress": "^12.8.0",
+    "cypress": "^12.8.1",
     "cypress-promise": "^1.1.0",
     "date-fns": "^2.29.3",
     "date-fns-timezone": "^0.1.4",
