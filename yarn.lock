@@ -3067,12 +3067,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@hookform/resolvers@npm:^2.9.11":
-  version: 2.9.11
-  resolution: "@hookform/resolvers@npm:2.9.11"
+"@hookform/resolvers@npm:^3.0.0":
+  version: 3.0.0
+  resolution: "@hookform/resolvers@npm:3.0.0"
   peerDependencies:
     react-hook-form: ^7.0.0
-  checksum: 977ea038bb94457ac9f6c7ca65438ce8fcd0cf7643b9925d8bc4d66df6faa0f49ad642bee7362f86a4d3ff7ff53d18b7aea0597085993971cae00e86bf6eda73
+  checksum: 72c1282c1b847be074c5233e72f357de832eca41543bad9a2efb6279a14baa0bbbf55f0255e6d2dbcb34fbd07bb974f71e471e3cc89a138e001cf2ce5e28da76
   languageName: node
   linkType: hard
 
@@ -18348,7 +18348,7 @@ __metadata:
     "@fortawesome/react-fontawesome": ^0.2.0
     "@graphql-codegen/cli": 3.2.2
     "@graphql-codegen/typescript": ^3.0.2
-    "@hookform/resolvers": ^2.9.11
+    "@hookform/resolvers": ^3.0.0
     "@percy/cli": ^1.21.0
     "@percy/cypress": ^3.1.2
     "@percy/storybook": ^4.3.5
