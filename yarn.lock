@@ -17598,7 +17598,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-inspector@npm:^6.0.1":
+"react-inspector@npm:^6.0.0":
   version: 6.0.1
   resolution: "react-inspector@npm:6.0.1"
   peerDependencies:
