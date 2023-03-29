@@ -161,7 +161,7 @@
     "router5": "^8.0.1",
     "router5-plugin-browser": "^8.0.1",
     "sass": "^1.59.3",
-    "sass-loader": "^13.2.0",
+    "sass-loader": "^13.2.1",
     "scroll-behavior-polyfill": "^2.0.13",
     "style-loader": "^3.3.2",
     "stylelint": "^15.3.0",
