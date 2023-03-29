@@ -3902,19 +3902,19 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@splitsoftware/splitio-browserjs@npm:^0.9.2":
-  version: 0.9.2
-  resolution: "@splitsoftware/splitio-browserjs@npm:0.9.2"
+"@splitsoftware/splitio-browserjs@npm:^0.9.3":
+  version: 0.9.3
+  resolution: "@splitsoftware/splitio-browserjs@npm:0.9.3"
   dependencies:
-    "@splitsoftware/splitio-commons": 1.7.3
+    "@splitsoftware/splitio-commons": 1.8.1
     "@types/google.analytics": 0.0.40
-  checksum: f8e1eb2662331f90f926de79e34014b20cd0e381af463666c40535441bce7cdb55a7a6d49fbe48a8b5bc525e9a3032a2de63ac0ec7345b72a24f62f4d0e5f9da
+  checksum: 0d1759b005c6308ba269f9b3244eb4fb00361dacbb80935c3996c9c30e441222f826ed2a6018fee9b91d42513bc298689a5d1e063d8f618e5412b55c27a5fe43
   languageName: node
   linkType: hard
 
-"@splitsoftware/splitio-commons@npm:1.7.3":
-  version: 1.7.3
-  resolution: "@splitsoftware/splitio-commons@npm:1.7.3"
+"@splitsoftware/splitio-commons@npm:1.8.1":
+  version: 1.8.1
+  resolution: "@splitsoftware/splitio-commons@npm:1.8.1"
   dependencies:
     tslib: ^2.3.1
   peerDependencies:
@@ -3922,7 +3922,7 @@ __metadata:
   peerDependenciesMeta:
     ioredis:
       optional: true
-  checksum: 5d841796281ce0a2b5763a06255ea46fb24ba5191069f04c174947fdeac3f8b66f9d5b08f12f6147d2ff153d0b1402a38f99475f663353bb0ecdda2f51de8aef
+  checksum: 9298f1fd7cf69a11c70d5f1d52d11e2d4b30324fb1c44852f67e971198ff70af9e0982356abea2ecd79018486106a097d9039e3e9174a6c6051b87ec0fc5ef1d
   languageName: node
   linkType: hard
 
@@ -18305,7 +18305,7 @@ __metadata:
     "@pmmmwh/react-refresh-webpack-plugin": ^0.5.10
     "@rails/actioncable": ^6.1.7
     "@react-google-maps/api": ^2.18.1
-    "@splitsoftware/splitio-browserjs": ^0.9.2
+    "@splitsoftware/splitio-browserjs": ^0.9.3
     "@storybook/addon-a11y": ^7.0.0-rc.3
     "@storybook/addon-actions": ^7.0.0-rc.3
     "@storybook/addon-essentials": ^7.0.0-rc.3
