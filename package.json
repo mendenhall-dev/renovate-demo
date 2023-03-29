@@ -143,7 +143,7 @@
     "react-dom-factories": "^1.0.2",
     "react-dropzone": "^14.2.3",
     "react-hook-form": "7.43.8",
-    "react-onclickoutside": "^6.12.2",
+    "react-onclickoutside": "^6.13.0",
     "react-refresh": "^0.14.0",
     "react-relay": "^14.1.0",
     "react-router5": "^8.0.1",
