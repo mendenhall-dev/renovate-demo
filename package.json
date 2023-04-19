@@ -164,7 +164,7 @@
     "sass-loader": "^13.2.2",
     "scroll-behavior-polyfill": "^2.0.13",
     "style-loader": "^3.3.2",
-    "stylelint": "^15.4.0",
+    "stylelint": "^15.5.0",
     "stylelint-config-recommended": "^11.0.0",
     "stylelint-scss": "^4.6.0",
     "terser-webpack-plugin": "^5.3.7",
