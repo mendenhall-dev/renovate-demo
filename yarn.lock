@@ -5665,14 +5665,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react@npm:^17, @types/react@npm:^17.0.55":
-  version: 17.0.55
-  resolution: "@types/react@npm:17.0.55"
+"@types/react@npm:^17, @types/react@npm:^17.0.58":
+  version: 17.0.58
+  resolution: "@types/react@npm:17.0.58"
   dependencies:
     "@types/prop-types": "*"
     "@types/scheduler": "*"
     csstype: ^3.0.2
-  checksum: 4220db270939ff5abc822a89619fe46b357214176b2adc7809ae65e5e5e0df57f2e69385d438e0e4bde3e25e0da577dae112bc2d767347062ccb8eabe24ac5a3
+  checksum: 4eaf32b86c43f388c681e34a00921c508dd88a1d1022aebfadc5fe802b7c5bed863de1a17eed31e43ca2d65222952dfe79a022055a0e6e4e1ad89fc5a42ec05e
   languageName: node
   linkType: hard
 
@@ -17429,7 +17429,7 @@ __metadata:
     "@types/jquery": ^3.5.16
     "@types/lodash": ^4.14.194
     "@types/node": ^18.15.11
-    "@types/react": ^17.0.55
+    "@types/react": ^17.0.58
     "@types/react-relay": ^14.1.3
     "@types/relay-runtime": ^14.1.10
     "@types/relay-test-utils": ^6.0.6
