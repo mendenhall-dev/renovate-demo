@@ -6835,7 +6835,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"awesome-phonenumber@npm:^5.4.0":
+"awesome-phonenumber@npm:^5.5.0":
   version: 5.5.0
   resolution: "awesome-phonenumber@npm:5.5.0"
   checksum: 4529df527f15800106e66e74c6e8368063f5bbd9569421fd896a65dbefef287abd22cc2c5ccf999cd146106df17b239ace27a38975a347fb30cb13f0c0482bb4
@@ -17429,7 +17429,7 @@ __metadata:
     "@typescript-eslint/eslint-plugin": ^5.59.0
     "@typescript-eslint/parser": ^5.59.0
     assets-webpack-plugin: 7.1.1
-    awesome-phonenumber: ^5.4.0
+    awesome-phonenumber: ^5.5.0
     babel-jest: ^29.5.0
     babel-loader: ^9.1.2
     babel-plugin-istanbul: ^6.1.1
