@@ -8,7 +8,7 @@
   "packageManager": "yarn@3.5.0",
   "devDependencies": {
     "@anycable/msgpack-encoder": "^0.3.0",
-    "@anycable/web": "^0.6.0",
+    "@anycable/web": "^0.7.0",
     "@auth0/auth0-spa-js": "^1.22.6",
     "@babel/core": "^7.21.4",
     "@babel/plugin-transform-regenerator": "^7.20.5",

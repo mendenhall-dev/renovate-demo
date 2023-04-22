@@ -31,6 +31,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@anycable/core@npm:^0.7.0":
+  version: 0.7.0
+  resolution: "@anycable/core@npm:0.7.0"
+  dependencies:
+    nanoevents: ^7.0.1
+  checksum: aa3201c6082d87622502dbae270713559778036cc069f97e49c670857a59a1649fc0e98ad30939285d17179255bfeab5a4435d0b7921a95d4def49ae8a881157
+  languageName: node
+  linkType: hard
+
 "@anycable/msgpack-encoder@npm:^0.3.0":
   version: 0.3.0
   resolution: "@anycable/msgpack-encoder@npm:0.3.0"
@@ -41,12 +50,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@anycable/web@npm:^0.6.0":
-  version: 0.6.0
-  resolution: "@anycable/web@npm:0.6.0"
+"@anycable/web@npm:^0.7.0":
+  version: 0.7.0
+  resolution: "@anycable/web@npm:0.7.0"
   dependencies:
-    "@anycable/core": ^0.6.0
-  checksum: bd2b1e9ee54426f855a8f74b9643d3fefc4222d4c8d1312909d60fd0e46580d08bffccb2d21c1ab3d116deee35964cd5a2d52037c046ff4d8239fc10076b3d4e
+    "@anycable/core": ^0.7.0
+  checksum: 3cc82f2c895e0bc3a5347c36cf533b7c4608b6b5199c352a51943242044f44631406c9a17bfb0c279360776233e76f11fdd7bead83a8380c99765c2852b9cd0a
   languageName: node
   linkType: hard
 
@@ -17378,7 +17387,7 @@ __metadata:
   resolution: "renovate-demo@workspace:."
   dependencies:
     "@anycable/msgpack-encoder": ^0.3.0
-    "@anycable/web": ^0.6.0
+    "@anycable/web": ^0.7.0
     "@auth0/auth0-spa-js": ^1.22.6
     "@babel/core": ^7.21.4
     "@babel/plugin-transform-regenerator": ^7.20.5
