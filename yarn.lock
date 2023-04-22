@@ -10521,13 +10521,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"fast-unique-numbers@npm:^7.0.2":
-  version: 7.0.2
-  resolution: "fast-unique-numbers@npm:7.0.2"
+"fast-unique-numbers@npm:^8.0.0":
+  version: 8.0.0
+  resolution: "fast-unique-numbers@npm:8.0.0"
   dependencies:
     "@babel/runtime": ^7.21.0
     tslib: ^2.5.0
-  checksum: 66a27baf3724658cabba1994156a70319b17187f1e58143ed2b0afa7ae0da1bf295452baff9c30230564742decb21071b8803049109e03ae6d677adc571718c6
+  checksum: 5270b06c5861671a8b5f5c3b60053656af4b3c766ed3ad242bb2856a789b6b9028f7d5f25fe2d6352325e4c60ef4e37f1809e0e20803514b0dae0cab786d8454
   languageName: node
   linkType: hard
 
@@ -17549,7 +17549,7 @@ __metadata:
     webpack-hot-middleware: ^2.25.3
     webpack-merge: ^5.8.0
     worker-loader: ^3.0.8
-    worker-timers: ^7.0.63
+    worker-timers: ^7.0.64
     yaml: ^2.2.1
   languageName: unknown
   linkType: soft
@@ -20295,15 +20295,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"worker-timers-broker@npm:^6.0.83":
-  version: 6.0.83
-  resolution: "worker-timers-broker@npm:6.0.83"
+"worker-timers-broker@npm:^6.0.84":
+  version: 6.0.84
+  resolution: "worker-timers-broker@npm:6.0.84"
   dependencies:
     "@babel/runtime": ^7.21.0
-    fast-unique-numbers: ^7.0.2
+    fast-unique-numbers: ^8.0.0
     tslib: ^2.5.0
     worker-timers-worker: ^7.0.49
-  checksum: 0273d1ef85d5e335d5b30b332011fa0da6f417a297c8f70eaff3b53d6c755f3908a37d401429a0a42e834edd8a6e0d8781d5c462613c9b0f2c2015153c3c9dce
+  checksum: 51dc58de46c9cc3a7d720dd23ad61dfe325a8a73dd9be0e4016c20213ec82388bf346430f9e7e7aff6702726ed9db68f7cba88a3199721de1901223bac7f3a4d
   languageName: node
   linkType: hard
 
@@ -20317,15 +20317,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"worker-timers@npm:^7.0.63":
-  version: 7.0.63
-  resolution: "worker-timers@npm:7.0.63"
+"worker-timers@npm:^7.0.64":
+  version: 7.0.64
+  resolution: "worker-timers@npm:7.0.64"
   dependencies:
     "@babel/runtime": ^7.21.0
     tslib: ^2.5.0
-    worker-timers-broker: ^6.0.83
+    worker-timers-broker: ^6.0.84
     worker-timers-worker: ^7.0.49
-  checksum: fff850e204474c0bad4474967652727d7734ec0a3455307013a90bbd0b206358c871975d806ab29c61f4e5d500e6ad7b43d0a886513025f7596257e204eec4c7
+  checksum: 990496c1850004dd3188e45c704982902f5ab461526486c83319ac65e6bc17342895cf7c265e6d7012ec32d2f12954a97b524d72df5d4d2c9cc324383c715481
   languageName: node
   linkType: hard
 
