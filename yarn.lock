@@ -22,15 +22,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@anycable/core@npm:^0.6.0":
-  version: 0.6.0
-  resolution: "@anycable/core@npm:0.6.0"
-  dependencies:
-    nanoevents: ^7.0.1
-  checksum: 1266fca7dcc25c32226e1344c8bfda067b19a2e3f36782852cfdcbe667a078a837db1e5efc89e1d00e1dd3978c990565445c55c5ee8e57a8cae0323064adefb3
-  languageName: node
-  linkType: hard
-
 "@anycable/core@npm:^0.7.0":
   version: 0.7.0
   resolution: "@anycable/core@npm:0.7.0"
@@ -40,13 +31,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@anycable/msgpack-encoder@npm:^0.3.0":
-  version: 0.3.0
-  resolution: "@anycable/msgpack-encoder@npm:0.3.0"
+"@anycable/msgpack-encoder@npm:^0.3.1":
+  version: 0.3.1
+  resolution: "@anycable/msgpack-encoder@npm:0.3.1"
   dependencies:
-    "@anycable/core": ^0.6.0
+    "@anycable/core": ^0.7.0
     "@ygoe/msgpack": ^1.0.0
-  checksum: 940238a5850a8896ae03e7d6fc617b011b4a9cfdcc2de2b79856eea700e2d816e9e7dbb92b2e8d5a14b4ef983dfcfb98945f8746232b6bbbc869943e45dbe112
+  checksum: 0db3b5622daa891149beac0de1dd1afc57738d6f794b71e7760d505e27655388e1c7dbee4be2ab6d8599f975b1b13fee7af08dce073bdd1654fbdf235f58ddd3
   languageName: node
   linkType: hard
 
@@ -17386,7 +17377,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "renovate-demo@workspace:."
   dependencies:
-    "@anycable/msgpack-encoder": ^0.3.0
+    "@anycable/msgpack-encoder": ^0.3.1
     "@anycable/web": ^0.7.0
     "@auth0/auth0-spa-js": ^1.22.6
     "@babel/core": ^7.21.4
