@@ -78,7 +78,7 @@
     "cycle": "^1.0.3",
     "cypress": "^12.11.0",
     "cypress-promise": "^1.1.0",
-    "date-fns": "^2.29.3",
+    "date-fns": "^2.30.0",
     "date-fns-timezone": "^0.1.4",
     "dotenv": "^16.0.3",
     "dotenv-webpack": "^8.0.1",
