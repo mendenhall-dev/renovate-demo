@@ -17528,7 +17528,7 @@ __metadata:
     typescript-strict-plugin: ^2.1.0
     webpack: ^5.82.0
     webpack-bundle-analyzer: ^4.8.0
-    webpack-cli: ^5.1.0
+    webpack-cli: ^5.1.1
     webpack-dev-middleware: ^6.1.0
     webpack-hot-middleware: ^2.25.3
     webpack-merge: ^5.8.0
@@ -19986,7 +19986,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"webpack-cli@npm:^5.1.0":
+"webpack-cli@npm:^5.1.1":
   version: 5.1.1
   resolution: "webpack-cli@npm:5.1.1"
   dependencies:
