@@ -3907,14 +3907,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@restart/hooks@npm:^0.3.1":
-  version: 0.3.27
-  resolution: "@restart/hooks@npm:0.3.27"
+"@restart/hooks@npm:^0.4.9":
+  version: 0.4.9
+  resolution: "@restart/hooks@npm:0.4.9"
   dependencies:
     dequal: ^2.0.2
   peerDependencies:
     react: ">=16.8.0"
-  checksum: bdca3849953de0b8322cebe47206ce2a0cc8616d42221e5de91d381bce586bed5c19e0ad9f3f9873a00f721c2d51188d242d06d4bc7b49ba5f28e181e3322377
+  checksum: 2481b21ee984328f41134d94c23b244aff0b82091b9ae6252b9ec9408634bed13473e2e74959c898a198b88602521a021f1c1b9683d52cf0878fea6e0f2b47df
   languageName: node
   linkType: hard
 
@@ -17243,16 +17243,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"relay-hooks@npm:^7.2.1":
-  version: 7.2.1
-  resolution: "relay-hooks@npm:7.2.1"
+"relay-hooks@npm:^8.0.0":
+  version: 8.0.0
+  resolution: "relay-hooks@npm:8.0.0"
   dependencies:
-    "@restart/hooks": ^0.3.1
-    fbjs: ^3.0.0
+    "@restart/hooks": ^0.4.9
+    fbjs: ^3.0.2
   peerDependencies:
     react: ^16.9.0 || ^17 || ^18
-    relay-runtime: ^13.0.2 || ^14.0.0
-  checksum: cbdf6bb119c1226869031bdff1be62231793130868f12c8fcbe9997ffd412d5b7c374aa673a05708dd57acacf599b634427cdc6aaec8897aaa74c39b416d5285
+    relay-runtime: ^13.0.2 || ^14.0.0 || ^15.0.0
+  checksum: ff0c3b3f190cb4bd4f931b6ae2dd597e0cdbbc2d4fc56683c35528a6c6f048da238e2bf44f2afc7affbd8aae76ba0a8780261b5d790b5ae804e6a5eeab5e9b89
   languageName: node
   linkType: hard
 
@@ -17507,7 +17507,7 @@ __metadata:
     react-use: ^17.4.0
     reconnecting-websocket: ^4.4.0
     relay-compiler: ^14.1.0
-    relay-hooks: ^7.2.1
+    relay-hooks: ^8.0.0
     relay-runtime: ^14.1.0
     relay-test-utils: ^14.1.0
     resolve-url-loader: ^5.0.0
