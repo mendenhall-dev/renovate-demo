@@ -8141,10 +8141,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"compute-scroll-into-view@npm:^1.0.17":
-  version: 1.0.17
-  resolution: "compute-scroll-into-view@npm:1.0.17"
-  checksum: b20c05a10c37813c5a6e4bf053c00f65c88d23afed7a6bd7a2a69e05e2ffc2df3483ecfe407d36bf16b8cec8be21ae1966c9c523093a03117e567156cd79a51e
+"compute-scroll-into-view@npm:^2.0.4":
+  version: 2.0.4
+  resolution: "compute-scroll-into-view@npm:2.0.4"
+  checksum: f3d1db9276c16af42155b572750514939cd0ab0a0f46498906f6811c5b654c5ff2b3f9bfd65958e57439e000a5e1ae092eb96b9e153d194a73e52ffd2380550c
   languageName: node
   linkType: hard
 
@@ -9304,18 +9304,18 @@ __metadata:
   languageName: node
   linkType: hard
 
-"downshift@npm:^6.1.12":
-  version: 6.1.12
-  resolution: "downshift@npm:6.1.12"
+"downshift@npm:^7.6.0":
+  version: 7.6.0
+  resolution: "downshift@npm:7.6.0"
   dependencies:
     "@babel/runtime": ^7.14.8
-    compute-scroll-into-view: ^1.0.17
+    compute-scroll-into-view: ^2.0.4
     prop-types: ^15.7.2
     react-is: ^17.0.2
     tslib: ^2.3.0
   peerDependencies:
     react: ">=16.12.0"
-  checksum: c623dc436f332fefddc332b42ca4a267b3f5b47aaf1372a61212678d7ecbe22698fdb63f61373bcbd3773fa526eb4f210cf7f044cd5642b689dbd37ba27e9aaf
+  checksum: f738e0b50bcacedbf14c8de3baceb8e7be88ec4a2ab6becdc58ae253883d47de1085240db189cc485eb5995d0f35ac017836266116a95e0ac8c19b4600d38598
   languageName: node
   linkType: hard
 
@@ -17436,7 +17436,7 @@ __metadata:
     date-fns-timezone: ^0.1.4
     dotenv: ^16.0.3
     dotenv-webpack: ^8.0.1
-    downshift: ^6.1.12
+    downshift: ^7.6.0
     eslint: ^8.40.0
     eslint-config-airbnb: ^19.0.4
     eslint-config-airbnb-base: ^15.0.0
