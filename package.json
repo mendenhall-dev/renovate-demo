@@ -135,7 +135,7 @@
     "postcss-syntax": "^0.36.2",
     "prettier": "^2.8.8",
     "prop-types": "^15.8.1",
-    "qs": "^6.11.1",
+    "qs": "^6.11.2",
     "react": "^17.0.2",
     "react-currency-input-field": "^3.6.10",
     "react-datetime": "^3.2.0",
