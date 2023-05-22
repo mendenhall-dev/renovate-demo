@@ -120,7 +120,7 @@
     "local-cypress": "^1.2.6",
     "lodash": "^4.17.21",
     "microevent-github": "=1.0.0",
-    "mini-css-extract-plugin": "^2.7.5",
+    "mini-css-extract-plugin": "^2.7.6",
     "mockdate": "^3.0.5",
     "moment": "^2.29.4",
     "moment-locales-webpack-plugin": "^1.2.0",
