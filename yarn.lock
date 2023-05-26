@@ -3974,7 +3974,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@storybook/addon-a11y@npm:^7.0.13":
+"@storybook/addon-a11y@npm:^7.0.14":
   version: 7.0.17
   resolution: "@storybook/addon-a11y@npm:7.0.17"
   dependencies:
@@ -4003,7 +4003,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@storybook/addon-actions@npm:7.0.17, @storybook/addon-actions@npm:^7.0.13":
+"@storybook/addon-actions@npm:7.0.17, @storybook/addon-actions@npm:^7.0.14":
   version: 7.0.17
   resolution: "@storybook/addon-actions@npm:7.0.17"
   dependencies:
@@ -4120,7 +4120,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@storybook/addon-essentials@npm:^7.0.13":
+"@storybook/addon-essentials@npm:^7.0.14":
   version: 7.0.17
   resolution: "@storybook/addon-essentials@npm:7.0.17"
   dependencies:
@@ -4156,7 +4156,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@storybook/addon-links@npm:^7.0.13":
+"@storybook/addon-links@npm:^7.0.14":
   version: 7.0.17
   resolution: "@storybook/addon-links@npm:7.0.17"
   dependencies:
@@ -4454,7 +4454,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@storybook/cli@npm:^7.0.13":
+"@storybook/cli@npm:^7.0.14":
   version: 7.0.17
   resolution: "@storybook/cli@npm:7.0.17"
   dependencies:
@@ -4885,7 +4885,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@storybook/react-webpack5@npm:^7.0.13":
+"@storybook/react-webpack5@npm:^7.0.14":
   version: 7.0.17
   resolution: "@storybook/react-webpack5@npm:7.0.17"
   dependencies:
@@ -17363,12 +17363,12 @@ __metadata:
     "@rails/actioncable": ^6.1.7
     "@react-google-maps/api": ^2.18.1
     "@splitsoftware/splitio-browserjs": ^0.9.5
-    "@storybook/addon-a11y": ^7.0.13
-    "@storybook/addon-actions": ^7.0.13
-    "@storybook/addon-essentials": ^7.0.13
-    "@storybook/addon-links": ^7.0.13
-    "@storybook/cli": ^7.0.13
-    "@storybook/react-webpack5": ^7.0.13
+    "@storybook/addon-a11y": ^7.0.14
+    "@storybook/addon-actions": ^7.0.14
+    "@storybook/addon-essentials": ^7.0.14
+    "@storybook/addon-links": ^7.0.14
+    "@storybook/cli": ^7.0.14
+    "@storybook/react-webpack5": ^7.0.14
     "@stripe/react-stripe-js": 2.1.0
     "@stripe/stripe-js": ^1.53.0
     "@testing-library/cypress": ^9.0.0
