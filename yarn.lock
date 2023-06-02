@@ -4999,10 +4999,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@stripe/stripe-js@npm:^1.53.0":
-  version: 1.53.0
-  resolution: "@stripe/stripe-js@npm:1.53.0"
-  checksum: a554f71f605705662c30cbccebf41f2ed522ef68ddc31fca5822fec1105ccd62e987161dbcaecbe18e26f3e128b9facf3fc795848a34583a418d44c889069484
+"@stripe/stripe-js@npm:^1.54.0":
+  version: 1.54.0
+  resolution: "@stripe/stripe-js@npm:1.54.0"
+  checksum: b5108ac03e367212d584fe5fde2fe56909c968eb04f616fcfd983378bcd0903209e40fd37866cbea1337d231ac9291419d600b5146334c6bd49d3b6bb71a84f2
   languageName: node
   linkType: hard
 
@@ -17219,7 +17219,7 @@ __metadata:
     "@storybook/cli": ^7.0.18
     "@storybook/react-webpack5": ^7.0.18
     "@stripe/react-stripe-js": 2.1.0
-    "@stripe/stripe-js": ^1.53.0
+    "@stripe/stripe-js": ^1.54.0
     "@testing-library/cypress": ^9.0.0
     "@testing-library/dom": ^9.3.0
     "@testing-library/jest-dom": ^5.16.5
