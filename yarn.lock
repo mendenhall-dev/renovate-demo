@@ -88,10 +88,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@auth0/auth0-spa-js@npm:^2.0.6":
-  version: 2.0.6
-  resolution: "@auth0/auth0-spa-js@npm:2.0.6"
-  checksum: 2ca215d9495ba74e0cd79be2497175841f28647584a8c8f2e2f1f5fcf09843f1d83af830a34c1ce1615408e160ee3d74b0659c8228e701f3926f5755136b0568
+"@auth0/auth0-spa-js@npm:^2.0.7":
+  version: 2.0.7
+  resolution: "@auth0/auth0-spa-js@npm:2.0.7"
+  checksum: 19ef304a805ff978889d8849362f45209bec8294788023a576ae50c10325e27d549819b0f9b5d547d48d1f6fa0720baa738e5d936a985e3418baef56866d5270
   languageName: node
   linkType: hard
 
@@ -17190,7 +17190,7 @@ __metadata:
   dependencies:
     "@anycable/msgpack-encoder": ^0.3.1
     "@anycable/web": ^0.7.0
-    "@auth0/auth0-spa-js": ^2.0.6
+    "@auth0/auth0-spa-js": ^2.0.7
     "@babel/core": ^7.22.1
     "@babel/plugin-transform-regenerator": ^7.21.5
     "@babel/plugin-transform-strict-mode": ^7.18.6
