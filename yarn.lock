@@ -9175,12 +9175,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"dot-prop@npm:^5.3.0":
-  version: 5.3.0
-  resolution: "dot-prop@npm:5.3.0"
+"dot-prop@npm:^6.0.1":
+  version: 6.0.1
+  resolution: "dot-prop@npm:6.0.1"
   dependencies:
     is-obj: ^2.0.0
-  checksum: d5775790093c234ef4bfd5fbe40884ff7e6c87573e5339432870616331189f7f5d86575c5b5af2dcf0f61172990f4f734d07844b1f23482fff09e3c4bead05ea
+  checksum: 0f47600a4b93e1dc37261da4e6909652c008832a5d3684b5bf9a9a0d3f4c67ea949a86dceed9b72f5733ed8e8e6383cc5958df3bbd0799ee317fd181f2ece700
   languageName: node
   linkType: hard
 
@@ -12979,18 +12979,18 @@ __metadata:
   languageName: node
   linkType: hard
 
-"jest-runner-eslint@npm:^2.0.0":
-  version: 2.0.0
-  resolution: "jest-runner-eslint@npm:2.0.0"
+"jest-runner-eslint@npm:^2.1.0":
+  version: 2.1.0
+  resolution: "jest-runner-eslint@npm:2.1.0"
   dependencies:
     chalk: ^4.0.0
     cosmiconfig: ^7.0.0
     create-jest-runner: ^0.11.2
-    dot-prop: ^5.3.0
+    dot-prop: ^6.0.1
   peerDependencies:
     eslint: ^7 || ^8
     jest: ^27 || ^28 || ^29
-  checksum: 66308ba5483a836e1562bbe0289b6cf07c56aecad61eea796a3e7907f79703aaabcc2d6b6975eb5478e7090a123d86f8007af4c2e9e3d04db63160ccfb484739
+  checksum: b17a559cc8028d7f16449eea759dc5c24aabb336f0b8b053a3107f1eba7e41332bba44d10f9b69d09f5ea1ca41b402b9e6a6ad8f1b0445ee9f9083bb1dea30f9
   languageName: node
   linkType: hard
 
@@ -17295,7 +17295,7 @@ __metadata:
     jest-environment-jsdom: ^29.5.0
     jest-fetch-mock: ^3.0.3
     jest-junit: ^16.0.0
-    jest-runner-eslint: ^2.0.0
+    jest-runner-eslint: ^2.1.0
     jquery: ^3.7.0
     lint-staged: ">=13.2.2"
     local-cypress: ^1.2.6
