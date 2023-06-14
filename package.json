@@ -71,7 +71,7 @@
     "classnames": "^2.3.2",
     "coffee-loader": "^4.0.0",
     "coffeescript": "^2.7.0",
-    "core-js": "^3.30.2",
+    "core-js": "^3.31.0",
     "create-react-class": "^15.7.0",
     "css-loader": "^6.8.1",
     "css-minimizer-webpack-plugin": "^5.0.0",
