@@ -11568,7 +11568,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"html-webpack-plugin@npm:^5.5.0, html-webpack-plugin@npm:^5.5.2":
+"html-webpack-plugin@npm:^5.5.0, html-webpack-plugin@npm:^5.5.3":
   version: 5.5.3
   resolution: "html-webpack-plugin@npm:5.5.3"
   dependencies:
@@ -17281,7 +17281,7 @@ __metadata:
     graphql-schema-linter: ^3.0.1
     hoist-non-react-statics: ^3.3.2
     html-webpack-harddisk-plugin: ^2.0.0
-    html-webpack-plugin: ^5.5.2
+    html-webpack-plugin: ^5.5.3
     http-proxy-middleware: ^2.0.6
     husky: ^8.0.3
     identity-obj-proxy: ^3.0.0
