@@ -74,7 +74,7 @@
     "core-js": "^3.31.0",
     "create-react-class": "^15.7.0",
     "css-loader": "^6.8.1",
-    "css-minimizer-webpack-plugin": "^5.0.0",
+    "css-minimizer-webpack-plugin": "^5.0.1",
     "cycle": "^1.0.3",
     "cypress": "^12.14.0",
     "cypress-promise": "^1.1.0",
