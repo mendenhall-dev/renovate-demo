@@ -2203,16 +2203,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@emotion/css@npm:^11.11.0":
-  version: 11.11.0
-  resolution: "@emotion/css@npm:11.11.0"
+"@emotion/css@npm:^11.11.2":
+  version: 11.11.2
+  resolution: "@emotion/css@npm:11.11.2"
   dependencies:
     "@emotion/babel-plugin": ^11.11.0
     "@emotion/cache": ^11.11.0
     "@emotion/serialize": ^1.1.2
     "@emotion/sheet": ^1.2.2
     "@emotion/utils": ^1.2.1
-  checksum: 34e1f9a85a056b77a46462bd760ef614c0b6015b8ae1aaac5efbdc92067a7849e3bf4329430d46c72d7c3426ccc79d2f1052aa6ab73b5a2791954393bd779437
+  checksum: 1edea109dfc31005243334bc351ba127220ea5c4986225e0f1b8f7aa71fb2f83fb8f51d8f5b8afb8432d4c6397c23f5061038449f2876888eecc6eac1dd2f0da
   languageName: node
   linkType: hard
 
@@ -17176,7 +17176,7 @@ __metadata:
     "@datadog/browser-logs": ^4.42.2
     "@datadog/browser-rum": ^4.42.2
     "@emotion/babel-plugin": ^11.11.0
-    "@emotion/css": ^11.11.0
+    "@emotion/css": ^11.11.2
     "@emotion/react": ^11.11.1
     "@emotion/styled": ^11.11.0
     "@graphql-codegen/cli": 4.0.1
