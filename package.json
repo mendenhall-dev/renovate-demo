@@ -23,7 +23,7 @@
     "@emotion/react": "^11.11.1",
     "@emotion/styled": "^11.11.0",
     "@graphql-codegen/cli": "4.0.1",
-    "@graphql-codegen/typescript": "^4.0.0",
+    "@graphql-codegen/typescript": "^4.0.1",
     "@hookform/resolvers": "^2.9.11",
     "@percy/cli": "^1.26.0",
     "@percy/cypress": "^3.1.2",
