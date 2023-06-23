@@ -39,7 +39,7 @@
     "@storybook/cli": "^7.0.22",
     "@storybook/react-webpack5": "^7.0.22",
     "@stripe/react-stripe-js": "2.1.1",
-    "@stripe/stripe-js": "^1.54.0",
+    "@stripe/stripe-js": "^1.54.1",
     "@testing-library/cypress": "^9.0.0",
     "@testing-library/dom": "^9.3.1",
     "@testing-library/jest-dom": "^5.16.5",
