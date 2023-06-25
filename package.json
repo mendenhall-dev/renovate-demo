@@ -102,7 +102,7 @@
     "fixed-data-table": "^0.6.5",
     "font-awesome": "^4.7.0",
     "framer-motion": "^6.5.1",
-    "graphql": "^16.7.0",
+    "graphql": "^16.7.1",
     "graphql-schema-linter": "^3.0.1",
     "hoist-non-react-statics": "^3.3.2",
     "html-webpack-harddisk-plugin": "^2.0.0",
