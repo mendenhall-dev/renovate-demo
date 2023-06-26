@@ -137,7 +137,7 @@
     "prop-types": "^15.8.1",
     "qs": "^6.11.2",
     "react": "^17.0.2",
-    "react-currency-input-field": "^3.6.10",
+    "react-currency-input-field": "^3.6.11",
     "react-datetime": "^3.2.0",
     "react-dom": "^17.0.2",
     "react-dom-factories": "^1.0.2",
