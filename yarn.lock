@@ -10359,13 +10359,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"fast-unique-numbers@npm:^8.0.4":
-  version: 8.0.4
-  resolution: "fast-unique-numbers@npm:8.0.4"
+"fast-unique-numbers@npm:^8.0.5":
+  version: 8.0.5
+  resolution: "fast-unique-numbers@npm:8.0.5"
   dependencies:
     "@babel/runtime": ^7.22.5
-    tslib: ^2.5.2
-  checksum: 8d011459cefdcb19770c4ea9d991a44b222cfa55ae6a09499c64472d3b5f9306945e27b087505fe4e7233546c6d4327db52692c6f4be4b7b426dfdaeed83fe69
+    tslib: ^2.6.0
+  checksum: 23dde4db612ea44d820d29418d46edb37f24b4655fb9f53dcab620d8f28187f52c134eb6253da87053ba3170725e2498d6bc6376b332f958cbf1acce7d7254c9
   languageName: node
   linkType: hard
 
@@ -17337,7 +17337,7 @@ __metadata:
     webpack-hot-middleware: ^2.25.4
     webpack-merge: ^5.9.0
     worker-loader: ^3.0.8
-    worker-timers: ^7.0.71
+    worker-timers: ^7.0.72
     yaml: ^2.3.1
   languageName: unknown
   linkType: soft
@@ -19133,7 +19133,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"tslib@npm:^2.0.0, tslib@npm:^2.0.1, tslib@npm:^2.0.3, tslib@npm:^2.1.0, tslib@npm:^2.3.0, tslib@npm:^2.3.1, tslib@npm:^2.4.0, tslib@npm:^2.5.0, tslib@npm:^2.5.2, tslib@npm:^2.5.3, tslib@npm:~2.5.0":
+"tslib@npm:^2.0.0, tslib@npm:^2.0.1, tslib@npm:^2.0.3, tslib@npm:^2.1.0, tslib@npm:^2.3.0, tslib@npm:^2.3.1, tslib@npm:^2.4.0, tslib@npm:^2.5.0, tslib@npm:^2.6.0":
+  version: 2.6.0
+  resolution: "tslib@npm:2.6.0"
+  checksum: c01066038f950016a18106ddeca4649b4d76caa76ec5a31e2a26e10586a59fceb4ee45e96719bf6c715648e7c14085a81fee5c62f7e9ebee68e77a5396e5538f
+  languageName: node
+  linkType: hard
+
+"tslib@npm:~2.5.0":
   version: 2.5.3
   resolution: "tslib@npm:2.5.3"
   checksum: 88902b309afaf83259131c1e13da1dceb0ad1682a213143a1346a649143924d78cf3760c448b84d796938fd76127183894f8d85cbb3bf9c4fddbfcc140c0003c
@@ -20034,37 +20041,37 @@ __metadata:
   languageName: node
   linkType: hard
 
-"worker-timers-broker@npm:^6.0.91":
-  version: 6.0.91
-  resolution: "worker-timers-broker@npm:6.0.91"
+"worker-timers-broker@npm:^6.0.92":
+  version: 6.0.92
+  resolution: "worker-timers-broker@npm:6.0.92"
   dependencies:
     "@babel/runtime": ^7.22.5
-    fast-unique-numbers: ^8.0.4
-    tslib: ^2.5.3
-    worker-timers-worker: ^7.0.55
-  checksum: 109637fe72d931c905f62aa531b7cc8f057f6b85ac92aeb8dc51d55603717c77937c6d5a4cb0f5d563446bc6a7899457f066e2330caaa6bbb09fa584b13275dc
+    fast-unique-numbers: ^8.0.5
+    tslib: ^2.6.0
+    worker-timers-worker: ^7.0.56
+  checksum: d86c4b80abff69ea54dc454c52c0335211ddcbdf4d35e91412f280ae62eb01130e4ad3bec85d0d634ba3e9600e23edea1c5266bcd0de3fb61602c2f682eebf8f
   languageName: node
   linkType: hard
 
-"worker-timers-worker@npm:^7.0.55":
-  version: 7.0.55
-  resolution: "worker-timers-worker@npm:7.0.55"
+"worker-timers-worker@npm:^7.0.56":
+  version: 7.0.56
+  resolution: "worker-timers-worker@npm:7.0.56"
   dependencies:
     "@babel/runtime": ^7.22.5
-    tslib: ^2.5.3
-  checksum: 5c0e9fb5c3d51309d1338168bda07eba88ddb060fef3b3dc87cdfbd778f84be13f4ae99e8b68367ec98e33b13ce3111af758ff591b137c3d4ab427a39af89c6a
+    tslib: ^2.6.0
+  checksum: a92258bc193fffdbb8425c65335a54b9be55e6bb054b631189a5cc993e626e7894f31ace27cd85c507feaddd603e6849abf2bf8c97ffa7f5005b5c3d4619ac00
   languageName: node
   linkType: hard
 
-"worker-timers@npm:^7.0.71":
-  version: 7.0.71
-  resolution: "worker-timers@npm:7.0.71"
+"worker-timers@npm:^7.0.72":
+  version: 7.0.72
+  resolution: "worker-timers@npm:7.0.72"
   dependencies:
     "@babel/runtime": ^7.22.5
-    tslib: ^2.5.3
-    worker-timers-broker: ^6.0.91
-    worker-timers-worker: ^7.0.55
-  checksum: 139d8189d163d96c85e89c656e694b591af1b3a2a9948fde561439593971ff057c05322919def29d21f480a8e612e0258754e0ce2afd6b3b87deaa709749929f
+    tslib: ^2.6.0
+    worker-timers-broker: ^6.0.92
+    worker-timers-worker: ^7.0.56
+  checksum: d851bd6f2f3db02ea7b29339a9be0481f5955cf306f0021dcfca654f135468b67b3adf165503cdd0039f0ac23469d9a4ff174f4d82e1976cfec1686b8bf8c1d1
   languageName: node
   linkType: hard
 
