@@ -17328,7 +17328,7 @@ __metadata:
     terser-webpack-plugin: ^5.3.9
     ts-node: ^10.9.1
     typeface-open-sans: ^1.1.13
-    typescript: ^5.1.5
+    typescript: ^5.1.6
     typescript-strict-plugin: ^2.1.0
     webpack: ^5.88.1
     webpack-bundle-analyzer: ^4.9.0
@@ -19296,7 +19296,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"typescript@npm:^5.1.5":
+"typescript@npm:^5.1.6":
   version: 5.1.6
   resolution: "typescript@npm:5.1.6"
   bin:
@@ -19306,7 +19306,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"typescript@patch:typescript@^5.1.5#~builtin<compat/typescript>":
+"typescript@patch:typescript@^5.1.6#~builtin<compat/typescript>":
   version: 5.1.6
   resolution: "typescript@patch:typescript@npm%3A5.1.6#~builtin<compat/typescript>::version=5.1.6&hash=5da071"
   bin:
