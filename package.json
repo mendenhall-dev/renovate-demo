@@ -51,7 +51,7 @@
     "@types/jest": "^29.5.2",
     "@types/jquery": "^3.5.16",
     "@types/lodash": "^4.14.195",
-    "@types/node": "^18.16.18",
+    "@types/node": "^18.16.19",
     "@types/react": "^17.0.62",
     "@types/react-relay": "^14.1.4",
     "@types/relay-runtime": "^14.1.11",
