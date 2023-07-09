@@ -76,7 +76,7 @@
     "css-loader": "^6.8.1",
     "css-minimizer-webpack-plugin": "^5.0.1",
     "cycle": "^1.0.3",
-    "cypress": "^12.16.0",
+    "cypress": "^12.17.0",
     "cypress-promise": "^1.1.0",
     "date-fns": "^2.30.0",
     "date-fns-timezone": "^0.1.4",
