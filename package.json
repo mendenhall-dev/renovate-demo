@@ -127,7 +127,7 @@
     "moment-timezone": "^0.5.43",
     "nyc": "^15.1.0",
     "polished": "^4.2.2",
-    "postcss": "^8.4.24",
+    "postcss": "^8.4.25",
     "postcss-import": "^15.1.0",
     "postcss-loader": "^7.3.3",
     "postcss-preset-env": "^8.5.1",
