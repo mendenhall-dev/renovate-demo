@@ -17380,7 +17380,7 @@ __metadata:
     sass-loader: ^13.3.2
     scroll-behavior-polyfill: ^2.0.13
     style-loader: ^3.3.3
-    stylelint: ^15.10.0
+    stylelint: ^15.10.1
     stylelint-config-recommended: ^12.0.0
     stylelint-scss: ^5.0.1
     terser-webpack-plugin: ^5.3.9
@@ -18636,7 +18636,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"stylelint@npm:^15.10.0":
+"stylelint@npm:^15.10.1":
   version: 15.10.1
   resolution: "stylelint@npm:15.10.1"
   dependencies:
