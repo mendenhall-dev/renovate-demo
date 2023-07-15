@@ -2064,7 +2064,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@cypress/code-coverage@npm:^3.10.9":
+"@cypress/code-coverage@npm:^3.11.0":
   version: 3.11.0
   resolution: "@cypress/code-coverage@npm:3.11.0"
   dependencies:
@@ -17301,7 +17301,7 @@ __metadata:
     "@babel/plugin-transform-regenerator": ^7.22.5
     "@babel/plugin-transform-strict-mode": ^7.22.5
     "@babel/runtime": ^7.22.6
-    "@cypress/code-coverage": ^3.10.9
+    "@cypress/code-coverage": ^3.11.0
     "@datadog/browser-core": ^4.45.0
     "@datadog/browser-logs": ^4.45.0
     "@datadog/browser-rum": ^4.45.0
