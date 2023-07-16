@@ -9,7 +9,7 @@
   "devDependencies": {
     "@anycable/msgpack-encoder": "^0.3.1",
     "@anycable/web": "^0.7.0",
-    "@auth0/auth0-spa-js": "^2.0.8",
+    "@auth0/auth0-spa-js": "^2.1.0",
     "@babel/core": "^7.22.9",
     "@babel/plugin-transform-regenerator": "^7.22.5",
     "@babel/plugin-transform-strict-mode": "^7.22.5",
