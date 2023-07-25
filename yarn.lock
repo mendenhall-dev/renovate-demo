@@ -17518,7 +17518,7 @@ __metadata:
     scroll-behavior-polyfill: ^2.0.13
     style-loader: ^3.3.3
     stylelint: ^15.10.2
-    stylelint-config-recommended: ^12.0.0
+    stylelint-config-recommended: ^13.0.0
     stylelint-scss: ^5.0.1
     terser-webpack-plugin: ^5.3.9
     ts-node: ^10.9.1
@@ -18759,12 +18759,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"stylelint-config-recommended@npm:^12.0.0":
-  version: 12.0.0
-  resolution: "stylelint-config-recommended@npm:12.0.0"
+"stylelint-config-recommended@npm:^13.0.0":
+  version: 13.0.0
+  resolution: "stylelint-config-recommended@npm:13.0.0"
   peerDependencies:
-    stylelint: ^15.5.0
-  checksum: d1de0fa2673c8aa4e50259eb7320cc17e7d09d13a176afea943b3227befcaaaf4e78b546ec076ace1e031ff526c81ea5dc6efa98dd7dc77c582b7352a128d37c
+    stylelint: ^15.10.0
+  checksum: a56eb6d1a7c7f3a7a172b54bc34218859ba22a5a06816fb4d0964f66cb83cf372062f2c97830e994ad68243548e15fc49abf28887c3261ab1b471b3aa69f8e82
   languageName: node
   linkType: hard
 
