@@ -16,7 +16,4 @@ jobs:
 
       - run: corepack enable
 
-      - name: Add Authentication for Private Packages
-        run: yarn config set npmScopes.fortawesome.npmAuthToken ${{ secrets.FONTAWESOME_NPM_AUTH_TOKEN }}
-
       - run: yarn install --immutable
