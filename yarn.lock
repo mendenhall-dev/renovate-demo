@@ -9076,7 +9076,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"cypress@npm:*, cypress@npm:^12.14.0":
+"cypress@npm:*, cypress@npm:^12.17.2":
   version: 12.17.2
   resolution: "cypress@npm:12.17.2"
   dependencies:
@@ -18033,7 +18033,7 @@ __metadata:
     css-loader: ^6.8.1
     css-minimizer-webpack-plugin: ^5.0.1
     cycle: ^1.0.3
-    cypress: ^12.14.0
+    cypress: ^12.17.2
     cypress-browser-permissions: ^1.1.0
     cypress-circleci-reporter: ^0.2.0
     cypress-promise: ^1.1.0
