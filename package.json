@@ -31,7 +31,7 @@
     "@percy/storybook": "^4.3.6",
     "@pmmmwh/react-refresh-webpack-plugin": "^0.5.10",
     "@rails/actioncable": "^6.1.7",
-    "@react-google-maps/api": "^2.18.1",
+    "@react-google-maps/api": "^2.19.0",
     "@splitsoftware/splitio-browserjs": "^0.10.0",
     "@storybook/addon-a11y": "^7.1.1",
     "@storybook/addon-actions": "^7.1.1",
