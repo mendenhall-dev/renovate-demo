@@ -59,7 +59,7 @@
     "@types/relay-test-utils": "^6.0.6",
     "@typescript-eslint/eslint-plugin": "^5.62.0",
     "@typescript-eslint/parser": "^5.62.0",
-    "@vitejs/plugin-react": "^4.0.3",
+    "@vitejs/plugin-react": "^4.0.4",
     "@vitejs/plugin-react-swc": "^3.3.2",
     "assets-webpack-plugin": "7.1.1",
     "awesome-phonenumber": "^5.10.0",
