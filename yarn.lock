@@ -10761,7 +10761,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-import-resolver-webpack@npm:^0.13.3":
+"eslint-import-resolver-webpack@npm:^0.13.4":
   version: 0.13.4
   resolution: "eslint-import-resolver-webpack@npm:0.13.4"
   dependencies:
@@ -18666,7 +18666,7 @@ __metadata:
     eslint-config-airbnb: ^19.0.4
     eslint-config-airbnb-base: ^15.0.0
     eslint-config-prettier: 8.10.0
-    eslint-import-resolver-webpack: ^0.13.3
+    eslint-import-resolver-webpack: ^0.13.4
     eslint-plugin-babel: ^5.3.1
     eslint-plugin-import: ^2.28.0
     eslint-plugin-jest: ^27.2.3
