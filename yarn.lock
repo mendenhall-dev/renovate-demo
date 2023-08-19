@@ -7439,13 +7439,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"array-find@npm:^1.0.0":
-  version: 1.0.0
-  resolution: "array-find@npm:1.0.0"
-  checksum: 6588ebfd15841296923f7c8c70f9f4cfd0e803c9f66cf53382431e5d5c763f1a866120181ba80aba7ebed73b27c5756fdb2202054e7ef475290239839185544b
-  languageName: node
-  linkType: hard
-
 "array-flatten@npm:1.1.1":
   version: 1.1.1
   resolution: "array-flatten@npm:1.1.1"
@@ -7470,6 +7463,18 @@ __metadata:
   version: 2.1.0
   resolution: "array-union@npm:2.1.0"
   checksum: 5bee12395cba82da674931df6d0fea23c4aa4660cb3b338ced9f828782a65caa232573e6bf3968f23e0c5eb301764a382cef2f128b170a9dc59de0e36c39f98d
+  languageName: node
+  linkType: hard
+
+"array.prototype.find@npm:^2.2.1":
+  version: 2.2.1
+  resolution: "array.prototype.find@npm:2.2.1"
+  dependencies:
+    call-bind: ^1.0.2
+    define-properties: ^1.1.4
+    es-abstract: ^1.20.4
+    es-shim-unscopables: ^1.0.0
+  checksum: 3bde6c9137a1b11e28c8e098574ae93aa4c660f3b917ab08e7076ee8ca32704ee158d562437b38b8a5a03b0f0ccacf4df9b7a4e4b4497f4bbe66b8406dc334e5
   languageName: node
   linkType: hard
 
@@ -10864,11 +10869,11 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-import-resolver-webpack@npm:^0.13.4":
-  version: 0.13.4
-  resolution: "eslint-import-resolver-webpack@npm:0.13.4"
+"eslint-import-resolver-webpack@npm:^0.13.5":
+  version: 0.13.6
+  resolution: "eslint-import-resolver-webpack@npm:0.13.6"
   dependencies:
-    array-find: ^1.0.0
+    array.prototype.find: ^2.2.1
     debug: ^3.2.7
     enhanced-resolve: ^0.9.1
     find-root: ^1.1.0
@@ -10877,12 +10882,12 @@ __metadata:
     is-core-module: ^2.13.0
     is-regex: ^1.1.4
     lodash: ^4.17.21
-    resolve: ^1.22.4
+    resolve: ^2.0.0-next.4
     semver: ^5.7.2
   peerDependencies:
     eslint-plugin-import: ">=1.4.0"
     webpack: ">=1.11.0"
-  checksum: adc86143e97567505c96f9990a40478d76fec2b63e7002fcb206ca6487fb0fc08e8a7dc778a9af542f7fdf1f5f433451f92457f70d02a481eef6406595311efa
+  checksum: ad10a7fa0f15d9b4d8adf637283ef5a3a7cac6351867215bc4a3738f9adce22c52bde0fef031f2a775611f908605109c9d5085567ffaf600fa7445d1affcdd9a
   languageName: node
   linkType: hard
 
@@ -18791,7 +18796,7 @@ __metadata:
     eslint-config-airbnb: ^19.0.4
     eslint-config-airbnb-base: ^15.0.0
     eslint-config-prettier: 8.10.0
-    eslint-import-resolver-webpack: ^0.13.4
+    eslint-import-resolver-webpack: ^0.13.5
     eslint-plugin-babel: ^5.3.1
     eslint-plugin-import: ^2.28.0
     eslint-plugin-jest: ^27.2.3
@@ -18985,7 +18990,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"resolve@npm:^1.1.6, resolve@npm:^1.1.7, resolve@npm:^1.10.0, resolve@npm:^1.12.0, resolve@npm:^1.14.2, resolve@npm:^1.19.0, resolve@npm:^1.20.0, resolve@npm:^1.22.1, resolve@npm:^1.22.3, resolve@npm:^1.22.4":
+"resolve@npm:^1.1.6, resolve@npm:^1.1.7, resolve@npm:^1.10.0, resolve@npm:^1.12.0, resolve@npm:^1.14.2, resolve@npm:^1.19.0, resolve@npm:^1.20.0, resolve@npm:^1.22.1, resolve@npm:^1.22.3":
   version: 1.22.4
   resolution: "resolve@npm:1.22.4"
   dependencies:
@@ -19011,7 +19016,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"resolve@patch:resolve@^1.1.6#~builtin<compat/resolve>, resolve@patch:resolve@^1.1.7#~builtin<compat/resolve>, resolve@patch:resolve@^1.10.0#~builtin<compat/resolve>, resolve@patch:resolve@^1.12.0#~builtin<compat/resolve>, resolve@patch:resolve@^1.14.2#~builtin<compat/resolve>, resolve@patch:resolve@^1.19.0#~builtin<compat/resolve>, resolve@patch:resolve@^1.20.0#~builtin<compat/resolve>, resolve@patch:resolve@^1.22.1#~builtin<compat/resolve>, resolve@patch:resolve@^1.22.3#~builtin<compat/resolve>, resolve@patch:resolve@^1.22.4#~builtin<compat/resolve>":
+"resolve@patch:resolve@^1.1.6#~builtin<compat/resolve>, resolve@patch:resolve@^1.1.7#~builtin<compat/resolve>, resolve@patch:resolve@^1.10.0#~builtin<compat/resolve>, resolve@patch:resolve@^1.12.0#~builtin<compat/resolve>, resolve@patch:resolve@^1.14.2#~builtin<compat/resolve>, resolve@patch:resolve@^1.19.0#~builtin<compat/resolve>, resolve@patch:resolve@^1.20.0#~builtin<compat/resolve>, resolve@patch:resolve@^1.22.1#~builtin<compat/resolve>, resolve@patch:resolve@^1.22.3#~builtin<compat/resolve>":
   version: 1.22.4
   resolution: "resolve@patch:resolve@npm%3A1.22.4#~builtin<compat/resolve>::version=1.22.4&hash=c3c19d"
   dependencies:
