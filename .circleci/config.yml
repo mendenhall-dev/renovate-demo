@@ -18,7 +18,7 @@ executors:
     shell: /bin/bash --login
     working_directory: ~/joinswoop/swoop
     docker:
-      - image: cimg/node:18.17.1@sha256:f3963abf7aaa2d1fda23ee26bd610165825c2e4a3444a109220e721b251de21f
+      - image: cimg/node:18.17.1@sha256:ff0341c76e68a31c2ee6a11d040a43ea7d00f24fc06901a955bceb60b07170c9
     resource_class: small
 
   fullstack:
