@@ -121,7 +121,7 @@
     "jest-fetch-mock": "^3.0.3",
     "jest-junit": "^16.0.0",
     "jest-runner-eslint": "^2.1.0",
-    "jquery": "^3.7.0",
+    "jquery": "^3.7.1",
     "lint-staged": "^13.3.0",
     "local-cypress": "^1.2.6",
     "lodash": "^4.17.21",
