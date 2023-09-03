@@ -90,7 +90,7 @@ jobs:
     shell: /bin/bash --login
     resource_class: large
     docker:
-      - image: cimg/node:18.17.1-browsers@sha256:ca9ebcc302b0fd6203dbdfd6e000b0322500d9bbca6833be0fbee785a9b4573a
+      - image: cimg/node:18.17.1-browsers@sha256:f303d4106fa2c025abd877c1309cbc361acb290344a05125d96ebea5a4d7ba28
     steps:
       - checkout
 
