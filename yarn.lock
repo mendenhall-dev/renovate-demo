@@ -5884,10 +5884,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@swc/plugin-emotion@npm:^2.5.74":
-  version: 2.5.74
-  resolution: "@swc/plugin-emotion@npm:2.5.74"
-  checksum: c02b89cab9fe0c7df16779475ced9cf87be3a3896f442108c3dbbdd9e277de8052a4432c22b5af31ae9c73ef03b82b3783d0b4fc29ae73908cb1100e3262184f
+"@swc/plugin-emotion@npm:^2.5.75":
+  version: 2.5.75
+  resolution: "@swc/plugin-emotion@npm:2.5.75"
+  checksum: c5805814be84d536a52023c403e5882f64ac6eb9bb223d9cfab58b990d4512b5fa89ab2819893cd9753411537b3ec104ef91d6c25e01b589bcad806124be7c08
   languageName: node
   linkType: hard
 
@@ -18838,7 +18838,7 @@ __metadata:
     "@storybook/react-webpack5": ^7.4.0
     "@stripe/react-stripe-js": 2.1.2
     "@stripe/stripe-js": ^1.54.2
-    "@swc/plugin-emotion": ^2.5.74
+    "@swc/plugin-emotion": ^2.5.75
     "@testing-library/cypress": ^9.0.0
     "@testing-library/dom": ^9.3.1
     "@testing-library/jest-dom": ^5.17.0
