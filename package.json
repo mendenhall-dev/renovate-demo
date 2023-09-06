@@ -13,6 +13,7 @@
     "@babel/core": "^7.22.11",
     "@babel/plugin-transform-regenerator": "^7.22.10",
     "@babel/plugin-transform-strict-mode": "^7.22.5",
+    "@babel/preset-env": "^7.22.15",
     "@babel/runtime": "^7.22.11",
     "@cypress/code-coverage": "^3.12.0",
     "@datadog/browser-core": "^4.48.1",
