@@ -52,7 +52,7 @@
     "@types/googlemaps": "^3.43.3",
     "@types/jest": "^29.5.4",
     "@types/jquery": "^3.5.18",
-    "@types/lodash": "^4.14.197",
+    "@types/lodash": "^4.14.198",
     "@types/node": "^18.17.14",
     "@types/react": "^18.2.21",
     "@types/react-relay": "^14.1.5",
