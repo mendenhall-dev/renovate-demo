@@ -121,7 +121,7 @@
     "jest-environment-jsdom": "^29.6.4",
     "jest-fetch-mock": "^3.0.3",
     "jest-junit": "^16.0.0",
-    "jest-runner-eslint": "^2.1.0",
+    "jest-runner-eslint": "^2.1.1",
     "jquery": "^3.7.1",
     "lint-staged": "^14.0.1",
     "local-cypress": "^1.2.6",
