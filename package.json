@@ -15,7 +15,7 @@
     "@babel/plugin-transform-strict-mode": "^7.22.5",
     "@babel/preset-env": "^7.22.15",
     "@babel/runtime": "^7.22.15",
-    "@cypress/code-coverage": "^3.12.0",
+    "@cypress/code-coverage": "^3.12.1",
     "@datadog/browser-core": "^4.48.2",
     "@datadog/browser-logs": "^4.48.2",
     "@datadog/browser-rum": "^4.48.2",
