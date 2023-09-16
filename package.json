@@ -40,7 +40,7 @@
     "@storybook/addon-links": "^7.4.1",
     "@storybook/cli": "^7.4.1",
     "@storybook/react-webpack5": "^7.4.1",
-    "@stripe/react-stripe-js": "2.2.0",
+    "@stripe/react-stripe-js": "2.3.0",
     "@stripe/stripe-js": "^1.54.2",
     "@swc/plugin-emotion": "^2.5.80",
     "@testing-library/cypress": "^9.0.0",
