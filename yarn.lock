@@ -19017,7 +19017,7 @@ __metadata:
     style-loader: ^3.3.3
     stylelint: ^15.10.3
     stylelint-config-recommended: ^13.0.0
-    stylelint-scss: ^5.2.0
+    stylelint-scss: ^5.2.1
     terser-webpack-plugin: ^5.3.9
     ts-node: ^10.9.1
     typeface-open-sans: ^1.1.13
@@ -20333,7 +20333,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"stylelint-scss@npm:^5.2.0":
+"stylelint-scss@npm:^5.2.1":
   version: 5.2.1
   resolution: "stylelint-scss@npm:5.2.1"
   dependencies:
