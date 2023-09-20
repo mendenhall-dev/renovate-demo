@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "license": "ISC",
   "engines": {
-    "node": "^v18.17.1"
+    "node": "^18.18.0"
   },
   "packageManager": "yarn@3.6.3",
   "devDependencies": {
