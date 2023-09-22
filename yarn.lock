@@ -14347,9 +14347,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"jest-runner-eslint@npm:^2.1.1":
-  version: 2.1.1
-  resolution: "jest-runner-eslint@npm:2.1.1"
+"jest-runner-eslint@npm:^2.1.2":
+  version: 2.1.2
+  resolution: "jest-runner-eslint@npm:2.1.2"
   dependencies:
     chalk: ^4.0.0
     cosmiconfig: ^7.0.0
@@ -14358,7 +14358,7 @@ __metadata:
   peerDependencies:
     eslint: ^7 || ^8
     jest: ^27 || ^28 || ^29
-  checksum: f3d5b1a0b4990ac95980127906b70b0abba4b99f47d5ff12553e7fc4ebd398e790eb5f4fa39ec7d512a1491281215ed6ac8e0fc8f22470a81771ccc48d9538f4
+  checksum: 2bbd24afd2fd36f94e3839ffd292fcee3193170eb62e6b60712f3ff71784093a04392b9cbca9188e7aa3d294c1a4b5f80655a0bcff3bd7f05fe0b528da3c9fed
   languageName: node
   linkType: hard
 
@@ -18947,7 +18947,7 @@ __metadata:
     jest-environment-jsdom: ^29.7.0
     jest-fetch-mock: ^3.0.3
     jest-junit: ^16.0.0
-    jest-runner-eslint: ^2.1.1
+    jest-runner-eslint: ^2.1.2
     jquery: ^3.7.1
     lint-staged: ^14.0.1
     local-cypress: ^1.2.6
