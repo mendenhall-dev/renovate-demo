@@ -42,7 +42,7 @@
     "@storybook/react-webpack5": "^7.4.3",
     "@stripe/react-stripe-js": "2.3.0",
     "@stripe/stripe-js": "^1.54.2",
-    "@swc/plugin-emotion": "^2.5.83",
+    "@swc/plugin-emotion": "^2.5.86",
     "@testing-library/cypress": "^10.0.1",
     "@testing-library/dom": "^9.3.3",
     "@testing-library/jest-dom": "^6.1.3",
