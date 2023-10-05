@@ -5795,16 +5795,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@stripe/react-stripe-js@npm:2.3.0":
-  version: 2.3.0
-  resolution: "@stripe/react-stripe-js@npm:2.3.0"
+"@stripe/react-stripe-js@npm:2.3.1":
+  version: 2.3.1
+  resolution: "@stripe/react-stripe-js@npm:2.3.1"
   dependencies:
     prop-types: ^15.7.2
   peerDependencies:
     "@stripe/stripe-js": ^1.44.1 || ^2.0.0
     react: ^16.8.0 || ^17.0.0 || ^18.0.0
     react-dom: ^16.8.0 || ^17.0.0 || ^18.0.0
-  checksum: 6deaeb4e7fd6162d3a5d1061706a75b213e238fc59a29e013d1b9f51277f538766ab86123198888cb37866c8c87b45f57463ad2361d4e6dd5774df2d100f1bdf
+  checksum: 0b86515c81894420845c7553382e170e266a0dfe3c25167c8572fa24941b4dcc94201abbb23353ea7adfbbd254cdf7643ecbdc4ba33f68f193abd88d3ee62b23
   languageName: node
   linkType: hard
 
@@ -18883,7 +18883,7 @@ __metadata:
     "@storybook/addon-links": ^7.4.5
     "@storybook/cli": ^7.4.5
     "@storybook/react-webpack5": ^7.4.5
-    "@stripe/react-stripe-js": 2.3.0
+    "@stripe/react-stripe-js": 2.3.1
     "@stripe/stripe-js": ^1.54.2
     "@swc/plugin-emotion": ^2.5.87
     "@testing-library/cypress": ^10.0.1
