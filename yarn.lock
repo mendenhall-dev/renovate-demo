@@ -6353,12 +6353,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/jquery@npm:^3.5.20":
-  version: 3.5.20
-  resolution: "@types/jquery@npm:3.5.20"
+"@types/jquery@npm:^3.5.21":
+  version: 3.5.22
+  resolution: "@types/jquery@npm:3.5.22"
   dependencies:
     "@types/sizzle": "*"
-  checksum: 9bd69faea3d60f52d3029a87b890003042a9dcf4f538c23ac2c11b3bd0e0ccd86b281d5ba3028d1b02df67c69266b8dc0ef0a35696ae174515ecf34523a0287b
+  checksum: b81c95e27bb30686c1ad5d3f414781243d0cbb468b91d5584dedd3d3ca07ac99796d876e257a7246d6d9b69916bbb0cd0508142ab9f88848605c6d431144d729
   languageName: node
   linkType: hard
 
@@ -18886,7 +18886,7 @@ __metadata:
     "@types/cypress__code-coverage": ^3.10.0
     "@types/googlemaps": ^3.43.3
     "@types/jest": ^29.5.5
-    "@types/jquery": ^3.5.20
+    "@types/jquery": ^3.5.21
     "@types/lodash": ^4.14.199
     "@types/node": ^18.18.3
     "@types/react": ^18.2.25
