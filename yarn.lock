@@ -19016,7 +19016,7 @@ __metadata:
     rollup-plugin-coffee-script: ^2.0.0
     router5: ^8.0.1
     router5-plugin-browser: ^8.0.1
-    sass: ^1.69.1
+    sass: ^1.69.2
     sass-loader: ^13.3.2
     scroll-behavior-polyfill: ^2.0.13
     style-loader: ^3.3.3
@@ -19488,7 +19488,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"sass@npm:^1.69.1":
+"sass@npm:^1.69.2":
   version: 1.69.3
   resolution: "sass@npm:1.69.3"
   dependencies:
