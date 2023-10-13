@@ -2186,11 +2186,11 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@cypress/code-coverage@npm:^3.12.1":
-  version: 3.12.1
-  resolution: "@cypress/code-coverage@npm:3.12.1"
+"@cypress/code-coverage@npm:^3.12.3":
+  version: 3.12.3
+  resolution: "@cypress/code-coverage@npm:3.12.3"
   dependencies:
-    "@cypress/webpack-preprocessor": ^5.11.0
+    "@cypress/webpack-preprocessor": ^6.0.0
     chalk: 4.1.2
     dayjs: 1.11.9
     debug: 4.3.4
@@ -2205,7 +2205,7 @@ __metadata:
     babel-loader: ^8.3 || ^9
     cypress: "*"
     webpack: ^4 || ^5
-  checksum: 02e41a418f71a3763eb45c135b29121504a6b444ce6a95630b80cba84b8ed9dae8f5fd8529178149e237278f2f9c4ad70982bcdbe454ff72fccf2acb3c6f9ae2
+  checksum: ed8654248c8538219e5afcb61d5b8dd8832e37037986c755245974ce5937447e5d3831f9d05aacc34c7f98b1b366532ea3f71e5d84278eced8767f831873fa9b
   languageName: node
   linkType: hard
 
@@ -2235,9 +2235,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@cypress/webpack-preprocessor@npm:^5.11.0":
-  version: 5.17.0
-  resolution: "@cypress/webpack-preprocessor@npm:5.17.0"
+"@cypress/webpack-preprocessor@npm:^6.0.0":
+  version: 6.0.0
+  resolution: "@cypress/webpack-preprocessor@npm:6.0.0"
   dependencies:
     bluebird: 3.7.1
     debug: ^4.3.4
@@ -2245,9 +2245,9 @@ __metadata:
   peerDependencies:
     "@babel/core": ^7.0.1
     "@babel/preset-env": ^7.0.0
-    babel-loader: ^8.0.2 || ^9
+    babel-loader: ^8.3 || ^9
     webpack: ^4 || ^5
-  checksum: 44ecf11564f5498a15289f21f27f9e89feb19e9da3701f909ef85ba650e26c5430f4e8f6f5fdfc521cb82117b4ca6642cc35e7916fb836eab1bc8209ef8e656c
+  checksum: 257c470e5a3bf9795fd7d388bdc0e91b3da87dbb94ec4aa70966e63b8d0640efedf3ad9258b84e83b99a112fa5dbdbbc83b4aaeeeb5511a91e2ee2c8a659df43
   languageName: node
   linkType: hard
 
@@ -18862,7 +18862,7 @@ __metadata:
     "@babel/plugin-transform-strict-mode": ^7.22.5
     "@babel/preset-env": ^7.22.20
     "@babel/runtime": ^7.23.1
-    "@cypress/code-coverage": ^3.12.1
+    "@cypress/code-coverage": ^3.12.3
     "@datadog/browser-core": ^4.50.1
     "@datadog/browser-logs": ^4.50.1
     "@datadog/browser-rum": ^4.50.1
