@@ -7800,10 +7800,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"awesome-phonenumber@npm:^5.11.0":
-  version: 5.11.0
-  resolution: "awesome-phonenumber@npm:5.11.0"
-  checksum: de727b1a9a956adeca17162e59fc0e549281a19a38ca94988d42e68822148a6302c37de67baea4b382955dd5fe6434babf16d80afa09c2167ccf855bb225bd4b
+"awesome-phonenumber@npm:^6.0.0":
+  version: 6.1.0
+  resolution: "awesome-phonenumber@npm:6.1.0"
+  checksum: fb3b2835562d75c3d8ad6e619585e251c8c0caa3b4efc09c708c71d8d830b64071fd7163c5546b39a2b2096e2fccc849301537e64d0e535bdb3ff0f560ecc1f4
   languageName: node
   linkType: hard
 
@@ -18910,7 +18910,7 @@ __metadata:
     "@vitejs/plugin-react": ^4.1.0
     "@vitejs/plugin-react-swc": ^3.4.0
     assets-webpack-plugin: 7.1.1
-    awesome-phonenumber: ^5.11.0
+    awesome-phonenumber: ^6.0.0
     babel-jest: ^29.7.0
     babel-loader: ^9.1.3
     babel-plugin-istanbul: ^6.1.1
