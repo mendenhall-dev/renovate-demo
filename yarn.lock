@@ -4039,16 +4039,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@percy/storybook@npm:^4.3.6":
-  version: 4.3.6
-  resolution: "@percy/storybook@npm:4.3.6"
+"@percy/storybook@npm:^4.3.7":
+  version: 4.3.7
+  resolution: "@percy/storybook@npm:4.3.7"
   dependencies:
     "@percy/cli-command": ^1.24.0
     cross-spawn: ^7.0.3
     qs: ^6.11.0
   bin:
     percy-storybook: bin/percy-storybook.cjs
-  checksum: 80dd41e31614f3480a459927df697c0ac9dbbbceed5903f71cbf6d053b9f88ea8fe9484ce2bca75eaba01eaf2d756a0ae2073551775009bbc8dfac057ccea1ec
+  checksum: 5f16b286c3b0f0af4f1524d7771f8f42ac7507ed5fa2d3b17d3b9784bae008c376042f8b92e51e2747463519e5616110bcfd4990c062a8a86d5bce2b958f9bdf
   languageName: node
   linkType: hard
 
@@ -18876,7 +18876,7 @@ __metadata:
     "@graphql-codegen/typescript": ^3.0.4
     "@percy/cli": ^1.27.3
     "@percy/cypress": ^3.1.2
-    "@percy/storybook": ^4.3.6
+    "@percy/storybook": ^4.3.7
     "@pmmmwh/react-refresh-webpack-plugin": ^0.5.11
     "@rails/actioncable": ^7.1.1
     "@react-google-maps/api": ^2.19.2
