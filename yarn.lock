@@ -4823,7 +4823,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@storybook/addon-a11y@npm:^7.5.0":
+"@storybook/addon-a11y@npm:^7.5.1":
   version: 7.5.1
   resolution: "@storybook/addon-a11y@npm:7.5.1"
   dependencies:
@@ -4852,7 +4852,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@storybook/addon-actions@npm:7.5.1, @storybook/addon-actions@npm:^7.5.0":
+"@storybook/addon-actions@npm:7.5.1, @storybook/addon-actions@npm:^7.5.1":
   version: 7.5.1
   resolution: "@storybook/addon-actions@npm:7.5.1"
   dependencies:
@@ -4968,7 +4968,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@storybook/addon-essentials@npm:^7.5.0":
+"@storybook/addon-essentials@npm:^7.5.1":
   version: 7.5.1
   resolution: "@storybook/addon-essentials@npm:7.5.1"
   dependencies:
@@ -5004,7 +5004,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@storybook/addon-links@npm:^7.5.0":
+"@storybook/addon-links@npm:^7.5.1":
   version: 7.5.1
   resolution: "@storybook/addon-links@npm:7.5.1"
   dependencies:
@@ -5243,7 +5243,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@storybook/cli@npm:^7.5.0":
+"@storybook/cli@npm:^7.5.1":
   version: 7.5.1
   resolution: "@storybook/cli@npm:7.5.1"
   dependencies:
@@ -5667,7 +5667,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@storybook/react-webpack5@npm:^7.5.0":
+"@storybook/react-webpack5@npm:^7.5.1":
   version: 7.5.1
   resolution: "@storybook/react-webpack5@npm:7.5.1"
   dependencies:
@@ -18869,12 +18869,12 @@ __metadata:
     "@rails/actioncable": ^7.1.1
     "@react-google-maps/api": ^2.19.2
     "@splitsoftware/splitio-browserjs": ^0.10.1
-    "@storybook/addon-a11y": ^7.5.0
-    "@storybook/addon-actions": ^7.5.0
-    "@storybook/addon-essentials": ^7.5.0
-    "@storybook/addon-links": ^7.5.0
-    "@storybook/cli": ^7.5.0
-    "@storybook/react-webpack5": ^7.5.0
+    "@storybook/addon-a11y": ^7.5.1
+    "@storybook/addon-actions": ^7.5.1
+    "@storybook/addon-essentials": ^7.5.1
+    "@storybook/addon-links": ^7.5.1
+    "@storybook/cli": ^7.5.1
+    "@storybook/react-webpack5": ^7.5.1
     "@stripe/react-stripe-js": 2.3.1
     "@stripe/stripe-js": ^1.54.2
     "@swc/plugin-emotion": ^2.5.92
