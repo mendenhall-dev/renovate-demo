@@ -11831,9 +11831,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"fixed-data-table-2@npm:^2.0.0":
-  version: 2.0.0
-  resolution: "fixed-data-table-2@npm:2.0.0"
+"fixed-data-table-2@npm:^2.0.1":
+  version: 2.0.1
+  resolution: "fixed-data-table-2@npm:2.0.1"
   dependencies:
     "@reduxjs/toolkit": ^1.5.1
     lodash: ^4.17.4
@@ -11845,7 +11845,7 @@ __metadata:
   peerDependencies:
     react: ">=17.0.1"
     react-dom: ">=17.0.1"
-  checksum: d95417a851d4afdddda95aa23749b71033e4de0f754a09636b01a77104f310f5ff22a815f3716f0eb6706a93ab474993ebeb437536ca037072513cb1606cfe3d
+  checksum: 7f218d50626d866ff96b8734acc40a7c3ff4ab5c6ce8f19989260d5e4ef31550019fd699a88750ddc9cd2c28cfabcd64f0ad40df633b8f3bce21755b58f7aa62
   languageName: node
   linkType: hard
 
@@ -18941,7 +18941,7 @@ __metadata:
     eslint-plugin-security: ^1.7.1
     eslint-stats: ^1.0.1
     express: =4.18.2
-    fixed-data-table-2: ^2.0.0
+    fixed-data-table-2: ^2.0.1
     font-awesome: ^4.7.0
     framer-motion: ^6.5.1
     graphql: ^16.8.1
