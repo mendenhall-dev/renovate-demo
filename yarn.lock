@@ -2186,9 +2186,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@cypress/code-coverage@npm:^3.12.4":
-  version: 3.12.4
-  resolution: "@cypress/code-coverage@npm:3.12.4"
+"@cypress/code-coverage@npm:^3.12.5":
+  version: 3.12.6
+  resolution: "@cypress/code-coverage@npm:3.12.6"
   dependencies:
     "@cypress/webpack-preprocessor": ^6.0.0
     chalk: 4.1.2
@@ -2205,7 +2205,7 @@ __metadata:
     babel-loader: ^8.3 || ^9
     cypress: "*"
     webpack: ^4 || ^5
-  checksum: b511cc7eeceb3d0f21eeb771729413b5ab71739463f821a83d4bcfef09951bb8c9d7e02e68d7c0636e0a1d71a862fc619075f9f8a7522048f00bf220052e8c71
+  checksum: ed9e97e4356a58cb30e449ec37e6444faaa1f47343e29bf837d016017eb2e790e15d3b098cfa9b4538f6db325dcf6d328eafe29029685fe4819e328b0e90bbcb
   languageName: node
   linkType: hard
 
@@ -18880,7 +18880,7 @@ __metadata:
     "@babel/plugin-transform-strict-mode": ^7.22.5
     "@babel/preset-env": ^7.23.2
     "@babel/runtime": ^7.23.2
-    "@cypress/code-coverage": ^3.12.4
+    "@cypress/code-coverage": ^3.12.5
     "@datadog/browser-core": ^4.50.1
     "@datadog/browser-logs": ^4.50.1
     "@datadog/browser-rum": ^4.50.1
