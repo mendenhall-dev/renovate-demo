@@ -5925,7 +5925,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@swc/plugin-emotion@npm:^2.5.93":
+"@swc/plugin-emotion@npm:^2.5.94":
   version: 2.5.94
   resolution: "@swc/plugin-emotion@npm:2.5.94"
   checksum: 48d778bed93091d4bbd663072183e12d7ad0f89bbe8a2191190fe02ff5a484ce147b2856db792bdc0d47a962ae0846786213d4cb7af2896ddc99711394b11160
@@ -18933,7 +18933,7 @@ __metadata:
     "@storybook/react-webpack5": ^7.5.1
     "@stripe/react-stripe-js": 2.3.1
     "@stripe/stripe-js": ^1.54.2
-    "@swc/plugin-emotion": ^2.5.93
+    "@swc/plugin-emotion": ^2.5.94
     "@testing-library/cypress": ^10.0.1
     "@testing-library/dom": ^9.3.3
     "@testing-library/jest-dom": ^6.1.4
