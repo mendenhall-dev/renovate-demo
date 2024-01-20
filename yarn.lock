@@ -19429,7 +19429,7 @@ __metadata:
     webpack-bundle-analyzer: "npm:^4.10.1"
     webpack-cli: "npm:^5.1.4"
     webpack-dev-middleware: "npm:^6.1.1"
-    webpack-hot-middleware: "npm:^2.25.4"
+    webpack-hot-middleware: "npm:^2.26.0"
     webpack-merge: "npm:^5.10.0"
     worker-loader: "npm:^3.0.8"
     worker-timers: "npm:^7.0.77"
@@ -22236,14 +22236,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"webpack-hot-middleware@npm:^2.25.1, webpack-hot-middleware@npm:^2.25.4":
-  version: 2.25.4
-  resolution: "webpack-hot-middleware@npm:2.25.4"
+"webpack-hot-middleware@npm:^2.25.1, webpack-hot-middleware@npm:^2.26.0":
+  version: 2.26.0
+  resolution: "webpack-hot-middleware@npm:2.26.0"
   dependencies:
     ansi-html-community: "npm:0.0.8"
     html-entities: "npm:^2.1.0"
     strip-ansi: "npm:^6.0.0"
-  checksum: c0702d308a39bdbc9277d66df50272e8c358c2238cecb0881df57136f54cb7a3d8291320b13075325b58f7a3cbf7a1ef10829554a5bc2ddfa3effbf416dc8e8c
+  checksum: eef72a57b3869de0c460204d1f07f2d25e19a243cf020255ddc8bb1c7438abdc66df2bbd84056a85d03c3a55768507af8923e4a2d5b9e003394aaf9704641b12
   languageName: node
   linkType: hard
 
