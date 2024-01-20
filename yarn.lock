@@ -18068,7 +18068,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"postcss@npm:^8.2.14, postcss@npm:^8.4.21, postcss@npm:^8.4.24, postcss@npm:^8.4.28, postcss@npm:^8.4.31, postcss@npm:^8.4.32":
+"postcss@npm:^8.2.14, postcss@npm:^8.4.21, postcss@npm:^8.4.24, postcss@npm:^8.4.28, postcss@npm:^8.4.32, postcss@npm:^8.4.33":
   version: 8.4.33
   resolution: "postcss@npm:8.4.33"
   dependencies:
@@ -19347,7 +19347,7 @@ __metadata:
     moment-timezone: "npm:^0.5.43"
     nyc: "npm:^15.1.0"
     polished: "npm:^4.2.2"
-    postcss: "npm:^8.4.31"
+    postcss: "npm:^8.4.33"
     postcss-import: "npm:^15.1.0"
     postcss-loader: "npm:^7.3.3"
     postcss-preset-env: "npm:^9.2.0"
