@@ -125,7 +125,7 @@
     "local-cypress": "^1.2.6",
     "lodash": "^4.17.21",
     "microevent-github": "=1.0.0",
-    "mini-css-extract-plugin": "^2.7.6",
+    "mini-css-extract-plugin": "^2.7.7",
     "mocha": "^10.2.0",
     "mockdate": "^3.0.5",
     "moment": "^2.29.4",
