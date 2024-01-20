@@ -9984,12 +9984,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"cypress-real-events@npm:^1.10.3":
-  version: 1.10.3
-  resolution: "cypress-real-events@npm:1.10.3"
+"cypress-real-events@npm:^1.11.0":
+  version: 1.11.0
+  resolution: "cypress-real-events@npm:1.11.0"
   peerDependencies:
     cypress: ^4.x || ^5.x || ^6.x || ^7.x || ^8.x || ^9.x || ^10.x || ^11.x || ^12.x || ^13.x
-  checksum: dc9c1598b722355dcafc6d82f2374570f70804a4890e48ba7ae7144203cfae218c35e454ab4637e577c6939fe33a6012cf31e652208d3edca1a21b87b8a0ae17
+  checksum: b924b6f802f1a0675940d29edf67deb9da07cdbea9292ad3c87443c57810b7e85970ff2344fed6d83bb275fc467064dd2b5163065253dee2d5b6f3b470234c4a
   languageName: node
   linkType: hard
 
@@ -19302,7 +19302,7 @@ __metadata:
     cypress-browser-permissions: "npm:^1.1.0"
     cypress-circleci-reporter: "npm:^0.2.0"
     cypress-promise: "npm:^1.1.0"
-    cypress-real-events: "npm:^1.10.3"
+    cypress-real-events: "npm:^1.11.0"
     date-fns: "npm:^2.30.0"
     date-fns-timezone: "npm:^0.1.4"
     dotenv: "npm:^16.3.1"
