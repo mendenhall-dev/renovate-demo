@@ -6620,15 +6620,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/jquery@npm:^3.5.25":
-  version: 3.5.25
-  resolution: "@types/jquery@npm:3.5.25"
-  dependencies:
-    "@types/sizzle": "npm:*"
-  checksum: 9d222da5db49968a2d2bb48cd7705e872de16db0c5b2197627a910cf14e591f7065a5f7a37c626763eccdbd63ca4652b3475541e0cfdcebd4677bce51f16ed36
-  languageName: node
-  linkType: hard
-
 "@types/js-cookie@npm:^2.2.6":
   version: 2.2.7
   resolution: "@types/js-cookie@npm:2.2.7"
@@ -6857,7 +6848,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/sizzle@npm:*, @types/sizzle@npm:^2.3.2":
+"@types/sizzle@npm:^2.3.2":
   version: 2.3.3
   resolution: "@types/sizzle@npm:2.3.3"
   checksum: a19de697d2d444c0a3e3cdbfb303b337aeef9dc54b8bdb4a2f15b1fbd7ab1f7b7bf85065b17b5d2da48ea80d38d659fa213ae706880787ff92323e9fce76d841
@@ -14947,13 +14938,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"jquery@npm:^3.7.1":
-  version: 3.7.1
-  resolution: "jquery@npm:3.7.1"
-  checksum: 808cfbfb758438560224bf26e17fcd5afc7419170230c810dd11f5c1792e2263e2970cca8d659eb84fcd9acc301edb6d310096e450277d54be4f57071b0c82d9
-  languageName: node
-  linkType: hard
-
 "js-cookie@npm:^2.2.1":
   version: 2.2.1
   resolution: "js-cookie@npm:2.2.1"
@@ -19281,7 +19265,6 @@ __metadata:
     "@types/cypress__code-coverage": "npm:^3.10.2"
     "@types/googlemaps": "npm:^3.43.3"
     "@types/jest": "npm:^29.5.11"
-    "@types/jquery": "npm:^3.5.25"
     "@types/lodash": "npm:^4.14.202"
     "@types/node": "npm:^20.11.5"
     "@types/react": "npm:^18.2.48"
@@ -19352,7 +19335,6 @@ __metadata:
     jest-fetch-mock: "npm:^3.0.3"
     jest-junit: "npm:^16.0.0"
     jest-runner-eslint: "npm:^2.1.2"
-    jquery: "npm:^3.7.1"
     lint-staged: "npm:^15.0.2"
     local-cypress: "npm:^1.2.6"
     lodash: "npm:^4.17.21"
