@@ -1,84 +1,84 @@
 {
-  extends: [
-    ':dependencyDashboard',
-    ':ignoreModulesAndTests',
-    ':autodetectRangeStrategy',
-    ':prHourlyLimit2',
-    ':prConcurrentLimit10',
-    'group:monorepos',
-    'group:recommended',
-    'workarounds:all',
+  "extends": [
+    ":dependencyDashboard",
+    ":ignoreModulesAndTests",
+    ":autodetectRangeStrategy",
+    ":prHourlyLimit2",
+    ":prConcurrentLimit10",
+    "group:monorepos",
+    "group:recommended",
+    "workarounds:all"
   ],
 
-  enabledManagers: ['circleci', 'github-actions', 'npm', 'nvm'],
-  pinDigests: true,
-  rangeStrategy: 'bump',
-  reviewersFromCodeOwners: true,
+  "enabledManagers": ["circleci", "github-actions", "npm", "nvm"],
+  "pinDigests": true,
+  "rangeStrategy": "bump",
+  "reviewersFromCodeOwners": true,
 
-  packageRules: [
+  "packageRules": [
     {
-      matchDatasources: ['docker'],
-      enabled: false,
+      "matchDatasources": ["docker"],
+      "enabled": false
     },
     {
-      matchDatasources: ['docker'],
-      matchPackagePatterns: ['node'],
+      "matchDatasources": ["docker"],
+      "matchPackagePatterns": ["node"],
 
-      allowedVersions: '/^18\\.[0-9]+\\.[0-9]+(-\\w+)?$/',
-      enabled: true,
+      "allowedVersions": "/^18\\.[0-9]+\\.[0-9]+(-\\w+)?$/",
+      "enabled": true
     },
     {
-      matchDatasources: ['orb'],
-      enabled: false,
+      "matchDatasources": ["orb"],
+      "enabled": false
     },
     {
-      matchDatasources: ['docker'],
-      matchManagers: ['github-actions'],
-      enabled: true,
-    },
-
-    {
-      matchManagers: ['npm'],
-
-      addLabels: ['javascript'],
-      internalChecksFilter: 'strict',
-      postUpdateOptions: ['yarnDedupeHighest'],
-      rangeStrategy: 'bump',
-      stabilityDays: 3,
-    },
-    {
-      matchManagers: ['npm'],
-      matchUpdateTypes: ['minor', 'patch'],
-
-      automerge: true,
-      ignoreTests: true,
-      platformAutomerge: true,
+      "matchDatasources": ["docker"],
+      "matchManagers": ["github-actions"],
+      "enabled": true
     },
 
     {
-      groupName: 'datadog',
-      matchManagers: ['npm'],
-      matchPackagePrefixes: ['@datadog'],
+      "matchManagers": ["npm"],
+
+      "addLabels": ["javascript"],
+      "internalChecksFilter": "strict",
+      "postUpdateOptions": ["yarnDedupeHighest"],
+      "rangeStrategy": "bump",
+      "stabilityDays": 3
     },
     {
-      groupName: 'relay',
-      matchManagers: ['npm'],
-      matchPackagePrefixes: [
-        '@types/react-relay',
-        '@types/relay',
-        'babel-plugin-relay',
-        'react-relay',
-        'relay',
+      "matchManagers": ["npm"],
+      "matchUpdateTypes": ["minor", "patch"],
+
+      "automerge": true,
+      "ignoreTests": true,
+      "platformAutomerge": true
+    },
+
+    {
+      "groupName": "datadog",
+      "matchManagers": ["npm"],
+      "matchPackagePrefixes": ["@datadog"]
+    },
+    {
+      "groupName": "relay",
+      "matchManagers": ["npm"],
+      "matchPackagePrefixes": [
+        "@types/react-relay",
+        "@types/relay",
+        "babel-plugin-relay",
+        "react-relay",
+        "relay"
       ],
-      matchSourceUrlPrefixes: [
-        'https://github.com/DefinitelyTyped/DefinitelyTyped',
-        'https://github.com/facebook/relay',
-      ],
+      "matchSourceUrlPrefixes": [
+        "https://github.com/DefinitelyTyped/DefinitelyTyped",
+        "https://github.com/facebook/relay"
+      ]
     },
     {
-      groupName: 'stylelint',
-      matchManagers: ['npm'],
-      matchSourceUrlPrefixes: ['https://github.com/stylelint/'],
-    },
-  ],
+      "groupName": "stylelint",
+      "matchManagers": ["npm"],
+      "matchSourceUrlPrefixes": ["https://github.com/stylelint/"]
+    }
+  ]
 }
