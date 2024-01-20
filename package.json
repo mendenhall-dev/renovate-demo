@@ -51,7 +51,7 @@
     "@types/cypress__code-coverage": "^3.10.2",
     "@types/googlemaps": "^3.43.3",
     "@types/jest": "^29.5.11",
-    "@types/jquery": "^3.5.25",
+    "@types/jquery": "^3.5.29",
     "@types/lodash": "^4.14.202",
     "@types/node": "^20.11.5",
     "@types/react": "^18.2.48",
