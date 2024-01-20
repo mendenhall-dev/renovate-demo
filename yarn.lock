@@ -2236,9 +2236,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@cypress/request@npm:2.88.12":
-  version: 2.88.12
-  resolution: "@cypress/request@npm:2.88.12"
+"@cypress/request@npm:^3.0.0":
+  version: 3.0.1
+  resolution: "@cypress/request@npm:3.0.1"
   dependencies:
     aws-sign2: "npm:~0.7.0"
     aws4: "npm:^1.8.0"
@@ -2253,12 +2253,12 @@ __metadata:
     json-stringify-safe: "npm:~5.0.1"
     mime-types: "npm:~2.1.19"
     performance-now: "npm:^2.1.0"
-    qs: "npm:~6.10.3"
+    qs: "npm:6.10.4"
     safe-buffer: "npm:^5.1.2"
     tough-cookie: "npm:^4.1.3"
     tunnel-agent: "npm:^0.6.0"
     uuid: "npm:^8.3.2"
-  checksum: 815d56db900d63479a7385f1f76d583f1fea6181499ed8abd54aec477423b03202e1155389e0035c3ec29852a0cce39c21629f358b604f604d4653b6d0ce9d52
+  checksum: 8eb92a665e6549e2533f5169431addcaad0307f51a8c7f3b6b169eb79b4d673373784a527590a47b0a2905ad5f601b24ab2d1b31d184243235aba470ffc9c1f7
   languageName: node
   linkType: hard
 
@@ -6729,13 +6729,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:^16.18.39":
-  version: 16.18.39
-  resolution: "@types/node@npm:16.18.39"
-  checksum: b33fca5a89affdd9b59bc4475ea010c547abb5742ab13918a441fb4ddbb7fbd58d0b04ec1b51bf4f0c4e8228022c9d9aedde34627c6e2b2754462fed507f7ad9
-  languageName: node
-  linkType: hard
-
 "@types/node@npm:^18.0.0":
   version: 18.18.6
   resolution: "@types/node@npm:18.18.6"
@@ -10004,13 +9997,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"cypress@npm:*, cypress@npm:^12.17.4":
-  version: 12.17.4
-  resolution: "cypress@npm:12.17.4"
+"cypress@npm:*, cypress@npm:^13.6.3":
+  version: 13.6.3
+  resolution: "cypress@npm:13.6.3"
   dependencies:
-    "@cypress/request": "npm:2.88.12"
+    "@cypress/request": "npm:^3.0.0"
     "@cypress/xvfb": "npm:^1.2.4"
-    "@types/node": "npm:^16.18.39"
     "@types/sinonjs__fake-timers": "npm:8.1.1"
     "@types/sizzle": "npm:^2.3.2"
     arch: "npm:^2.2.0"
@@ -10053,7 +10045,7 @@ __metadata:
     yauzl: "npm:^2.10.0"
   bin:
     cypress: bin/cypress
-  checksum: bc44e5de948a581b2175057523293e03b3065a93c492a94f4f3b1ab7f5e25208f6e63b6cd607c2be494603509ac99f5ab43135da3719e32b4539d84f4ef049ca
+  checksum: dc6038ff7b36aeef7cc97918fbdc848f43175cd3396df9f0d723f8fbb172b2f0ced98ddcd55786f38b57a9634f9a1dc446d5712ac20d30ae7c786f626dc28adc
   languageName: node
   linkType: hard
 
@@ -18384,6 +18376,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"qs@npm:6.10.4":
+  version: 6.10.4
+  resolution: "qs@npm:6.10.4"
+  dependencies:
+    side-channel: "npm:^1.0.4"
+  checksum: 7a8c9d77968aeccb769aedd7e047c0e0109dad0cfa57cab1ad906f4069fd58f361b80abd2de5854ba9a09b4c5d06d6a2c82108766f1f1527572fe6130deaa471
+  languageName: node
+  linkType: hard
+
 "qs@npm:6.11.0":
   version: 6.11.0
   resolution: "qs@npm:6.11.0"
@@ -18399,15 +18400,6 @@ __metadata:
   dependencies:
     side-channel: "npm:^1.0.4"
   checksum: 4f95d4ff18ed480befcafa3390022817ffd3087fc65f146cceb40fc5edb9fa96cb31f648cae2fa96ca23818f0798bd63ad4ca369a0e22702fcd41379b3ab6571
-  languageName: node
-  linkType: hard
-
-"qs@npm:~6.10.3":
-  version: 6.10.4
-  resolution: "qs@npm:6.10.4"
-  dependencies:
-    side-channel: "npm:^1.0.4"
-  checksum: 7a8c9d77968aeccb769aedd7e047c0e0109dad0cfa57cab1ad906f4069fd58f361b80abd2de5854ba9a09b4c5d06d6a2c82108766f1f1527572fe6130deaa471
   languageName: node
   linkType: hard
 
@@ -19318,7 +19310,7 @@ __metadata:
     css-loader: "npm:^6.8.1"
     css-minimizer-webpack-plugin: "npm:^5.0.1"
     cycle: "npm:^1.0.3"
-    cypress: "npm:^12.17.4"
+    cypress: "npm:^13.6.3"
     cypress-browser-permissions: "npm:^1.1.0"
     cypress-circleci-reporter: "npm:^0.2.0"
     cypress-promise: "npm:^1.1.0"
