@@ -173,7 +173,7 @@
     "style-loader": "^3.3.4",
     "stylelint": "^15.11.0",
     "stylelint-config-recommended": "^13.0.0",
-    "stylelint-scss": "^5.2.1",
+    "stylelint-scss": "^5.3.2",
     "terser-webpack-plugin": "^5.3.9",
     "ts-node": "^10.9.2",
     "typeface-open-sans": "^1.1.13",
