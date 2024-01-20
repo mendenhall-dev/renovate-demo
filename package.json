@@ -188,6 +188,6 @@
     "webpack-merge": "^5.10.0",
     "worker-loader": "^3.0.8",
     "worker-timers": "^7.0.77",
-    "yaml": "^2.3.3"
+    "yaml": "^2.3.4"
   }
 }

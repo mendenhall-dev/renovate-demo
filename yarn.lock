@@ -19407,7 +19407,7 @@ __metadata:
     webpack-merge: "npm:^5.10.0"
     worker-loader: "npm:^3.0.8"
     worker-timers: "npm:^7.0.77"
-    yaml: "npm:^2.3.3"
+    yaml: "npm:^2.3.4"
   languageName: unknown
   linkType: soft
 
@@ -22656,7 +22656,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"yaml@npm:2.3.3, yaml@npm:^2.0.0, yaml@npm:^2.3.3":
+"yaml@npm:2.3.3":
   version: 2.3.3
   resolution: "yaml@npm:2.3.3"
   checksum: a0c56bf682159b0567e9cbbddf23efc2f6806f6450716d9be6ec5eb1af1b941e95c8d3dc9c47da20d1b6883a9d6c61e31cf98bb4b77ebca4396bf772657f2f00
@@ -22667,6 +22667,13 @@ __metadata:
   version: 1.10.2
   resolution: "yaml@npm:1.10.2"
   checksum: 5c28b9eb7adc46544f28d9a8d20c5b3cb1215a886609a2fd41f51628d8aaa5878ccd628b755dbcd29f6bb4921bd04ffbc6dcc370689bb96e594e2f9813d2605f
+  languageName: node
+  linkType: hard
+
+"yaml@npm:^2.0.0, yaml@npm:^2.3.4":
+  version: 2.3.4
+  resolution: "yaml@npm:2.3.4"
+  checksum: cf03b68f8fef5e8516b0f0b54edaf2459f1648317fc6210391cf606d247e678b449382f4bd01f77392538429e306c7cba8ff46ff6b37cac4de9a76aff33bd9e1
   languageName: node
   linkType: hard
 
