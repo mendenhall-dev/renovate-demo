@@ -54,7 +54,7 @@
     "@types/jquery": "^3.5.25",
     "@types/lodash": "^4.14.200",
     "@types/node": "^20.11.5",
-    "@types/react": "^18.2.32",
+    "@types/react": "^18.2.48",
     "@types/react-relay": "^14.1.7",
     "@types/relay-runtime": "^14.1.15",
     "@types/relay-test-utils": "^6.0.6",
