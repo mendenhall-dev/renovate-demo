@@ -1890,15 +1890,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@csstools/postcss-cascade-layers@npm:^4.0.0":
-  version: 4.0.0
-  resolution: "@csstools/postcss-cascade-layers@npm:4.0.0"
+"@csstools/postcss-cascade-layers@npm:^4.0.1":
+  version: 4.0.2
+  resolution: "@csstools/postcss-cascade-layers@npm:4.0.2"
   dependencies:
-    "@csstools/selector-specificity": "npm:^3.0.0"
+    "@csstools/selector-specificity": "npm:^3.0.1"
     postcss-selector-parser: "npm:^6.0.13"
   peerDependencies:
     postcss: ^8.4
-  checksum: a46011124edd86ea674cc89e8d50a2c56f3e7a11e0bf05652b0709554066f0ad569ea16582d8e4c24bac987ebe116d4741850f2d40438e8a6f010d1d9599fedb
+  checksum: bc4babdaaa025c9b3e417af989d58f9c7987ebc997c5d6bb4b150df5e9377175de393525a71868a48944e8a21aed4ce4d9023952201bf529e0113fbb5d79ace5
   languageName: node
   linkType: hard
 
@@ -2033,6 +2033,24 @@ __metadata:
   peerDependencies:
     postcss: ^8.4
   checksum: d71b77d8ae1bb90325581092f873be24bdc6d6b71d9933e4aaffb4a160f9ac3034993d1cb86474d1bcbf4ad6854b9b9cc645861684980cf5439e27c4a518c2ba
+  languageName: node
+  linkType: hard
+
+"@csstools/postcss-logical-overflow@npm:^1.0.0":
+  version: 1.0.1
+  resolution: "@csstools/postcss-logical-overflow@npm:1.0.1"
+  peerDependencies:
+    postcss: ^8.4
+  checksum: a8f5b1fdaf4ce7b1665407dac2f2e0c0ea11195e6873cfc714d9cd206489170fd91fc172b337330baf60191206f60579e235264f0dc7fee750ccd27ffe02c163
+  languageName: node
+  linkType: hard
+
+"@csstools/postcss-logical-overscroll-behavior@npm:^1.0.0":
+  version: 1.0.1
+  resolution: "@csstools/postcss-logical-overscroll-behavior@npm:1.0.1"
+  peerDependencies:
+    postcss: ^8.4
+  checksum: 9485502bd9235276525351818d6cc11544ac1b270bb4f527f3fac32fe98ac66269366c34cdb8f61920b10ff9aac5824935004a5927490a5febca77eb41226604
   languageName: node
   linkType: hard
 
@@ -2204,12 +2222,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@csstools/selector-specificity@npm:^3.0.0":
-  version: 3.0.0
-  resolution: "@csstools/selector-specificity@npm:3.0.0"
+"@csstools/selector-specificity@npm:^3.0.0, @csstools/selector-specificity@npm:^3.0.1":
+  version: 3.0.1
+  resolution: "@csstools/selector-specificity@npm:3.0.1"
   peerDependencies:
     postcss-selector-parser: ^6.0.13
-  checksum: 6f0e2fa9a3c5dcbc7a446fd827d3eb85ca775cc884f73f0bbb119ab49b4f5f0af8763dd23a37d423f4e7989069c09bb977e7e5f017db296e1417abb1fba75c30
+  checksum: 4280f494726d5e38de74e28dee2ff74ec86244560dff4edeec3ddff3ac73c774c19535bd1bb70cad77949bfb359cf87e977d0ec3264591e3b7260342a20dd84f
   languageName: node
   linkType: hard
 
@@ -9841,10 +9859,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"cssdb@npm:^7.8.0":
-  version: 7.8.0
-  resolution: "cssdb@npm:7.8.0"
-  checksum: 6799e1abb2e6ad9b51b555addd23be54f62fbaf7b4ee1aeb8ac531757db240a2a87e7d9c6f999153eb8e7ab21f93199bca9223c88847ac1d39ec5d4fb8033260
+"cssdb@npm:^7.9.0":
+  version: 7.10.0
+  resolution: "cssdb@npm:7.10.0"
+  checksum: 2e0ee41481680515e5d08eabe426fa98d4aa04b8a76fd004b8b0c4fdfbfafc28957d84837542a7e6da8b408b2f1f3fb655a3ce9bc68d5cfa5634895f904910e4
   languageName: node
   linkType: hard
 
@@ -17889,11 +17907,11 @@ __metadata:
   languageName: node
   linkType: hard
 
-"postcss-preset-env@npm:^9.2.0":
-  version: 9.2.0
-  resolution: "postcss-preset-env@npm:9.2.0"
+"postcss-preset-env@npm:^9.3.0":
+  version: 9.3.0
+  resolution: "postcss-preset-env@npm:9.3.0"
   dependencies:
-    "@csstools/postcss-cascade-layers": "npm:^4.0.0"
+    "@csstools/postcss-cascade-layers": "npm:^4.0.1"
     "@csstools/postcss-color-function": "npm:^3.0.7"
     "@csstools/postcss-color-mix-function": "npm:^2.0.7"
     "@csstools/postcss-exponential-functions": "npm:^1.0.1"
@@ -17905,6 +17923,8 @@ __metadata:
     "@csstools/postcss-initial": "npm:^1.0.0"
     "@csstools/postcss-is-pseudo-class": "npm:^4.0.3"
     "@csstools/postcss-logical-float-and-clear": "npm:^2.0.0"
+    "@csstools/postcss-logical-overflow": "npm:^1.0.0"
+    "@csstools/postcss-logical-overscroll-behavior": "npm:^1.0.0"
     "@csstools/postcss-logical-resize": "npm:^2.0.0"
     "@csstools/postcss-logical-viewport-units": "npm:^2.0.3"
     "@csstools/postcss-media-minmax": "npm:^1.1.0"
@@ -17924,7 +17944,7 @@ __metadata:
     css-blank-pseudo: "npm:^6.0.0"
     css-has-pseudo: "npm:^6.0.0"
     css-prefers-color-scheme: "npm:^9.0.0"
-    cssdb: "npm:^7.8.0"
+    cssdb: "npm:^7.9.0"
     postcss-attribute-case-insensitive: "npm:^6.0.2"
     postcss-clamp: "npm:^4.1.0"
     postcss-color-functional-notation: "npm:^6.0.2"
@@ -17953,7 +17973,7 @@ __metadata:
     postcss-value-parser: "npm:^4.2.0"
   peerDependencies:
     postcss: ^8.4
-  checksum: 6f598076ca00facc0c1a95f948cc90e1f1c9e1eb6cf5ad5e4e0b4778dbf1ef0c447b3b2ad7078feec42732663b1163098a0a50b295fa57edbb1e11710eff0573
+  checksum: f244c7e334bea8b55d4277527319f92660f6122a77501c5d1669d7eaffb4532f845dcc886593b04d2912aff307b059d7738f8690d1d7ffbb7001becb15aceffe
   languageName: node
   linkType: hard
 
@@ -19367,7 +19387,7 @@ __metadata:
     postcss: "npm:^8.4.33"
     postcss-import: "npm:^15.1.0"
     postcss-loader: "npm:^7.3.4"
-    postcss-preset-env: "npm:^9.2.0"
+    postcss-preset-env: "npm:^9.3.0"
     postcss-scss: "npm:^4.0.9"
     postcss-syntax: "npm:^0.36.2"
     prettier: "npm:^3.0.3"
