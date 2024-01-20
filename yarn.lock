@@ -2213,17 +2213,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@cypress/code-coverage@npm:^3.12.5":
-  version: 3.12.6
-  resolution: "@cypress/code-coverage@npm:3.12.6"
+"@cypress/code-coverage@npm:^3.12.18":
+  version: 3.12.18
+  resolution: "@cypress/code-coverage@npm:3.12.18"
   dependencies:
     "@cypress/webpack-preprocessor": "npm:^6.0.0"
     chalk: "npm:4.1.2"
     dayjs: "npm:1.11.10"
     debug: "npm:4.3.4"
     execa: "npm:4.1.0"
-    globby: "npm:11.0.4"
-    istanbul-lib-coverage: "npm:3.0.0"
+    globby: "npm:11.1.0"
+    istanbul-lib-coverage: "npm:^3.0.0"
     js-yaml: "npm:4.1.0"
     nyc: "npm:15.1.0"
   peerDependencies:
@@ -2232,7 +2232,7 @@ __metadata:
     babel-loader: ^8.3 || ^9
     cypress: "*"
     webpack: ^4 || ^5
-  checksum: 12e692cbd149e250decff09c0d43e51b0270c42b37cc9b1f554b65421d8253a36bc3018a7d68dc07c671e0184f4a6231d29960c133bdb04a734b4762cfb06a8c
+  checksum: 3d423b9ab18fd6610d015e1c3a2cfa452b47cefc3796de639efbd495794548ec2740128e6cc7745168ffe95ac0cd092287dd54085a0bdc8aca2a3035f475d71c
   languageName: node
   linkType: hard
 
@@ -11593,7 +11593,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"fast-glob@npm:^3.1.1, fast-glob@npm:^3.2.11, fast-glob@npm:^3.2.9, fast-glob@npm:^3.3.0, fast-glob@npm:^3.3.1":
+"fast-glob@npm:^3.2.11, fast-glob@npm:^3.2.9, fast-glob@npm:^3.3.0, fast-glob@npm:^3.3.1":
   version: 3.3.1
   resolution: "fast-glob@npm:3.3.1"
   dependencies:
@@ -12494,21 +12494,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"globby@npm:11.0.4":
-  version: 11.0.4
-  resolution: "globby@npm:11.0.4"
-  dependencies:
-    array-union: "npm:^2.1.0"
-    dir-glob: "npm:^3.0.1"
-    fast-glob: "npm:^3.1.1"
-    ignore: "npm:^5.1.4"
-    merge2: "npm:^1.3.0"
-    slash: "npm:^3.0.0"
-  checksum: de5f828c834baf75e3bd3c629bb3a64d1dfa9965831d0b105b728f9184284c6ba2b0d42e24862b411abc18e6e0af12e60880b3a62e096752de3426f2839f9ef7
-  languageName: node
-  linkType: hard
-
-"globby@npm:^11.0.1, globby@npm:^11.0.2, globby@npm:^11.0.3, globby@npm:^11.1.0":
+"globby@npm:11.1.0, globby@npm:^11.0.1, globby@npm:^11.0.2, globby@npm:^11.0.3, globby@npm:^11.1.0":
   version: 11.1.0
   resolution: "globby@npm:11.1.0"
   dependencies:
@@ -13145,7 +13131,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"ignore@npm:^5.1.4, ignore@npm:^5.2.0, ignore@npm:^5.2.4":
+"ignore@npm:^5.2.0, ignore@npm:^5.2.4":
   version: 5.2.4
   resolution: "ignore@npm:5.2.4"
   checksum: 7c7cd90edd9fea6e037f9b9da4b01bf0a86b198ce78345f9bbd983929d68ff14830be31111edc5d70c264921f4962404d75b7262b4d9cc3bc12381eccbd03096
@@ -13941,13 +13927,6 @@ __metadata:
   version: 0.1.2
   resolution: "isstream@npm:0.1.2"
   checksum: a6686a878735ca0a48e0d674dd6d8ad31aedfaf70f07920da16ceadc7577b46d67179a60b313f2e6860cb097a2c2eb3cbd0b89e921ae89199a59a17c3273d66f
-  languageName: node
-  linkType: hard
-
-"istanbul-lib-coverage@npm:3.0.0":
-  version: 3.0.0
-  resolution: "istanbul-lib-coverage@npm:3.0.0"
-  checksum: 29ab1980e973f169d0de899256c193caff192f30e5e4f50ec40bddac307d454c7c6493836fffea633469e7d1d1ab7fe04fa64c426f8bf8d14b17679284f5fd07
   languageName: node
   linkType: hard
 
@@ -18933,7 +18912,7 @@ __metadata:
     "@babel/plugin-transform-strict-mode": "npm:^7.23.3"
     "@babel/preset-env": "npm:^7.23.8"
     "@babel/runtime": "npm:^7.23.8"
-    "@cypress/code-coverage": "npm:^3.12.5"
+    "@cypress/code-coverage": "npm:^3.12.18"
     "@datadog/browser-core": "npm:^5.1.0"
     "@datadog/browser-logs": "npm:^5.1.0"
     "@datadog/browser-rum": "npm:^5.1.0"
