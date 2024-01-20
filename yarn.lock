@@ -6563,10 +6563,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/relay-runtime@npm:*, @types/relay-runtime@npm:^14.1.15":
-  version: 14.1.15
-  resolution: "@types/relay-runtime@npm:14.1.15"
-  checksum: 09e259d72335607451da8307d3cff10b831f69e23396c4b1fdb9ec0291270349bfba5b94a3a689ce08f25c306dd3eb793d825322cba4efddd0f46d668f406fe7
+"@types/relay-runtime@npm:*, @types/relay-runtime@npm:^14.1.22":
+  version: 14.1.22
+  resolution: "@types/relay-runtime@npm:14.1.22"
+  checksum: a21361ff147e96d5baf18cbfdbec9bf8617f348a6e3be296e9b6ff306eacbe0fe35252cce016492759a70a39c4f3a8f540e951dcb7efc51f18ea424900f7baf4
   languageName: node
   linkType: hard
 
@@ -18962,7 +18962,7 @@ __metadata:
     "@types/node": "npm:^20.11.5"
     "@types/react": "npm:^18.2.48"
     "@types/react-relay": "npm:^14.1.7"
-    "@types/relay-runtime": "npm:^14.1.15"
+    "@types/relay-runtime": "npm:^14.1.22"
     "@types/relay-test-utils": "npm:^6.0.6"
     "@typescript-eslint/eslint-plugin": "npm:^5.62.0"
     "@typescript-eslint/parser": "npm:^5.62.0"
