@@ -13,6 +13,8 @@ jobs:
         with:
           cache: 'yarn'
           node-version-file: '.nvmrc'
+        env:
+          SKIP_YARN_COREPACK_CHECK: true
 
       - run: corepack enable
 
