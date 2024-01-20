@@ -170,7 +170,7 @@
     "sass": "^1.69.4",
     "sass-loader": "^13.3.2",
     "scroll-behavior-polyfill": "^2.0.13",
-    "style-loader": "^3.3.3",
+    "style-loader": "^3.3.4",
     "stylelint": "^15.11.0",
     "stylelint-config-recommended": "^13.0.0",
     "stylelint-scss": "^5.2.1",
