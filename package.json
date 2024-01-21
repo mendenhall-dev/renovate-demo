@@ -187,7 +187,7 @@
     "webpack-hot-middleware": "^2.26.0",
     "webpack-merge": "^5.10.0",
     "worker-loader": "^3.0.8",
-    "worker-timers": "^7.0.77",
+    "worker-timers": "^7.1.1",
     "yaml": "^2.3.4"
   }
 }
