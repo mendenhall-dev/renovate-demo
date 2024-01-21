@@ -9549,7 +9549,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"css-loader@npm:^6.7.1, css-loader@npm:^6.9.0":
+"css-loader@npm:^6.7.1, css-loader@npm:^6.9.1":
   version: 6.9.1
   resolution: "css-loader@npm:6.9.1"
   dependencies:
@@ -19105,7 +19105,7 @@ __metadata:
     coffeescript: "npm:^2.7.0"
     core-js: "npm:^3.35.0"
     create-react-class: "npm:^15.7.0"
-    css-loader: "npm:^6.9.0"
+    css-loader: "npm:^6.9.1"
     css-minimizer-webpack-plugin: "npm:^5.0.1"
     cycle: "npm:^1.0.3"
     cypress: "npm:^13.6.3"
