@@ -156,7 +156,7 @@
     "react-text-mask": "^5.5.0",
     "react-timer-mixin": "^0.13.4",
     "react-toggle-button": "^2.2.0",
-    "react-use": "^17.4.0",
+    "react-use": "^17.4.3",
     "reconnecting-websocket": "^4.4.0",
     "relay-compiler": "^15.0.0",
     "relay-hooks": "^8.0.2",
