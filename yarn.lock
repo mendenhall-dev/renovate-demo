@@ -19203,7 +19203,7 @@ __metadata:
     rollup-plugin-coffee-script: "npm:^2.0.0"
     router5: "npm:^8.0.1"
     router5-plugin-browser: "npm:^8.0.1"
-    sass: "npm:^1.69.7"
+    sass: "npm:^1.70.0"
     sass-loader: "npm:^13.3.2"
     scroll-behavior-polyfill: "npm:^2.0.13"
     style-loader: "npm:^3.3.4"
@@ -19715,7 +19715,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"sass@npm:^1.69.7":
+"sass@npm:^1.70.0":
   version: 1.70.0
   resolution: "sass@npm:1.70.0"
   dependencies:
