@@ -11775,13 +11775,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"fast-unique-numbers@npm:^8.0.10":
-  version: 8.0.10
-  resolution: "fast-unique-numbers@npm:8.0.10"
+"fast-unique-numbers@npm:^8.0.13":
+  version: 8.0.13
+  resolution: "fast-unique-numbers@npm:8.0.13"
   dependencies:
-    "@babel/runtime": "npm:^7.23.2"
+    "@babel/runtime": "npm:^7.23.8"
     tslib: "npm:^2.6.2"
-  checksum: 9ca5c723f5d18412ae35bc9fe9ac91a6567ea477ce4a3bc30ec9b817f2f7da620d30b2499aadadfe24ea0f239801b78b9216536b1188ac9e699378beefa4608f
+  checksum: bf826d92345083c3146debf44e7dc93414d428eb81bd095dd46fcc6654f77977e0d04a2f65bccfcf0b9fc495a4276259afe99dbee009f463d19a1503f4e9bfac
   languageName: node
   linkType: hard
 
@@ -19126,7 +19126,7 @@ __metadata:
     webpack-hot-middleware: "npm:^2.26.0"
     webpack-merge: "npm:^5.10.0"
     worker-loader: "npm:^3.0.8"
-    worker-timers: "npm:^7.0.77"
+    worker-timers: "npm:^7.1.1"
     yaml: "npm:^2.3.4"
   languageName: unknown
   linkType: soft
@@ -22136,37 +22136,37 @@ __metadata:
   languageName: node
   linkType: hard
 
-"worker-timers-broker@npm:^6.0.97":
-  version: 6.0.97
-  resolution: "worker-timers-broker@npm:6.0.97"
+"worker-timers-broker@npm:^6.1.1":
+  version: 6.1.1
+  resolution: "worker-timers-broker@npm:6.1.1"
   dependencies:
-    "@babel/runtime": "npm:^7.23.2"
-    fast-unique-numbers: "npm:^8.0.10"
+    "@babel/runtime": "npm:^7.23.8"
+    fast-unique-numbers: "npm:^8.0.13"
     tslib: "npm:^2.6.2"
-    worker-timers-worker: "npm:^7.0.61"
-  checksum: 13724aeeb4698e6a31d71cf1e39e2003eb95bdfb8cf6bd9ddd1d2f0427bcb8c6c3b1d1e805197d3bfb513c9f6b65bd61c2881b77145a1536bf68b9a3ab963301
+    worker-timers-worker: "npm:^7.0.65"
+  checksum: 619698e5860840c9a6e9971c72a7b0d59fd2291b4d571bd5de01488bd9ede5f45b9cbc3606b98290fa2baee01aab90aa5620dd9098c96b5e7300c398c11c01b1
   languageName: node
   linkType: hard
 
-"worker-timers-worker@npm:^7.0.61":
-  version: 7.0.61
-  resolution: "worker-timers-worker@npm:7.0.61"
+"worker-timers-worker@npm:^7.0.65":
+  version: 7.0.65
+  resolution: "worker-timers-worker@npm:7.0.65"
   dependencies:
-    "@babel/runtime": "npm:^7.23.2"
+    "@babel/runtime": "npm:^7.23.8"
     tslib: "npm:^2.6.2"
-  checksum: 45ce9e85c44918908afa0062e0b5eda0351968e8dada916531d64869ed96350f1877d2ab89defcf1dc38f99f5439d0bcf1bdf4481e59d1550cf97a479b337c62
+  checksum: 3599287cce1f578c7e710181b95e5a83273acdcc737f40fadc707e9d894b8938153b45ae1057b08a43c9d1cecbeb085e6cef621edb4bd9e046ab9e93050965a6
   languageName: node
   linkType: hard
 
-"worker-timers@npm:^7.0.77":
-  version: 7.0.77
-  resolution: "worker-timers@npm:7.0.77"
+"worker-timers@npm:^7.1.1":
+  version: 7.1.1
+  resolution: "worker-timers@npm:7.1.1"
   dependencies:
-    "@babel/runtime": "npm:^7.23.2"
+    "@babel/runtime": "npm:^7.23.8"
     tslib: "npm:^2.6.2"
-    worker-timers-broker: "npm:^6.0.97"
-    worker-timers-worker: "npm:^7.0.61"
-  checksum: 451f37fd9ae2d2cd7244fb85410aeed6f4a8ff960d0760ff53a67f62879ce422f55e39bb068c1905e09872c32c1236776729f53f578be3338b077ffcecfc48e8
+    worker-timers-broker: "npm:^6.1.1"
+    worker-timers-worker: "npm:^7.0.65"
+  checksum: cbc3dd073d5244ed0accc8a1252f5a5134a1df07982bb277f298771ff934975bd4e7db0c6bce3d051983384ed0988fa0c151d5b703266802fcbf38f922875e59
   languageName: node
   linkType: hard
 
