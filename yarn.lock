@@ -8983,13 +8983,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"coffee-loader@npm:^4.0.0":
-  version: 4.0.0
-  resolution: "coffee-loader@npm:4.0.0"
+"coffee-loader@npm:^5.0.0":
+  version: 5.0.0
+  resolution: "coffee-loader@npm:5.0.0"
   peerDependencies:
     coffeescript: ">= 2.0.0"
     webpack: ^5.0.0
-  checksum: d83ec399881c7b71f660e5db8d80633f4c4e2407365d3d94b43cb75a7b6c7ef3a7a5be381557e59cccc4bf73ce3ed592dc05b7cf6fdc69cc831facd2124ff632
+  checksum: 2445d49df8f94002f455a229efb2ffb005aa26c2d21e61d24a10cb4ff8c1e4fbe415b55d1b90728690ba4b4793572420a2299ebac5e1165d22468ba5158a0f18
   languageName: node
   linkType: hard
 
@@ -19018,7 +19018,7 @@ __metadata:
     bootstrap-sass: "npm:^3.4.3"
     case-sensitive-paths-webpack-plugin: "npm:^2.4.0"
     classnames: "npm:^2.5.1"
-    coffee-loader: "npm:^4.0.0"
+    coffee-loader: "npm:^5.0.0"
     coffeescript: "npm:^2.7.0"
     core-js: "npm:^3.35.0"
     create-react-class: "npm:^15.7.0"
