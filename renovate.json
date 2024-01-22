@@ -26,7 +26,7 @@
       "matchDatasources": ["docker"],
       "matchPackagePatterns": ["node"],
 
-      "allowedVersions": "/^18\\.[0-9]+\\.[0-9]+(-\\w+)?$/",
+      "allowedVersions": "/^20\\.[0-9]+\\.[0-9]+(-\\w+)?$/",
       "enabled": true
     },
     {
